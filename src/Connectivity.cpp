@@ -87,7 +87,9 @@ bool connectivity_has_ethernet() {
 bool connectivity_has_wifi() {
 
     WiFiAccessPoint ap[5];
+    P("W");
     int found = WiFi.getCredentials(ap, 5);
+    P("w");
 
     Log.info("found %d credentials",found);
 
@@ -108,14 +110,19 @@ bool connectivity_connect() {
 
     if(!status) {
 
+        bool ready;
+
         switch(connectivity_state) {
 
             case CONNECTIVITY_ETHERNET_CLOUD_CONNECTED:
 
                 connectivity_time_disconnected = millis();
 
+                P("E");
                 Particle.disconnect();
+                P("e");
                 Ethernet.disconnect();
+                P("e");
 
                 Log.info("Ethernet cloud disconnected (after %d s), try Ethernet",
                    (int)((connectivity_time_disconnected - connectivity_time_connected)/1000));
@@ -135,8 +142,9 @@ bool connectivity_connect() {
 
                 Log.info("Connecting Ethernet");
 
+                P("D");
                 Ethernet.connect();
-
+                P("d");
                 connectivity_time_start = millis();
                 
                 timeouttimer_set(TIMEOUT_ETHERNET_CONNECT);
@@ -147,7 +155,11 @@ bool connectivity_connect() {
 
             case CONNECTIVITY_ETHERNET_WAIT_CONNECTED:
 
-                if(Ethernet.ready()) {
+                P("Q");
+                ready = Ethernet.ready();
+                P("q");
+
+                if(ready) {
 
                     connectivity_time_linkup = millis();
 
@@ -157,14 +169,19 @@ bool connectivity_connect() {
                 
                     connectivity_state = CONNECTIVITY_ETHERNET_CLOUD_WAIT_CONNECTED;
 
+                    P("K");
                     Particle.keepAlive(25s);
+                    P("k");
                     Particle.connect();
+                    P("k");
 
                     timeouttimer_set(TIMEOUT_CLOUD_CONNECT);
 
                 } else if(timeouttimer_expired()) {
 
+                    P("I");
                     Ethernet.disconnect();
+                    P("i");
 
                     Log.info("Ethernet network connecting takes too long (disconnect)");
                     
@@ -175,7 +192,11 @@ bool connectivity_connect() {
 
             case CONNECTIVITY_ETHERNET_CLOUD_WAIT_CONNECTED:
 
-                if(!Ethernet.ready()) {
+                P("S");
+                ready = Ethernet.ready();
+                P("s");
+
+                if(!ready) {
 
                     Log.info("While waiting to connect to cloud, ethernet disconnected (disconnect)");
 
@@ -191,8 +212,11 @@ bool connectivity_connect() {
 
                     Log.info("Ethernet cloud connecting takes too long (disconnect)");
 
+                    P("X");
                     Particle.disconnect();
+                    P("x");
                     Ethernet.disconnect();
+                    P("x");
 
                     connectivity_state = CONNECTIVITY_WIFI_CONNECT;
                 }
@@ -203,8 +227,11 @@ bool connectivity_connect() {
 
                 connectivity_time_disconnected = millis();
 
+                P("Y");
                 Particle.disconnect();
+                P("y");
                 WiFi.disconnect();
+                P("y");
 
                 Log.info("WiFi cloud disconnected (after %d s), try Ethernet",
                    (int)((connectivity_time_disconnected - connectivity_time_connected)/1000));
@@ -224,8 +251,10 @@ bool connectivity_connect() {
 
                 Log.info("Connecting WiFi");
 
+                P("Z");
                 WiFi.connect();
-                
+                P("z");
+
                 connectivity_time_start = millis();
 
                 timeouttimer_set(TIMEOUT_WIFI_CONNECT);
@@ -236,24 +265,34 @@ bool connectivity_connect() {
 
             case CONNECTIVITY_WIFI_WAIT_CONNECTED:
 
-                if(WiFi.ready()) {
+                P("R");
+                ready = WiFi.ready();
+                P("r");
+
+                if(ready) {
 
                     connectivity_time_linkup = millis();
 
-                    Log.info("WiFi network connected in %d s",
+                    Log.info("WiFi network (%s) connected in %d s",
+                        WiFi.SSID(),
                         (int)((connectivity_time_linkup - connectivity_time_start)/1000));
                     Log.info("WiFi IP address: %s", WiFi.localIP().toString().c_str());
 
                     connectivity_state = CONNECTIVITY_WIFI_CLOUD_WAIT_CONNECTED;
                     
+                    P("A");
                     Particle.keepAlive(25s);
+                    P("a");
                     Particle.connect();
+                    P("a");
 
                     timeouttimer_set(TIMEOUT_CLOUD_CONNECT);
 
                 }   else if(timeouttimer_expired()) {
 
+                    P("U");
                     WiFi.disconnect();
+                    P("u");
 
                     Log.info("WiFi network connecting takes too long, disconnect");
 
@@ -264,12 +303,19 @@ bool connectivity_connect() {
 
             case CONNECTIVITY_WIFI_CLOUD_WAIT_CONNECTED:
 
-                 if(!WiFi.ready()) {
+                P("L");
+                ready = WiFi.ready();
+                P("l");
+
+                if(!ready) {
                     
                     Log.info("While waiting to connect to cloud, wifi disconnected (disconnect)");
                     
+                    P("M");
                     Particle.disconnect();
+                    P("m");
                     WiFi.disconnect();
+                    P("m");
 
                     connectivity_state = CONNECTIVITY_ETHERNET_CONNECT;
                  }
@@ -278,8 +324,11 @@ bool connectivity_connect() {
 
                     Log.info("Wifi cloud connecting takes too long, disconnect");
 
+                    P("N");
                     Particle.disconnect();
+                    P("n");
                     WiFi.disconnect();
+                    P("n");
 
                     connectivity_state = CONNECTIVITY_ETHERNET_CONNECT;
                 }
@@ -339,7 +388,8 @@ bool connectivity_connect() {
 
                 connectivity_reconnects++;
                 
-                Log.info("WiFi cloud connected in %d s (link: %d s), (re)connected in %d s",
+                Log.info("WiFi (%s) cloud connected in %d s (link: %d s), (re)connected in %d s",
+                    WiFi.SSID(),
                     (int)((connectivity_time_connected - connectivity_time_start)/1000),
                     (int)((connectivity_time_linkup - connectivity_time_start)/1000),
                     reconnect_time);

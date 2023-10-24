@@ -8,6 +8,7 @@
 
 void logging_init(void);
 void logging_serial(bool logon, bool debug);
+void logging_serial1(bool logon, bool debug);
 void logging_serial2(bool logon, bool debug);
 void logging_remote(bool logon, bool debug);
 

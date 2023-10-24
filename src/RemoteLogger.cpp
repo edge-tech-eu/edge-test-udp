@@ -1,3 +1,4 @@
+#include "EdgePlatform.h"
 #include "RemoteLogger.h"
 
 const uint16_t RemoteLogHandler::kLocalPort = 8888;
@@ -11,13 +12,20 @@ RemoteLogHandler::RemoteLogHandler(String host, uint16_t port, String app, LogLe
 }
 
 IPAddress RemoteLogHandler::resolve(const char *host) {
-    return Network.resolve(host);
+
+    P("RR");
+    IPAddress adr = Network.resolve(host);
+    P("rr");
+
+    return(adr);
 }
 
 void RemoteLogHandler::log(String message) {
     //String time = Time.format(Time.now(), TIME_FORMAT_ISO8601_FULL);
     String packet = String::format("[%s] [%s] %s", m_system.c_str(), m_app.c_str(), message.c_str());
+    P("SS");
     int ret = m_udp.sendPacket(packet, packet.length(), m_address, m_port);
+    P("ss");
     if (ret < 1) {
         m_inited = false;
     }
@@ -29,11 +37,17 @@ RemoteLogHandler::~RemoteLogHandler() {
 
 bool RemoteLogHandler::lazyInit() {
     
-     if(Particle.connected()) {
+    P("CC");
+    bool connected = Particle.connected();
+    P("cc");
+
+     if(connected) {
 
         if (!m_inited) {
             
+            P("UU");
             uint8_t ret = m_udp.begin(kLocalPort);
+            P("uu");
             m_inited = ret != 0;
 
             if (!m_inited) {

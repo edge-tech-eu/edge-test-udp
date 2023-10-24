@@ -29,17 +29,23 @@ int count = 0;
 
 void setup() {
 
+  WiFi.clearCredentials();
+  WiFi.setCredentials("qqextender","***REMOVED***");
+
   delay(2000);
+
+  PS;
+  P("start");
   
   Watchdog.init(WatchdogConfiguration().timeout(60s));
   Watchdog.start();
 
   logging_init();
 
-  logging_serial(LOG_ON, LOG_ON_DEBUG);
+  logging_serial1(LOG_ON, LOG_ON_DEBUG);
   logging_remote(LOG_ON, LOG_ON_DEBUG);
 
-  Log.info("%s-%s-%d", completeVersion, System.version().c_str(),(int)PLATFORM_ID);
+  Log.info("%s-%s-%d-%s", completeVersion, System.version().c_str(),(int)PLATFORM_ID, System.deviceID().c_str());
 
   reset_reason_log();
 
@@ -63,8 +69,7 @@ void loop() {
 
     if((!report_first_connected) && connectivity_first_connected()) {
 
-        Log.info("%s-%s-%d", completeVersion, System.version().c_str(),(int)PLATFORM_ID);
-
+        Log.info("%s-%s-%d-%s-%s", completeVersion, System.version().c_str(),(int)PLATFORM_ID, System.deviceID().c_str(), WiFi.SSID());
         reset_reason_log();
 
         report_first_connected = true;

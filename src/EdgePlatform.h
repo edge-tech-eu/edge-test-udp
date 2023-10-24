@@ -6,6 +6,8 @@
 
 #include "Particle.h"
 
+#define PS      Serial2.begin(115200)
+#define P(x)    {Serial2.println(x);Serial2.flush();}
 
 #define EDGE_PRODUCT_PRODUCTION     0
 #define EDGE_PRODUCT_DEVELOPMENT    1
