@@ -20,9 +20,6 @@ int count = 0;
 
 void setup() {
 
-  WiFi.clearCredentials();
-  WiFi.setCredentials("qqextender","***REMOVED***");
-
   delay(2000);
 
   PS;
