@@ -30,7 +30,7 @@ int count = 0;
 void setup() {
 
   WiFi.clearCredentials();
-  WiFi.setCredentials("qqextender","qqkoffieqq-666");
+  WiFi.setCredentials("qqextender",QQ-PASSWORD);
 
   delay(2000);
 
