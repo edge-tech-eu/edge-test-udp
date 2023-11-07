@@ -1,0 +1,2754 @@
+#0000004552 [app] INFO: 1.0.0-20231107T194559-5.5.0-32-0a10aced202194944a004be0
+0000004555 [app] INFO: Reset: Power down
+0000004559 [app] INFO: Connecting Ethernet
+0000004563 [app] INFO: timeout set to 5000 ms
+0000004567 [app] INFO: State: 'eth connecting' (previous: 'unknown')
+0000004566 [system.nm] INFO: State changed: DISABLED -> IFACE_DOWN
+0000004584 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000004594 [net.ifapi] INFO: Netif en2 state UP
+0000004835 [net.en] TRACE: Closed MACRAW socket
+0000004882 [net.en] TRACE: Opened MACRAW socket, err = 0
+0000004884 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000005560 [app] INFO: count = 0
+0000006561 [app] INFO: count = 1
+0000007562 [app] INFO: count = 2
+0000008563 [app] INFO: count = 3
+0000009564 [app] INFO: count = 4
+0000009568 [app] INFO: timed out
+0000009571 [app] INFO: Ethernet network connecting takes too long (disconnect)
+0000009572 [net.ifapi] INFO: Netif en2 state DOWN
+0000009578 [hal] INFO: DNS server list changed
+0000009583 [hal] INFO: DNS server list changed
+0000009590 [app] INFO: State: 'wifi connect' (previous: 'eth connecting')
+0000009619 [net.en] TRACE: Closed MACRAW socket
+0000009626 [system.nm] INFO: State changed: IFACE_UP -> IFACE_REQUEST_DOWN
+0000009633 [system.nm] INFO: State changed: IFACE_REQUEST_DOWN -> IFACE_DOWN
+0000009629 [app] INFO: found 1 credentials
+0000009643 [app] INFO: ssid: qqextender
+0000009648 [app] INFO: Connecting WiFi
+0000009651 [app] INFO: timeout set to 60000 ms
+0000009655 [app] INFO: State: 'wifi connecting' (previous: 'wifi connect')
+0000009658 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000009677 [net.ifapi] INFO: Netif wl3 state UP
+0000009679 [net.rltkncp] TRACE: NCP event 3
+0000009682 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_POWERING_UP
+0000009689 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000009698 [system.nm] TRACE: Interface 4 power state changed: 4
+0000009701 [hal] INFO: WiFi is already on
+0000009705 [net.rltkncp] TRACE: NCP event 3
+0000009709 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000009715 [system.nm] TRACE: Interface 4 power state changed: 2
+0000009721 [ncp.rltk.client] INFO: rltkOff
+0000009725 [ncp.rltk.client] INFO: rltkOff done
+0000009729 [net.rltkncp] TRACE: NCP event 3
+0000009733 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_DOWN
+0000009740 [system.nm] TRACE: Interface 4 power state changed: 1
+0000009746 [hal] INFO: WiFi is already on
+0000009750 [net.rltkncp] TRACE: NCP event 3
+0000009754 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000009760 [system.nm] TRACE: Interface 4 power state changed: 2
+0000009765 [ncp.rltk.client] TRACE: NCP state changed: 1
+0000009771 [net.rltkncp] TRACE: NCP event 1
+0000009777 [ncp.rltk.client] INFO: Try to connect to ssid: qqextender
+0000009781 [net.lwip_rltk] INFO: is_promisc_enabled
+0000009786 [net.lwip_rltk] INFO: get_eap_phase
+0000010565 [app] INFO: count = 5
+0000011566 [app] INFO: count = 6
+0000012567 [app] INFO: count = 7
+0000013568 [app] INFO: count = 8
+0000014480 [net.lwip_rltk] INFO: get_eap_phase
+0000014569 [app] INFO: count = 9
+0000014697 [net.lwip_rltk] INFO: get_eap_phase
+0000014712 [ncp.rltk.client] TRACE: NCP connection state changed: 2
+0000014714 [net.rltkncp] TRACE: NCP event 2
+0000014718 [net.rltkncp] TRACE: State changed event: 2
+0000014723 [net.ifapi] INFO: Netif wl3 link UP, profile=qqextender
+0000014736 [system.nm] INFO: State changed: IFACE_UP -> IFACE_LINK_UP
+0000014822 [ncp.mgr] TRACE: Updated file: /sys/wifi_config.bin
+0000015213 [hal] INFO: DNS server list changed
+0000015218 [net.ifapi] TRACE: Netif wl3 ipv4 configuration changed
+0000015220 [system.nm] INFO: State changed: IFACE_LINK_UP -> IP_CONFIGURED
+0000015228 [app] INFO: WiFi network (qqextender) connected in 5 s
+0000015233 [app] INFO: WiFi IP address: 172.217.28.97
+0000015237 [app] INFO: timeout set to 180000 ms
+0000015241 [app] INFO: State: 'wifi cloud connecting' (previous: 'wifi connecting')
+0000015336 [system] INFO: Cloud: connecting
+0000015345 [system] INFO: Read Server Address = type:1,domain:$id.udp.particle.io
+0000015351 [system] INFO: Loaded cloud server address and port from session data
+0000015361 [system] TRACE: Address type: 1
+0000015367 [system] TRACE: Cloud socket=0, family=2, type=2, protocol=17
+0000015373 [system] INFO: Cloud socket=0, connecting to 18.213.90.196#5684
+0000015379 [system] TRACE: Cloud socket=0, connected to 18.213.90.196#5684
+0000015387 [system] TRACE: Updating cloud keepalive for AF_INET: 25000 -> 25000
+0000015395 [system] TRACE: Applying new keepalive interval now
+0000015401 [system] INFO: Cloud socket connected
+0000015405 [system] INFO: Starting handshake: presense_announce=0
+0000015412 [comm.protocol.handshake] INFO: Establish secure connection
+0000015420 [comm.dtls] INFO: session has 0 uses
+0000015432 [comm.dtls] INFO: (CMPL,RENEG,NO_SESS,ERR) restoreStatus=0
+0000015436 [comm.dtls] INFO: out_ctr 0,1,0,0,0,0,0,158, next_coap_id=ce4
+0000015444 [comm.dtls] INFO: restored session from persisted session data. next_msg_id=3300
+0000015452 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 2
+0000015570 [app] INFO: count = 10
+0000016260 [comm.protocol.handshake] INFO: Skipping HELLO message
+0000016266 [comm.coap] TRACE: Sending CoAP message
+0000016270 [comm.coap] TRACE: CON 0.00  size=4 token= id=3301
+0000016280 [system] INFO: cloud connected from existing session.
+0000016287 [comm.coap] TRACE: Sending CoAP message
+0000016292 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=3302
+0000016303 [comm.coap] TRACE: Sending CoAP message
+0000016307 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=3303
+0000016318 [comm] INFO: Sending TIME request
+0000016325 [comm.coap] TRACE: Sending CoAP message
+0000016330 [comm.coap] TRACE: CON GET /t size=7 token=af id=3304
+0000016337 [system] INFO: Sending application DESCRIBE
+0000016343 [comm.protocol] INFO: Checksum has not changed; not sending application DESCRIBE
+0000016351 [system] INFO: Sending subscriptions
+0000016357 [comm.protocol] INFO: Checksum has not changed; not sending subscriptions
+0000016363 [system] TRACE: Waiting until all handshake messages are processed by the protocol layer
+0000016437 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000016443 [comm.coap] TRACE: Received CoAP message
+0000016450 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3302
+0000016456 [comm.coap] TRACE: Received CoAP message
+0000016460 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3303
+0000016564 [comm.coap] TRACE: Received CoAP message
+0000016571 [comm.coap] TRACE: ACK 2.05  size=10 token=af id=3304
+0000016573 [comm.protocol] INFO: Received TIME response: 1699385463
+0000016571 [app] INFO: count = 11
+0000017438 [comm.coap] TRACE: Received CoAP message
+0000017444 [comm.coap] TRACE: CON POST /E/particle/device/updates/pending size=47 token=01 id=40425
+0000017452 [comm.coap] TRACE: Sending CoAP message
+0000017457 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40425
+0000017469 [comm.coap] TRACE: Received CoAP message
+0000017475 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=02 id=40426
+0000017481 [comm.coap] TRACE: Sending CoAP message
+0000017485 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40426
+0000017572 [app] INFO: count = 12
+0000018573 [app] INFO: count = 13
+0000019574 [app] INFO: count = 14
+0000020575 [app] INFO: count = 15
+0000021576 [app] INFO: count = 16
+0000022213 [comm.coap] TRACE: Retransmitting CoAP message; ID: 3301; attempt 1 of 3
+0000022219 [comm.coap] TRACE: Sending CoAP message
+0000022224 [comm.coap] TRACE: CON 0.00  size=4 token= id=3301
+0000022345 [comm.coap] TRACE: Received CoAP message
+0000022351 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3301
+0000022357 [system] INFO: All handshake messages have been processed
+0000022465 [system] INFO: Cloud connected
+0000022470 [app] INFO: WiFi (qqextender) cloud connected in 12 s (link: 5 s), (re)connected in 22 s
+0000022530 [app] INFO: State: 'wifi cloud connected' (previous: 'wifi cloud connecting')
+0000022591 [app] INFO: 1.0.0-20231107T194559-5.5.0-32-0a10aced202194944a004be0-qqextender
+0000022597 [app] INFO: Reset: Power down
+0000022599 [app] INFO: count = 17
+0000023578 [app] INFO: count = 18
+0000024579 [app] INFO: count = 19
+0000025580 [app] INFO: count = 20
+0000026581 [app] INFO: count = 21
+0000027582 [app] INFO: count = 22
+0000028583 [app] INFO: count = 23
+0000029584 [app] INFO: count = 24
+0000030585 [app] INFO: count = 25
+0000031586 [app] INFO: count = 26
+0000032587 [app] INFO: count = 27
+0000033588 [app] INFO: count = 28
+0000034589 [app] INFO: count = 29
+0000034816 [comm.coap] TRACE: Sending CoAP message
+0000034822 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=b0 id=3305
+0000034943 [comm.coap] TRACE: Received CoAP message
+0000034950 [comm.coap] TRACE: ACK 0.00  size=5 token=b0 id=3305
+0000035590 [app] INFO: count = 30
+0000036591 [app] INFO: count = 31
+0000037592 [app] INFO: count = 32
+0000038593 [app] INFO: count = 33
+0000039594 [app] INFO: count = 34
+0000040595 [app] INFO: count = 35
+0000041596 [app] INFO: count = 36
+0000042597 [app] INFO: count = 37
+0000043598 [app] INFO: count = 38
+0000044599 [app] INFO: count = 39
+0000045600 [app] INFO: count = 40
+0000046601 [app] INFO: count = 41
+0000047602 [app] INFO: count = 42
+0000048603 [app] INFO: count = 43
+0000049604 [app] INFO: count = 44
+0000050605 [app] INFO: count = 45
+0000051606 [app] INFO: count = 46
+0000052607 [app] INFO: count = 47
+0000053608 [app] INFO: count = 48
+0000054609 [app] INFO: count = 49
+0000055610 [app] INFO: count = 50
+0000056611 [app] INFO: count = 51
+0000057612 [app] INFO: count = 52
+0000058613 [app] INFO: count = 53
+0000059614 [app] INFO: count = 54
+0000059974 [comm.coap] TRACE: Sending CoAP message
+0000059979 [comm.coap] TRACE: CON 0.00  size=4 token= id=3306
+0000060101 [comm.coap] TRACE: Received CoAP message
+0000060107 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3306
+0000060615 [app] INFO: count = 55
+0000061099 [comm.coap] TRACE: Received CoAP message
+0000061104 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40428
+0000061111 [comm.coap] TRACE: Sending CoAP message
+0000061116 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40428
+0000061616 [app] INFO: count = 56
+0000062617 [app] INFO: count = 57
+0000063618 [app] INFO: count = 58
+0000064619 [app] INFO: count = 59
+0000064816 [comm.coap] TRACE: Sending CoAP message
+0000064822 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=b1 id=3307
+0000064945 [comm.coap] TRACE: Received CoAP message
+0000064952 [comm.coap] TRACE: ACK 0.00  size=5 token=b1 id=3307
+0000065620 [app] INFO: count = 60
+0000066621 [app] INFO: count = 61
+0000067622 [app] INFO: count = 62
+0000068623 [app] INFO: count = 63
+0000069624 [app] INFO: count = 64
+0000070625 [app] INFO: count = 65
+0000071626 [app] INFO: count = 66
+0000072627 [app] INFO: count = 67
+0000073628 [app] INFO: count = 68
+0000074629 [app] INFO: count = 69
+0000075630 [app] INFO: count = 70
+0000076631 [app] INFO: count = 71
+0000077632 [app] INFO: count = 72
+0000078633 [app] INFO: count = 73
+0000079634 [app] INFO: count = 74
+0000080635 [app] INFO: count = 75
+0000081636 [app] INFO: count = 76
+0000082637 [app] INFO: count = 77
+0000083638 [app] INFO: count = 78
+0000084639 [app] INFO: count = 79
+0000085640 [app] INFO: count = 80
+0000086641 [app] INFO: count = 81
+0000087642 [app] INFO: count = 82
+0000088643 [app] INFO: count = 83
+0000089644 [app] INFO: count = 84
+0000089978 [comm.coap] TRACE: Sending CoAP message
+0000089983 [comm.coap] TRACE: CON 0.00  size=4 token= id=3308
+0000090105 [comm.coap] TRACE: Received CoAP message
+0000090111 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3308
+0000090645 [app] INFO: count = 85
+0000091074 [comm.coap] TRACE: Received CoAP message
+0000091080 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40430
+0000091086 [comm.coap] TRACE: Sending CoAP message
+0000091091 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40430
+0000091646 [app] INFO: count = 86
+0000092647 [app] INFO: count = 87
+0000093648 [app] INFO: count = 88
+0000094649 [app] INFO: count = 89
+0000094816 [comm.coap] TRACE: Sending CoAP message
+0000094821 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=b2 id=3309
+0000094937 [comm.coap] TRACE: Received CoAP message
+0000094944 [comm.coap] TRACE: ACK 0.00  size=5 token=b2 id=3309
+0000095650 [app] INFO: count = 90
+0000096651 [app] INFO: count = 91
+0000097652 [app] INFO: count = 92
+0000098653 [app] INFO: count = 93
+0000099654 [app] INFO: count = 94
+0000100655 [app] INFO: count = 95
+0000101656 [app] INFO: count = 96
+0000102657 [app] INFO: count = 97
+0000103658 [app] INFO: count = 98
+0000104659 [app] INFO: count = 99
+0000105660 [app] INFO: count = 100
+0000106661 [app] INFO: count = 101
+0000107662 [app] INFO: count = 102
+0000108663 [app] INFO: count = 103
+0000109664 [app] INFO: count = 104
+0000110665 [app] INFO: count = 105
+0000111666 [app] INFO: count = 106
+0000112667 [app] INFO: count = 107
+0000113668 [app] INFO: count = 108
+0000114669 [app] INFO: count = 109
+0000115670 [app] INFO: count = 110
+0000116671 [app] INFO: count = 111
+0000117672 [app] INFO: count = 112
+0000118673 [app] INFO: count = 113
+0000119674 [app] INFO: count = 114
+0000119967 [comm.coap] TRACE: Sending CoAP message
+0000119972 [comm.coap] TRACE: CON 0.00  size=4 token= id=3310
+0000120087 [comm.coap] TRACE: Received CoAP message
+0000120092 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3310
+0000120675 [app] INFO: count = 115
+0000121161 [comm.coap] TRACE: Received CoAP message
+0000121166 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=02 id=40431
+0000121173 [comm.coap] TRACE: Sending CoAP message
+0000121178 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40431
+0000121676 [app] INFO: count = 116
+0000121755 [comm.coap] TRACE: Received CoAP message
+0000121760 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=03 id=40432
+0000121765 [comm.coap] TRACE: Sending CoAP message
+0000121770 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40432
+0000122677 [app] INFO: count = 117
+0000123678 [app] INFO: count = 118
+0000124679 [app] INFO: count = 119
+0000124816 [comm.coap] TRACE: Sending CoAP message
+0000124822 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=b3 id=3311
+0000124941 [comm.coap] TRACE: Received CoAP message
+0000124946 [comm.coap] TRACE: ACK 0.00  size=5 token=b3 id=3311
+0000125680 [app] INFO: count = 120
+0000126681 [app] INFO: count = 121
+0000127682 [app] INFO: count = 122
+0000128683 [app] INFO: count = 123
+0000129684 [app] INFO: count = 124
+0000130685 [app] INFO: count = 125
+0000131686 [app] INFO: count = 126
+0000132687 [app] INFO: count = 127
+0000133688 [app] INFO: count = 128
+0000134689 [app] INFO: count = 129
+0000135690 [app] INFO: count = 130
+0000136691 [app] INFO: count = 131
+0000137692 [app] INFO: count = 132
+0000138693 [app] INFO: count = 133
+0000139694 [app] INFO: count = 134
+0000140695 [app] INFO: count = 135
+0000141696 [app] INFO: count = 136
+0000142697 [app] INFO: count = 137
+0000143698 [app] INFO: count = 138
+0000144699 [app] INFO: count = 139
+0000145700 [app] INFO: count = 140
+0000146701 [app] INFO: count = 141
+0000147702 [app] INFO: count = 142
+0000148703 [app] INFO: count = 143
+0000149704 [app] INFO: count = 144
+0000149974 [comm.coap] TRACE: Sending CoAP message
+0000149979 [comm.coap] TRACE: CON 0.00  size=4 token= id=3312
+0000150099 [comm.coap] TRACE: Received CoAP message
+0000150105 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3312
+0000150705 [app] INFO: count = 145
+0000151194 [comm.coap] TRACE: Received CoAP message
+0000151199 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=04 id=40433
+0000151206 [comm.coap] TRACE: Sending CoAP message
+0000151211 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40433
+0000151706 [app] INFO: count = 146
+0000152707 [app] INFO: count = 147
+0000153708 [app] INFO: count = 148
+0000154709 [app] INFO: count = 149
+0000154817 [comm.coap] TRACE: Sending CoAP message
+0000154823 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=b4 id=3313
+0000154943 [comm.coap] TRACE: Received CoAP message
+0000154950 [comm.coap] TRACE: ACK 0.00  size=5 token=b4 id=3313
+0000155710 [app] INFO: count = 150
+0000156711 [app] INFO: count = 151
+0000157712 [app] INFO: count = 152
+0000158713 [app] INFO: count = 153
+0000159714 [app] INFO: count = 154
+0000160715 [app] INFO: count = 155
+0000161716 [app] INFO: count = 156
+0000162717 [app] INFO: count = 157
+0000163718 [app] INFO: count = 158
+0000164719 [app] INFO: count = 159
+0000165720 [app] INFO: count = 160
+0000166721 [app] INFO: count = 161
+0000167722 [app] INFO: count = 162
+0000168723 [app] INFO: count = 163
+0000169724 [app] INFO: count = 164
+0000170725 [app] INFO: count = 165
+0000171726 [app] INFO: count = 166
+0000172727 [app] INFO: count = 167
+0000173728 [app] INFO: count = 168
+0000174729 [app] INFO: count = 169
+0000175730 [app] INFO: count = 170
+0000176731 [app] INFO: count = 171
+0000177732 [app] INFO: count = 172
+0000178733 [app] INFO: count = 173
+0000179734 [app] INFO: count = 174
+0000179977 [comm.coap] TRACE: Sending CoAP message
+0000179982 [comm.coap] TRACE: CON 0.00  size=4 token= id=3314
+0000180102 [comm.coap] TRACE: Received CoAP message
+0000180109 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3314
+0000180735 [app] INFO: count = 175
+0000181736 [app] INFO: count = 176
+0000182737 [app] INFO: count = 177
+0000183738 [app] INFO: count = 178
+0000184739 [app] INFO: count = 179
+0000184817 [comm.coap] TRACE: Sending CoAP message
+0000184822 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=b5 id=3315
+0000184937 [comm.coap] TRACE: Received CoAP message
+0000184944 [comm.coap] TRACE: ACK 0.00  size=5 token=b5 id=3315
+0000185740 [app] INFO: count = 180
+0000186741 [app] INFO: count = 181
+0000187742 [app] INFO: count = 182
+0000188743 [app] INFO: count = 183
+0000189744 [app] INFO: count = 184
+0000190745 [app] INFO: count = 185
+0000191746 [app] INFO: count = 186
+0000192747 [app] INFO: count = 187
+0000193748 [app] INFO: count = 188
+0000194749 [app] INFO: count = 189
+0000195750 [app] INFO: count = 190
+0000196751 [app] INFO: count = 191
+0000197752 [app] INFO: count = 192
+0000198753 [app] INFO: count = 193
+0000199754 [app] INFO: count = 194
+0000200755 [app] INFO: count = 195
+0000201756 [app] INFO: count = 196
+0000202757 [app] INFO: count = 197
+0000203758 [app] INFO: count = 198
+0000204759 [app] INFO: count = 199
+0000205760 [app] INFO: count = 200
+0000206761 [app] INFO: count = 201
+0000207762 [app] INFO: count = 202
+0000208763 [app] INFO: count = 203
+0000209764 [app] INFO: count = 204
+0000209973 [comm.coap] TRACE: Sending CoAP message
+0000209978 [comm.coap] TRACE: CON 0.00  size=4 token= id=3316
+0000210092 [comm.coap] TRACE: Received CoAP message
+0000210097 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3316
+0000210765 [app] INFO: count = 205
+0000211766 [app] INFO: count = 206
+0000212767 [app] INFO: count = 207
+0000213768 [app] INFO: count = 208
+0000214769 [app] INFO: count = 209
+0000214817 [comm.coap] TRACE: Sending CoAP message
+0000214822 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=b6 id=3317
+0000214937 [comm.coap] TRACE: Received CoAP message
+0000214942 [comm.coap] TRACE: ACK 0.00  size=5 token=b6 id=3317
+0000215770 [app] INFO: count = 210
+0000216771 [app] INFO: count = 211
+0000217772 [app] INFO: count = 212
+0000218773 [app] INFO: count = 213
+0000219774 [app] INFO: count = 214
+0000220775 [app] INFO: count = 215
+0000221776 [app] INFO: count = 216
+0000222777 [app] INFO: count = 217
+0000223778 [app] INFO: count = 218
+0000224779 [app] INFO: count = 219
+0000225780 [app] INFO: count = 220
+0000226781 [app] INFO: count = 221
+0000227782 [app] INFO: count = 222
+0000228783 [app] INFO: count = 223
+0000229784 [app] INFO: count = 224
+0000230785 [app] INFO: count = 225
+0000231786 [app] INFO: count = 226
+0000232787 [app] INFO: count = 227
+0000233788 [app] INFO: count = 228
+0000234789 [app] INFO: count = 229
+0000235790 [app] INFO: count = 230
+0000236791 [app] INFO: count = 231
+0000237792 [app] INFO: count = 232
+0000238793 [app] INFO: count = 233
+0000239794 [app] INFO: count = 234
+0000239966 [comm.coap] TRACE: Sending CoAP message
+0000239972 [comm.coap] TRACE: CON 0.00  size=4 token= id=3318
+0000240086 [comm.coap] TRACE: Received CoAP message
+0000240093 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3318
+0000240795 [app] INFO: count = 235
+0000241796 [app] INFO: count = 236
+0000242797 [app] INFO: count = 237
+0000243798 [app] INFO: count = 238
+0000244799 [app] INFO: count = 239
+0000244817 [comm.coap] TRACE: Sending CoAP message
+0000244822 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=b7 id=3319
+0000244944 [comm.coap] TRACE: Received CoAP message
+0000244951 [comm.coap] TRACE: ACK 0.00  size=5 token=b7 id=3319
+0000245800 [app] INFO: count = 240
+0000246801 [app] INFO: count = 241
+0000247802 [app] INFO: count = 242
+0000248803 [app] INFO: count = 243
+0000249804 [app] INFO: count = 244
+0000250805 [app] INFO: count = 245
+0000251806 [app] INFO: count = 246
+0000252807 [app] INFO: count = 247
+0000253808 [app] INFO: count = 248
+0000254809 [app] INFO: count = 249
+0000255810 [app] INFO: count = 250
+0000256811 [app] INFO: count = 251
+0000257812 [app] INFO: count = 252
+0000258479 [ncp.rltk.client] INFO: disconnected
+0000258481 [ncp.rltk.client] TRACE: NCP connection state changed: 0
+0000258486 [net.rltkncp] TRACE: NCP event 2
+0000258490 [net.rltkncp] TRACE: State changed event: 0
+0000258494 [net.ifapi] INFO: Netif wl3 link DOWN, profile=NONE
+0000258500 [net.rltkncp] ERROR: linkOutput up=1 link_up=0
+0000258506 [net.ifapi] TRACE: Netif wl3 ipv4 configuration changed
+0000258512 [system.nm] INFO: State changed: IP_CONFIGURED -> IFACE_LINK_UP
+0000258518 [hal] INFO: DNS server list changed
+0000258523 [hal] INFO: DNS server list changed
+0000258529 [system.nm] INFO: State changed: IFACE_LINK_UP -> IFACE_UP
+0000258535 [ncp.rltk.client] INFO: Try to connect to ssid: qqextender
+0000258539 [net.lwip_rltk] INFO: is_promisc_enabled
+0000258543 [ncp.rltk.client] INFO: disconnected
+0000258548 [net.lwip_rltk] INFO: get_eap_phase
+0000258813 [app] INFO: count = 253
+0000259814 [app] INFO: count = 254
+0000260653 [comm] INFO: Forcing a cloud ping
+0000260658 [comm.coap] TRACE: Sending CoAP message
+0000260662 [comm.coap] TRACE: CON 0.00  size=4 token= id=3320
+0000260669 [system] ERROR: sock_send returned -1 118
+0000260674 [comm.dtls] ERROR: mbedtls_ssl_write() failed: -0x4e
+0000260680 [system] ERROR: sock_send returned -1 118
+0000260684 [comm.dtls] ERROR: mbedtls_ssl_read() failed: -0x4e
+0000260690 [comm.protocol] ERROR: Event loop error 34
+0000260694 [system] WARN: Communication loop error, closing cloud socket
+0000260702 [system] INFO: Cloud: disconnecting
+0000260706 [system] INFO: Cloud: disconnected
+0000260707 [app] INFO: WiFi cloud disconnected (after 238 s), try Ethernet
+#0000004344 [app] INFO: 1.0.0-20231107T194559-5.5.0-32-0a10aced202194944a004be0
+0000004346 [app] INFO: Reset: Watchdog
+0000004350 [app] INFO: Connecting Ethernet
+0000004355 [app] INFO: timeout set to 5000 ms
+0000004359 [app] INFO: State: 'eth connecting' (previous: 'unknown')
+0000004358 [system.nm] INFO: State changed: DISABLED -> IFACE_DOWN
+0000004376 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000004385 [net.ifapi] INFO: Netif en2 state UP
+0000004629 [net.en] TRACE: Closed MACRAW socket
+0000004676 [net.en] TRACE: Opened MACRAW socket, err = 0
+0000004679 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000005351 [app] INFO: count = 0
+0000006352 [app] INFO: count = 1
+0000007353 [app] INFO: count = 2
+0000008354 [app] INFO: count = 3
+0000009355 [app] INFO: count = 4
+0000009360 [app] INFO: timed out
+0000009361 [app] INFO: Ethernet network connecting takes too long (disconnect)
+0000009366 [app] INFO: State: 'wifi connect' (previous: 'eth connecting')
+0000009365 [net.ifapi] INFO: Netif en2 state DOWN
+0000009377 [hal] INFO: DNS server list changed
+0000009382 [hal] INFO: DNS server list changed
+0000009419 [net.en] TRACE: Closed MACRAW socket
+0000009421 [system.nm] INFO: State changed: IFACE_UP -> IFACE_REQUEST_DOWN
+0000009426 [system.nm] INFO: State changed: IFACE_REQUEST_DOWN -> IFACE_DOWN
+0000009423 [app] INFO: found 1 credentials
+0000009436 [app] INFO: ssid: qqextender
+0000009441 [app] INFO: Connecting WiFi
+0000009444 [app] INFO: timeout set to 60000 ms
+0000009449 [app] INFO: State: 'wifi connecting' (previous: 'wifi connect')
+0000009451 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000009470 [net.ifapi] INFO: Netif wl3 state UP
+0000009472 [net.rltkncp] TRACE: NCP event 3
+0000009474 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_POWERING_UP
+0000009481 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000009490 [system.nm] TRACE: Interface 4 power state changed: 4
+0000009494 [hal] INFO: WiFi is already on
+0000009498 [net.rltkncp] TRACE: NCP event 3
+0000009501 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000009508 [system.nm] TRACE: Interface 4 power state changed: 2
+0000009513 [ncp.rltk.client] INFO: rltkOff
+0000009517 [ncp.rltk.client] INFO: rltkOff done
+0000009521 [net.rltkncp] TRACE: NCP event 3
+0000009526 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_DOWN
+0000009532 [system.nm] TRACE: Interface 4 power state changed: 1
+0000009538 [hal] INFO: WiFi is already on
+0000009542 [net.rltkncp] TRACE: NCP event 3
+0000009545 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000009552 [system.nm] TRACE: Interface 4 power state changed: 2
+0000009558 [ncp.rltk.client] TRACE: NCP state changed: 1
+0000009563 [net.rltkncp] TRACE: NCP event 1
+0000009569 [ncp.rltk.client] INFO: Try to connect to ssid: qqextender
+0000009573 [net.lwip_rltk] INFO: is_promisc_enabled
+0000009578 [net.lwip_rltk] INFO: get_eap_phase
+0000010356 [app] INFO: count = 5
+0000011357 [app] INFO: count = 6
+0000012358 [app] INFO: count = 7
+0000013359 [app] INFO: count = 8
+0000014272 [net.lwip_rltk] INFO: get_eap_phase
+0000014360 [app] INFO: count = 9
+0000014486 [net.lwip_rltk] INFO: get_eap_phase
+0000014501 [ncp.rltk.client] TRACE: NCP connection state changed: 2
+0000014503 [net.rltkncp] TRACE: NCP event 2
+0000014507 [net.rltkncp] TRACE: State changed event: 2
+0000014512 [net.ifapi] INFO: Netif wl3 link UP, profile=qqextender
+0000014525 [system.nm] INFO: State changed: IFACE_UP -> IFACE_LINK_UP
+0000014621 [ncp.mgr] TRACE: Updated file: /sys/wifi_config.bin
+0000015006 [hal] INFO: DNS server list changed
+0000015010 [net.ifapi] TRACE: Netif wl3 ipv4 configuration changed
+0000015013 [system.nm] INFO: State changed: IFACE_LINK_UP -> IP_CONFIGURED
+0000015019 [app] INFO: WiFi network (qqextender) connected in 5 s
+0000015025 [app] INFO: WiFi IP address: 172.217.28.98
+0000015030 [app] INFO: timeout set to 180000 ms
+0000015034 [app] INFO: State: 'wifi cloud connecting' (previous: 'wifi connecting')
+0000015129 [system] INFO: Cloud: connecting
+0000015136 [system] INFO: Read Server Address = type:1,domain:$id.udp.particle.io
+0000015142 [system] INFO: Loaded cloud server address and port from session data
+0000015148 [system] TRACE: Address type: 1
+0000015154 [system] TRACE: Cloud socket=0, family=2, type=2, protocol=17
+0000015160 [system] INFO: Cloud socket=0, connecting to 18.213.90.196#5684
+0000015168 [system] TRACE: Cloud socket=0, connected to 18.213.90.196#5684
+0000015174 [system] TRACE: Updating cloud keepalive for AF_INET: 25000 -> 25000
+0000015182 [system] TRACE: Applying new keepalive interval now
+0000015188 [system] INFO: Cloud socket connected
+0000015194 [system] INFO: Starting handshake: presense_announce=0
+0000015200 [comm.protocol.handshake] INFO: Establish secure connection
+0000015208 [comm.dtls] INFO: session has 0 uses
+0000015219 [comm.dtls] INFO: (CMPL,RENEG,NO_SESS,ERR) restoreStatus=0
+0000015224 [comm.dtls] INFO: out_ctr 0,1,0,0,0,0,0,185, next_coap_id=cf7
+0000015232 [comm.dtls] INFO: restored session from persisted session data. next_msg_id=3319
+0000015240 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 2
+0000015361 [app] INFO: count = 10
+0000016116 [comm.protocol.handshake] INFO: Skipping HELLO message
+0000016122 [comm.coap] TRACE: Sending CoAP message
+0000016128 [comm.coap] TRACE: CON 0.00  size=4 token= id=3320
+0000016138 [system] INFO: cloud connected from existing session.
+0000016145 [comm.coap] TRACE: Sending CoAP message
+0000016150 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=3321
+0000016160 [comm.coap] TRACE: Sending CoAP message
+0000016165 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=3322
+0000016175 [comm] INFO: Sending TIME request
+0000016183 [comm.coap] TRACE: Sending CoAP message
+0000016188 [comm.coap] TRACE: CON GET /t size=7 token=27 id=3323
+0000016195 [system] INFO: Sending application DESCRIBE
+0000016200 [comm.protocol] INFO: Checksum has not changed; not sending application DESCRIBE
+0000016209 [system] INFO: Sending subscriptions
+0000016213 [comm.protocol] INFO: Checksum has not changed; not sending subscriptions
+0000016222 [system] TRACE: Waiting until all handshake messages are processed by the protocol layer
+0000016279 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000016284 [comm.coap] TRACE: Received CoAP message
+0000016290 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3320
+0000016305 [comm.coap] TRACE: Received CoAP message
+0000016310 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3321
+0000016316 [comm.coap] TRACE: Received CoAP message
+0000016322 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3322
+0000016332 [comm.coap] TRACE: Received CoAP message
+0000016337 [comm.coap] TRACE: ACK 2.05  size=10 token=27 id=3323
+0000016343 [system] INFO: All handshake messages have been processed
+0000016349 [comm.protocol] INFO: Received TIME response: 1699385785
+0000016362 [app] INFO: count = 11
+0000016456 [system] INFO: Cloud connected
+0000016462 [app] INFO: WiFi (qqextender) cloud connected in 7 s (link: 5 s), (re)connected in 16 s
+0000016514 [app] INFO: State: 'wifi cloud connected' (previous: 'wifi cloud connecting')
+0000017309 [comm.coap] TRACE: Received CoAP message
+0000017315 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40434
+0000017321 [comm.coap] TRACE: Sending CoAP message
+0000017326 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40434
+0000017334 [comm.coap] TRACE: Received CoAP message
+0000017339 [comm.coap] TRACE: CON POST /E/particle/device/updates/pending size=47 token=02 id=40435
+0000017346 [comm.coap] TRACE: Sending CoAP message
+0000017351 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40435
+0000017378 [app] INFO: 1.0.0-20231107T194559-5.5.0-32-0a10aced202194944a004be0-qqextender
+0000017383 [app] INFO: Reset: Watchdog
+0000017386 [app] INFO: count = 12
+0000018364 [app] INFO: count = 13
+0000019365 [app] INFO: count = 14
+0000020366 [app] INFO: count = 15
+0000021367 [app] INFO: count = 16
+0000022368 [app] INFO: count = 17
+0000023369 [app] INFO: count = 18
+0000024370 [app] INFO: count = 19
+0000025371 [app] INFO: count = 20
+0000026372 [app] INFO: count = 21
+0000027373 [app] INFO: count = 22
+0000028374 [app] INFO: count = 23
+0000029375 [app] INFO: count = 24
+0000030376 [app] INFO: count = 25
+0000031377 [app] INFO: count = 26
+0000032378 [app] INFO: count = 27
+0000033379 [app] INFO: count = 28
+0000034380 [app] INFO: count = 29
+0000034612 [comm.coap] TRACE: Sending CoAP message
+0000034617 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=28 id=3324
+0000034748 [comm.coap] TRACE: Received CoAP message
+0000034753 [comm.coap] TRACE: ACK 0.00  size=5 token=28 id=3324
+0000035381 [app] INFO: count = 30
+0000035641 [comm.coap] TRACE: Received CoAP message
+0000035645 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40436
+0000035651 [comm.coap] TRACE: Sending CoAP message
+0000035657 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40436
+0000036382 [app] INFO: count = 31
+0000037383 [app] INFO: count = 32
+0000038384 [app] INFO: count = 33
+0000039385 [app] INFO: count = 34
+0000040386 [app] INFO: count = 35
+0000041387 [app] INFO: count = 36
+0000042388 [app] INFO: count = 37
+0000043389 [app] INFO: count = 38
+0000044390 [app] INFO: count = 39
+0000045391 [app] INFO: count = 40
+0000046392 [app] INFO: count = 41
+0000047393 [app] INFO: count = 42
+0000048394 [app] INFO: count = 43
+0000049395 [app] INFO: count = 44
+0000050396 [app] INFO: count = 45
+0000051397 [app] INFO: count = 46
+0000052398 [app] INFO: count = 47
+0000053399 [app] INFO: count = 48
+0000054400 [app] INFO: count = 49
+0000055401 [app] INFO: count = 50
+0000056402 [app] INFO: count = 51
+0000057403 [app] INFO: count = 52
+0000058404 [app] INFO: count = 53
+0000059405 [app] INFO: count = 54
+0000060406 [app] INFO: count = 55
+0000060684 [comm.coap] TRACE: Sending CoAP message
+0000060689 [comm.coap] TRACE: CON 0.00  size=4 token= id=3325
+0000060816 [comm.coap] TRACE: Received CoAP message
+0000060821 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3325
+0000061407 [app] INFO: count = 56
+0000061760 [comm.coap] TRACE: Received CoAP message
+0000061765 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40438
+0000061772 [comm.coap] TRACE: Sending CoAP message
+0000061777 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40438
+0000062408 [app] INFO: count = 57
+0000063409 [app] INFO: count = 58
+0000064410 [app] INFO: count = 59
+0000064612 [comm.coap] TRACE: Sending CoAP message
+0000064617 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=29 id=3326
+0000064752 [comm.coap] TRACE: Received CoAP message
+0000064757 [comm.coap] TRACE: ACK 0.00  size=5 token=29 id=3326
+0000065411 [app] INFO: count = 60
+0000065682 [comm.coap] TRACE: Received CoAP message
+0000065687 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40439
+0000065694 [comm.coap] TRACE: Sending CoAP message
+0000065699 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40439
+0000066140 [comm.coap] TRACE: Received CoAP message
+0000066145 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=02 id=40440
+0000066151 [comm.coap] TRACE: Sending CoAP message
+0000066156 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40440
+0000066412 [app] INFO: count = 61
+0000067413 [app] INFO: count = 62
+0000068414 [app] INFO: count = 63
+0000069415 [app] INFO: count = 64
+0000070416 [app] INFO: count = 65
+0000071417 [app] INFO: count = 66
+0000072418 [app] INFO: count = 67
+0000073419 [app] INFO: count = 68
+0000074420 [app] INFO: count = 69
+0000075421 [app] INFO: count = 70
+0000076422 [app] INFO: count = 71
+0000077423 [app] INFO: count = 72
+0000078424 [app] INFO: count = 73
+0000079425 [app] INFO: count = 74
+0000080426 [app] INFO: count = 75
+0000081427 [app] INFO: count = 76
+0000082428 [app] INFO: count = 77
+0000083429 [app] INFO: count = 78
+0000084430 [app] INFO: count = 79
+0000085431 [app] INFO: count = 80
+0000086432 [app] INFO: count = 81
+0000087433 [app] INFO: count = 82
+0000088434 [app] INFO: count = 83
+0000089435 [app] INFO: count = 84
+0000090436 [app] INFO: count = 85
+0000091189 [comm.coap] TRACE: Sending CoAP message
+0000091194 [comm.coap] TRACE: CON 0.00  size=4 token= id=3327
+0000091330 [comm.coap] TRACE: Received CoAP message
+0000091334 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3327
+0000091437 [app] INFO: count = 86
+0000091921 [comm.coap] TRACE: Received CoAP message
+0000091925 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40442
+0000091932 [comm.coap] TRACE: Sending CoAP message
+0000091937 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40442
+0000092438 [app] INFO: count = 87
+0000093439 [app] INFO: count = 88
+0000094440 [app] INFO: count = 89
+0000094612 [comm.coap] TRACE: Sending CoAP message
+0000094617 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=2a id=3328
+0000094748 [comm.coap] TRACE: Received CoAP message
+0000094754 [comm.coap] TRACE: ACK 0.00  size=5 token=2a id=3328
+0000095441 [app] INFO: count = 90
+0000095708 [comm.coap] TRACE: Received CoAP message
+0000095713 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40443
+0000095720 [comm.coap] TRACE: Sending CoAP message
+0000095725 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40443
+0000096442 [app] INFO: count = 91
+0000097443 [app] INFO: count = 92
+0000098444 [app] INFO: count = 93
+0000099445 [app] INFO: count = 94
+0000100446 [app] INFO: count = 95
+0000101447 [app] INFO: count = 96
+0000102448 [app] INFO: count = 97
+0000103449 [app] INFO: count = 98
+0000104450 [app] INFO: count = 99
+0000105451 [app] INFO: count = 100
+0000106452 [app] INFO: count = 101
+0000107453 [app] INFO: count = 102
+0000108454 [app] INFO: count = 103
+0000109455 [app] INFO: count = 104
+0000110456 [app] INFO: count = 105
+0000111457 [app] INFO: count = 106
+0000112458 [app] INFO: count = 107
+0000113459 [app] INFO: count = 108
+0000114460 [app] INFO: count = 109
+0000115461 [app] INFO: count = 110
+0000116462 [app] INFO: count = 111
+0000117463 [app] INFO: count = 112
+0000118464 [app] INFO: count = 113
+0000119465 [app] INFO: count = 114
+0000120466 [app] INFO: count = 115
+0000120759 [comm.coap] TRACE: Sending CoAP message
+0000120764 [comm.coap] TRACE: CON 0.00  size=4 token= id=3329
+0000120898 [comm.coap] TRACE: Received CoAP message
+0000120904 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3329
+0000121467 [app] INFO: count = 116
+0000121797 [comm.coap] TRACE: Received CoAP message
+0000121803 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40444
+0000121810 [comm.coap] TRACE: Sending CoAP message
+0000121815 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40444
+0000122468 [app] INFO: count = 117
+0000123469 [app] INFO: count = 118
+0000124470 [app] INFO: count = 119
+0000124612 [comm.coap] TRACE: Sending CoAP message
+0000124617 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=2b id=3330
+0000124747 [comm.coap] TRACE: Received CoAP message
+0000124751 [comm.coap] TRACE: ACK 0.00  size=5 token=2b id=3330
+0000125471 [app] INFO: count = 120
+0000125899 [comm.coap] TRACE: Received CoAP message
+0000125904 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40445
+0000125910 [comm.coap] TRACE: Sending CoAP message
+0000125915 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40445
+0000126472 [app] INFO: count = 121
+0000127473 [app] INFO: count = 122
+0000128474 [app] INFO: count = 123
+0000129475 [app] INFO: count = 124
+0000130476 [app] INFO: count = 125
+0000131477 [app] INFO: count = 126
+0000132478 [app] INFO: count = 127
+0000133479 [app] INFO: count = 128
+0000134480 [app] INFO: count = 129
+0000135481 [app] INFO: count = 130
+0000136482 [app] INFO: count = 131
+0000137483 [app] INFO: count = 132
+0000138484 [app] INFO: count = 133
+0000139485 [app] INFO: count = 134
+0000140486 [app] INFO: count = 135
+0000141487 [app] INFO: count = 136
+0000142488 [app] INFO: count = 137
+0000143489 [app] INFO: count = 138
+0000144490 [app] INFO: count = 139
+0000145491 [app] INFO: count = 140
+0000146492 [app] INFO: count = 141
+0000147493 [app] INFO: count = 142
+0000148494 [app] INFO: count = 143
+0000149495 [app] INFO: count = 144
+0000150496 [app] INFO: count = 145
+0000150941 [comm.coap] TRACE: Sending CoAP message
+0000150946 [comm.coap] TRACE: CON 0.00  size=4 token= id=3331
+0000151076 [comm.coap] TRACE: Received CoAP message
+0000151081 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3331
+0000151497 [app] INFO: count = 146
+0000152109 [comm.coap] TRACE: Received CoAP message
+0000152115 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40446
+0000152121 [comm.coap] TRACE: Sending CoAP message
+0000152125 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40446
+0000152498 [app] INFO: count = 147
+0000153499 [app] INFO: count = 148
+0000154500 [app] INFO: count = 149
+0000154612 [comm.coap] TRACE: Sending CoAP message
+0000154617 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=2c id=3332
+0000154745 [comm.coap] TRACE: Received CoAP message
+0000154751 [comm.coap] TRACE: ACK 0.00  size=5 token=2c id=3332
+0000155501 [app] INFO: count = 150
+0000156502 [app] INFO: count = 151
+0000157503 [app] INFO: count = 152
+0000158504 [app] INFO: count = 153
+0000159505 [app] INFO: count = 154
+0000160506 [app] INFO: count = 155
+0000161507 [app] INFO: count = 156
+0000162508 [app] INFO: count = 157
+0000163509 [app] INFO: count = 158
+0000164510 [app] INFO: count = 159
+0000165511 [app] INFO: count = 160
+0000166512 [app] INFO: count = 161
+0000167513 [app] INFO: count = 162
+0000168514 [app] INFO: count = 163
+0000169515 [app] INFO: count = 164
+0000170516 [app] INFO: count = 165
+0000171517 [app] INFO: count = 166
+0000172518 [app] INFO: count = 167
+0000173519 [app] INFO: count = 168
+0000174520 [app] INFO: count = 169
+0000175521 [app] INFO: count = 170
+0000176522 [app] INFO: count = 171
+0000177523 [app] INFO: count = 172
+0000178524 [app] INFO: count = 173
+0000179525 [app] INFO: count = 174
+0000179776 [comm.coap] TRACE: Sending CoAP message
+0000179781 [comm.coap] TRACE: CON 0.00  size=4 token= id=3333
+0000179910 [comm.coap] TRACE: Received CoAP message
+0000179915 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3333
+0000180526 [app] INFO: count = 175
+0000180986 [comm.coap] TRACE: Received CoAP message
+0000180992 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40447
+0000180999 [comm.coap] TRACE: Sending CoAP message
+0000181004 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40447
+0000181527 [app] INFO: count = 176
+0000182528 [app] INFO: count = 177
+0000183529 [app] INFO: count = 178
+0000184530 [app] INFO: count = 179
+0000184612 [comm.coap] TRACE: Sending CoAP message
+0000184617 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=2d id=3334
+0000184751 [comm.coap] TRACE: Received CoAP message
+0000184755 [comm.coap] TRACE: ACK 0.00  size=5 token=2d id=3334
+0000185531 [app] INFO: count = 180
+0000185859 [comm.coap] TRACE: Received CoAP message
+0000185865 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40448
+0000185872 [comm.coap] TRACE: Sending CoAP message
+0000185877 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40448
+0000186532 [app] INFO: count = 181
+0000187533 [app] INFO: count = 182
+0000188534 [app] INFO: count = 183
+0000189535 [app] INFO: count = 184
+0000190536 [app] INFO: count = 185
+0000191537 [app] INFO: count = 186
+0000192538 [app] INFO: count = 187
+0000193539 [app] INFO: count = 188
+0000194540 [app] INFO: count = 189
+0000195541 [app] INFO: count = 190
+0000196542 [app] INFO: count = 191
+0000197543 [app] INFO: count = 192
+0000198544 [app] INFO: count = 193
+0000199545 [app] INFO: count = 194
+0000200546 [app] INFO: count = 195
+0000201547 [app] INFO: count = 196
+0000202548 [app] INFO: count = 197
+0000203549 [app] INFO: count = 198
+0000204550 [app] INFO: count = 199
+0000205551 [app] INFO: count = 200
+0000206552 [app] INFO: count = 201
+0000207553 [app] INFO: count = 202
+0000208554 [app] INFO: count = 203
+0000209555 [app] INFO: count = 204
+0000210556 [app] INFO: count = 205
+0000210907 [comm.coap] TRACE: Sending CoAP message
+0000210912 [comm.coap] TRACE: CON 0.00  size=4 token= id=3335
+0000211040 [comm.coap] TRACE: Received CoAP message
+0000211045 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3335
+0000211557 [app] INFO: count = 206
+0000212558 [app] INFO: count = 207
+0000213559 [app] INFO: count = 208
+0000214560 [app] INFO: count = 209
+0000214612 [comm.coap] TRACE: Sending CoAP message
+0000214617 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=2e id=3336
+0000214752 [comm.coap] TRACE: Received CoAP message
+0000214758 [comm.coap] TRACE: ACK 0.00  size=5 token=2e id=3336
+0000215561 [app] INFO: count = 210
+0000215745 [comm.coap] TRACE: Received CoAP message
+0000215750 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40449
+0000215757 [comm.coap] TRACE: Sending CoAP message
+0000215763 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40449
+0000216562 [app] INFO: count = 211
+0000217563 [app] INFO: count = 212
+0000218564 [app] INFO: count = 213
+0000219565 [app] INFO: count = 214
+0000220566 [app] INFO: count = 215
+0000221567 [app] INFO: count = 216
+0000222568 [app] INFO: count = 217
+0000223569 [app] INFO: count = 218
+0000224570 [app] INFO: count = 219
+0000225571 [app] INFO: count = 220
+0000226572 [app] INFO: count = 221
+0000227573 [app] INFO: count = 222
+0000228574 [app] INFO: count = 223
+0000229575 [app] INFO: count = 224
+0000230576 [app] INFO: count = 225
+0000231577 [app] INFO: count = 226
+0000232578 [app] INFO: count = 227
+0000233579 [app] INFO: count = 228
+0000234580 [app] INFO: count = 229
+0000235581 [app] INFO: count = 230
+0000236582 [app] INFO: count = 231
+0000237583 [app] INFO: count = 232
+0000238584 [app] INFO: count = 233
+0000239585 [app] INFO: count = 234
+0000240586 [app] INFO: count = 235
+0000240791 [comm.coap] TRACE: Sending CoAP message
+0000240796 [comm.coap] TRACE: CON 0.00  size=4 token= id=3337
+0000240939 [comm.coap] TRACE: Received CoAP message
+0000240945 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3337
+0000241530 [comm.coap] TRACE: Received CoAP message
+0000241535 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40450
+0000241542 [comm.coap] TRACE: Sending CoAP message
+0000241547 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40450
+0000241587 [app] INFO: count = 236
+0000241836 [comm.coap] TRACE: Received CoAP message
+0000241840 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=02 id=40451
+0000241848 [comm.coap] TRACE: Sending CoAP message
+0000241852 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40451
+0000242588 [app] INFO: count = 237
+0000243589 [app] INFO: count = 238
+0000244590 [app] INFO: count = 239
+0000244612 [comm.coap] TRACE: Sending CoAP message
+0000244617 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=2f id=3338
+0000244754 [comm.coap] TRACE: Received CoAP message
+0000244760 [comm.coap] TRACE: ACK 0.00  size=5 token=2f id=3338
+0000245591 [app] INFO: count = 240
+0000246592 [app] INFO: count = 241
+0000247593 [app] INFO: count = 242
+0000248594 [app] INFO: count = 243
+0000249595 [app] INFO: count = 244
+0000250596 [app] INFO: count = 245
+0000251597 [app] INFO: count = 246
+0000252598 [app] INFO: count = 247
+0000253599 [app] INFO: count = 248
+0000254600 [app] INFO: count = 249
+0000255601 [app] INFO: count = 250
+0000256602 [app] INFO: count = 251
+0000257603 [app] INFO: count = 252
+0000258604 [app] INFO: count = 253
+0000259605 [app] INFO: count = 254
+0000260606 [app] INFO: count = 255
+0000261607 [app] INFO: count = 256
+0000262608 [app] INFO: count = 257
+0000263609 [app] INFO: count = 258
+0000264610 [app] INFO: count = 259
+0000265611 [app] INFO: count = 260
+0000266612 [app] INFO: count = 261
+0000267279 [ncp.rltk.client] INFO: disconnected
+0000267281 [ncp.rltk.client] TRACE: NCP connection state changed: 0
+0000267285 [net.rltkncp] TRACE: NCP event 2
+0000267289 [net.rltkncp] TRACE: State changed event: 0
+0000267294 [net.ifapi] INFO: Netif wl3 link DOWN, profile=NONE
+0000267299 [net.rltkncp] ERROR: linkOutput up=1 link_up=0
+0000267305 [net.ifapi] TRACE: Netif wl3 ipv4 configuration changed
+0000267311 [system.nm] INFO: State changed: IP_CONFIGURED -> IFACE_LINK_UP
+0000267318 [hal] INFO: DNS server list changed
+0000267322 [hal] INFO: DNS server list changed
+0000267329 [system.nm] INFO: State changed: IFACE_LINK_UP -> IFACE_UP
+0000267333 [ncp.rltk.client] INFO: Try to connect to ssid: qqextender
+0000267339 [net.lwip_rltk] INFO: is_promisc_enabled
+0000267343 [ncp.rltk.client] INFO: disconnected
+0000267347 [net.lwip_rltk] INFO: get_eap_phase
+0000267613 [app] INFO: count = 262
+0000268614 [app] INFO: count = 263
+0000269452 [comm] INFO: Forcing a cloud ping
+0000269457 [comm.coap] TRACE: Sending CoAP message
+0000269461 [comm.coap] TRACE: CON 0.00  size=4 token= id=3339
+0000269468 [system] ERROR: sock_send returned -1 118
+0000269473 [comm.dtls] ERROR: mbedtls_ssl_write() failed: -0x4e
+0000269478 [system] ERROR: sock_send returned -1 118
+0000269483 [comm.dtls] ERROR: mbedtls_ssl_read() failed: -0x4e
+0000269488 [comm.protocol] ERROR: Event loop error 34
+0000269493 [system] WARN: Communication loop error, closing cloud socket
+0000269498 [system] INFO: Cloud: disconnecting
+0000269503 [system] INFO: Cloud: disconnected
+0000269503 [app] INFO: WiFi cloud disconnected (after 253 s), try Ethernet
+#0000004335 [app] INFO: 1.0.0-20231107T194559-5.5.0-32-0a10aced202194944a004be0
+0000004338 [app] INFO: Reset: Watchdog
+0000004342 [app] INFO: Connecting Ethernet
+0000004346 [app] INFO: timeout set to 5000 ms
+0000004350 [app] INFO: State: 'eth connecting' (previous: 'unknown')
+0000004349 [system.nm] INFO: State changed: DISABLED -> IFACE_DOWN
+0000004370 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000004381 [net.ifapi] INFO: Netif en2 state UP
+0000004625 [net.en] TRACE: Closed MACRAW socket
+0000004672 [net.en] TRACE: Opened MACRAW socket, err = 0
+0000004674 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000005343 [app] INFO: count = 0
+0000006344 [app] INFO: count = 1
+0000007345 [app] INFO: count = 2
+0000008346 [app] INFO: count = 3
+0000009347 [app] INFO: count = 4
+0000009351 [app] INFO: timed out
+0000009353 [app] INFO: Ethernet network connecting takes too long (disconnect)
+0000009357 [app] INFO: State: 'wifi connect' (previous: 'eth connecting')
+0000009356 [net.ifapi] INFO: Netif en2 state DOWN
+0000009368 [hal] INFO: DNS server list changed
+0000009373 [hal] INFO: DNS server list changed
+0000009410 [net.en] TRACE: Closed MACRAW socket
+0000009412 [system.nm] INFO: State changed: IFACE_UP -> IFACE_REQUEST_DOWN
+0000009417 [system.nm] INFO: State changed: IFACE_REQUEST_DOWN -> IFACE_DOWN
+0000009415 [app] INFO: found 1 credentials
+0000009427 [app] INFO: ssid: qqextender
+0000009432 [app] INFO: Connecting WiFi
+0000009435 [app] INFO: timeout set to 60000 ms
+0000009439 [app] INFO: State: 'wifi connecting' (previous: 'wifi connect')
+0000009442 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000009460 [net.ifapi] INFO: Netif wl3 state UP
+0000009462 [net.rltkncp] TRACE: NCP event 3
+0000009464 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_POWERING_UP
+0000009471 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000009480 [system.nm] TRACE: Interface 4 power state changed: 4
+0000009484 [hal] INFO: WiFi is already on
+0000009488 [net.rltkncp] TRACE: NCP event 3
+0000009491 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000009497 [system.nm] TRACE: Interface 4 power state changed: 2
+0000009503 [ncp.rltk.client] INFO: rltkOff
+0000009507 [ncp.rltk.client] INFO: rltkOff done
+0000009511 [net.rltkncp] TRACE: NCP event 3
+0000009515 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_DOWN
+0000009522 [system.nm] TRACE: Interface 4 power state changed: 1
+0000009528 [hal] INFO: WiFi is already on
+0000009532 [net.rltkncp] TRACE: NCP event 3
+0000009535 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000009542 [system.nm] TRACE: Interface 4 power state changed: 2
+0000009548 [ncp.rltk.client] TRACE: NCP state changed: 1
+0000009553 [net.rltkncp] TRACE: NCP event 1
+0000009559 [ncp.rltk.client] INFO: Try to connect to ssid: qqextender
+0000009563 [net.lwip_rltk] INFO: is_promisc_enabled
+0000009568 [net.lwip_rltk] INFO: get_eap_phase
+0000010348 [app] INFO: count = 5
+0000011349 [app] INFO: count = 6
+0000012350 [app] INFO: count = 7
+0000013351 [app] INFO: count = 8
+0000014262 [net.lwip_rltk] INFO: get_eap_phase
+0000014352 [app] INFO: count = 9
+0000014478 [net.lwip_rltk] INFO: get_eap_phase
+0000014496 [ncp.rltk.client] TRACE: NCP connection state changed: 2
+0000014498 [net.rltkncp] TRACE: NCP event 2
+0000014502 [net.rltkncp] TRACE: State changed event: 2
+0000014507 [net.ifapi] INFO: Netif wl3 link UP, profile=qqextender
+0000014520 [system.nm] INFO: State changed: IFACE_UP -> IFACE_LINK_UP
+0000014609 [ncp.mgr] TRACE: Updated file: /sys/wifi_config.bin
+0000015011 [hal] INFO: DNS server list changed
+0000015015 [net.ifapi] TRACE: Netif wl3 ipv4 configuration changed
+0000015018 [system.nm] INFO: State changed: IFACE_LINK_UP -> IP_CONFIGURED
+0000015024 [app] INFO: WiFi network (qqextender) connected in 5 s
+0000015030 [app] INFO: WiFi IP address: 172.217.28.97
+0000015035 [app] INFO: timeout set to 180000 ms
+0000015039 [app] INFO: State: 'wifi cloud connecting' (previous: 'wifi connecting')
+0000015135 [system] INFO: Cloud: connecting
+0000015141 [system] INFO: Read Server Address = type:1,domain:$id.udp.particle.io
+0000015147 [system] INFO: Loaded cloud server address and port from session data
+0000015153 [system] TRACE: Address type: 1
+0000015159 [system] TRACE: Cloud socket=0, family=2, type=2, protocol=17
+0000015165 [system] INFO: Cloud socket=0, connecting to 18.213.90.196#5684
+0000015171 [system] TRACE: Cloud socket=0, connected to 18.213.90.196#5684
+0000015179 [system] TRACE: Updating cloud keepalive for AF_INET: 25000 -> 25000
+0000015189 [system] TRACE: Applying new keepalive interval now
+0000015193 [system] INFO: Cloud socket connected
+0000015199 [system] INFO: Starting handshake: presense_announce=0
+0000015205 [comm.protocol.handshake] INFO: Establish secure connection
+0000015213 [comm.dtls] INFO: session has 0 uses
+0000015223 [comm.dtls] INFO: (CMPL,RENEG,NO_SESS,ERR) restoreStatus=0
+0000015229 [comm.dtls] INFO: out_ctr 0,1,0,0,0,0,0,220, next_coap_id=d0a
+0000015235 [comm.dtls] INFO: restored session from persisted session data. next_msg_id=3338
+0000015243 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 2
+0000015354 [app] INFO: count = 10
+0000016118 [comm.protocol.handshake] INFO: Skipping HELLO message
+0000016122 [comm.coap] TRACE: Sending CoAP message
+0000016126 [comm.coap] TRACE: CON 0.00  size=4 token= id=3339
+0000016137 [system] INFO: cloud connected from existing session.
+0000016145 [comm.coap] TRACE: Sending CoAP message
+0000016149 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=3340
+0000016160 [comm.coap] TRACE: Sending CoAP message
+0000016164 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=3341
+0000016176 [comm] INFO: Sending TIME request
+0000016180 [comm.coap] TRACE: Sending CoAP message
+0000016184 [comm.coap] TRACE: CON GET /t size=7 token=2f id=3342
+0000016192 [system] INFO: Sending application DESCRIBE
+0000016200 [comm.protocol] INFO: Checksum has not changed; not sending application DESCRIBE
+0000016207 [system] INFO: Sending subscriptions
+0000016212 [comm.protocol] INFO: Checksum has not changed; not sending subscriptions
+0000016220 [system] TRACE: Waiting until all handshake messages are processed by the protocol layer
+0000016264 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000016270 [comm.coap] TRACE: Received CoAP message
+0000016275 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3339
+0000016284 [comm.coap] TRACE: Received CoAP message
+0000016288 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3340
+0000016296 [comm.coap] TRACE: Received CoAP message
+0000016300 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3341
+0000016309 [comm.coap] TRACE: Received CoAP message
+0000016313 [comm.coap] TRACE: ACK 2.05  size=10 token=2f id=3342
+0000016319 [system] INFO: All handshake messages have been processed
+0000016325 [comm.protocol] INFO: Received TIME response: 1699386116
+0000016355 [app] INFO: count = 11
+0000016431 [system] INFO: Cloud connected
+0000016437 [app] INFO: WiFi (qqextender) cloud connected in 7 s (link: 5 s), (re)connected in 16 s
+0000016488 [app] INFO: State: 'wifi cloud connected' (previous: 'wifi cloud connecting')
+0000017162 [comm.coap] TRACE: Received CoAP message
+0000017168 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40453
+0000017175 [comm.coap] TRACE: Sending CoAP message
+0000017180 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40453
+0000017281 [comm.coap] TRACE: Received CoAP message
+0000017288 [comm.coap] TRACE: CON POST /E/particle/device/updates/pending size=47 token=02 id=40454
+0000017295 [comm.coap] TRACE: Sending CoAP message
+0000017300 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40454
+0000017371 [app] INFO: 1.0.0-20231107T194559-5.5.0-32-0a10aced202194944a004be0-qqextender
+0000017376 [app] INFO: Reset: Watchdog
+0000017380 [app] INFO: count = 12
+0000018357 [app] INFO: count = 13
+0000019358 [app] INFO: count = 14
+0000020359 [app] INFO: count = 15
+0000021360 [app] INFO: count = 16
+0000022361 [app] INFO: count = 17
+0000023362 [app] INFO: count = 18
+0000024363 [app] INFO: count = 19
+0000025364 [app] INFO: count = 20
+0000026365 [app] INFO: count = 21
+0000027366 [app] INFO: count = 22
+0000028367 [app] INFO: count = 23
+0000029368 [app] INFO: count = 24
+0000030369 [app] INFO: count = 25
+0000031370 [app] INFO: count = 26
+0000032371 [app] INFO: count = 27
+0000033372 [app] INFO: count = 28
+0000034373 [app] INFO: count = 29
+0000034603 [comm.coap] TRACE: Sending CoAP message
+0000034609 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=30 id=3343
+0000034730 [comm.coap] TRACE: Received CoAP message
+0000034736 [comm.coap] TRACE: ACK 0.00  size=5 token=30 id=3343
+0000035374 [app] INFO: count = 30
+0000036375 [app] INFO: count = 31
+0000037376 [app] INFO: count = 32
+0000038377 [app] INFO: count = 33
+0000039378 [app] INFO: count = 34
+0000040379 [app] INFO: count = 35
+0000041380 [app] INFO: count = 36
+0000042381 [app] INFO: count = 37
+0000043382 [app] INFO: count = 38
+0000044383 [app] INFO: count = 39
+0000045384 [app] INFO: count = 40
+0000046385 [app] INFO: count = 41
+0000047386 [app] INFO: count = 42
+0000048387 [app] INFO: count = 43
+0000049388 [app] INFO: count = 44
+0000050389 [app] INFO: count = 45
+0000051390 [app] INFO: count = 46
+0000052391 [app] INFO: count = 47
+0000053392 [app] INFO: count = 48
+0000054393 [app] INFO: count = 49
+0000055394 [app] INFO: count = 50
+0000056395 [app] INFO: count = 51
+0000057396 [app] INFO: count = 52
+0000058397 [app] INFO: count = 53
+0000059398 [app] INFO: count = 54
+0000059759 [comm.coap] TRACE: Sending CoAP message
+0000059764 [comm.coap] TRACE: CON 0.00  size=4 token= id=3344
+0000059884 [comm.coap] TRACE: Received CoAP message
+0000059889 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3344
+0000060399 [app] INFO: count = 55
+0000060781 [comm.coap] TRACE: Received CoAP message
+0000060786 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40456
+0000060793 [comm.coap] TRACE: Sending CoAP message
+0000060798 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40456
+0000061400 [app] INFO: count = 56
+0000062401 [app] INFO: count = 57
+0000063402 [app] INFO: count = 58
+0000064403 [app] INFO: count = 59
+0000064603 [comm.coap] TRACE: Sending CoAP message
+0000064609 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=31 id=3345
+0000064731 [comm.coap] TRACE: Received CoAP message
+0000064738 [comm.coap] TRACE: ACK 0.00  size=5 token=31 id=3345
+0000065404 [app] INFO: count = 60
+0000066405 [app] INFO: count = 61
+0000067406 [app] INFO: count = 62
+0000068407 [app] INFO: count = 63
+0000069408 [app] INFO: count = 64
+0000070409 [app] INFO: count = 65
+0000071410 [app] INFO: count = 66
+0000072411 [app] INFO: count = 67
+0000073412 [app] INFO: count = 68
+0000074413 [app] INFO: count = 69
+0000075414 [app] INFO: count = 70
+0000076415 [app] INFO: count = 71
+0000077416 [app] INFO: count = 72
+0000078417 [app] INFO: count = 73
+0000079418 [app] INFO: count = 74
+0000080419 [app] INFO: count = 75
+0000081420 [app] INFO: count = 76
+0000082421 [app] INFO: count = 77
+0000083422 [app] INFO: count = 78
+0000084423 [app] INFO: count = 79
+0000085424 [app] INFO: count = 80
+0000086425 [app] INFO: count = 81
+0000087426 [app] INFO: count = 82
+0000088427 [app] INFO: count = 83
+0000089428 [app] INFO: count = 84
+0000089768 [comm.coap] TRACE: Sending CoAP message
+0000089773 [comm.coap] TRACE: CON 0.00  size=4 token= id=3346
+0000090061 [comm.coap] TRACE: Received CoAP message
+0000090068 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3346
+0000090429 [app] INFO: count = 85
+0000090850 [comm.coap] TRACE: Received CoAP message
+0000090855 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=02 id=40457
+0000090862 [comm.coap] TRACE: Sending CoAP message
+0000090867 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40457
+0000091430 [app] INFO: count = 86
+0000092431 [app] INFO: count = 87
+0000093432 [app] INFO: count = 88
+0000094433 [app] INFO: count = 89
+0000094603 [comm.coap] TRACE: Sending CoAP message
+0000094609 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=32 id=3347
+0000094734 [comm.coap] TRACE: Received CoAP message
+0000094739 [comm.coap] TRACE: ACK 0.00  size=5 token=32 id=3347
+0000095434 [app] INFO: count = 90
+0000096435 [app] INFO: count = 91
+0000097436 [app] INFO: count = 92
+0000098437 [app] INFO: count = 93
+0000099438 [app] INFO: count = 94
+0000100439 [app] INFO: count = 95
+0000101440 [app] INFO: count = 96
+0000102441 [app] INFO: count = 97
+0000103442 [app] INFO: count = 98
+0000104443 [app] INFO: count = 99
+0000105444 [app] INFO: count = 100
+0000106445 [app] INFO: count = 101
+0000107446 [app] INFO: count = 102
+0000108447 [app] INFO: count = 103
+0000109448 [app] INFO: count = 104
+0000110449 [app] INFO: count = 105
+0000111450 [app] INFO: count = 106
+0000112451 [app] INFO: count = 107
+0000113452 [app] INFO: count = 108
+0000114453 [app] INFO: count = 109
+0000115454 [app] INFO: count = 110
+0000116455 [app] INFO: count = 111
+0000117456 [app] INFO: count = 112
+0000118457 [app] INFO: count = 113
+0000119458 [app] INFO: count = 114
+0000119766 [comm.coap] TRACE: Sending CoAP message
+0000119771 [comm.coap] TRACE: CON 0.00  size=4 token= id=3348
+0000119887 [comm.coap] TRACE: Received CoAP message
+0000119894 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3348
+0000120459 [app] INFO: count = 115
+0000120869 [comm.coap] TRACE: Received CoAP message
+0000120874 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=03 id=40458
+0000120880 [comm.coap] TRACE: Sending CoAP message
+0000120886 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40458
+0000121460 [app] INFO: count = 116
+0000122461 [app] INFO: count = 117
+0000123462 [app] INFO: count = 118
+0000124463 [app] INFO: count = 119
+0000124603 [comm.coap] TRACE: Sending CoAP message
+0000124609 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=33 id=3349
+0000124727 [comm.coap] TRACE: Received CoAP message
+0000124732 [comm.coap] TRACE: ACK 0.00  size=5 token=33 id=3349
+0000125464 [app] INFO: count = 120
+0000126465 [app] INFO: count = 121
+0000127466 [app] INFO: count = 122
+0000128467 [app] INFO: count = 123
+0000129468 [app] INFO: count = 124
+0000130469 [app] INFO: count = 125
+0000131470 [app] INFO: count = 126
+0000132471 [app] INFO: count = 127
+0000133472 [app] INFO: count = 128
+0000134473 [app] INFO: count = 129
+0000135474 [app] INFO: count = 130
+0000136475 [app] INFO: count = 131
+0000137476 [app] INFO: count = 132
+0000138477 [app] INFO: count = 133
+0000139478 [app] INFO: count = 134
+0000140479 [app] INFO: count = 135
+0000141480 [app] INFO: count = 136
+0000142481 [app] INFO: count = 137
+0000143482 [app] INFO: count = 138
+0000144483 [app] INFO: count = 139
+0000145484 [app] INFO: count = 140
+0000146485 [app] INFO: count = 141
+0000147486 [app] INFO: count = 142
+0000148487 [app] INFO: count = 143
+0000149488 [app] INFO: count = 144
+0000149762 [comm.coap] TRACE: Sending CoAP message
+0000149767 [comm.coap] TRACE: CON 0.00  size=4 token= id=3350
+0000149882 [comm.coap] TRACE: Received CoAP message
+0000149887 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3350
+0000150489 [app] INFO: count = 145
+0000151490 [app] INFO: count = 146
+0000152491 [app] INFO: count = 147
+0000153492 [app] INFO: count = 148
+0000154493 [app] INFO: count = 149
+0000154603 [comm.coap] TRACE: Sending CoAP message
+0000154609 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=34 id=3351
+0000154729 [comm.coap] TRACE: Received CoAP message
+0000154735 [comm.coap] TRACE: ACK 0.00  size=5 token=34 id=3351
+0000155494 [app] INFO: count = 150
+0000156495 [app] INFO: count = 151
+0000157496 [app] INFO: count = 152
+0000158497 [app] INFO: count = 153
+0000159498 [app] INFO: count = 154
+0000160499 [app] INFO: count = 155
+0000161500 [app] INFO: count = 156
+0000162501 [app] INFO: count = 157
+0000163502 [app] INFO: count = 158
+0000164503 [app] INFO: count = 159
+0000165504 [app] INFO: count = 160
+0000166505 [app] INFO: count = 161
+0000167506 [app] INFO: count = 162
+0000168507 [app] INFO: count = 163
+0000169508 [app] INFO: count = 164
+0000170509 [app] INFO: count = 165
+0000171510 [app] INFO: count = 166
+0000172511 [app] INFO: count = 167
+0000173512 [app] INFO: count = 168
+0000174513 [app] INFO: count = 169
+0000175514 [app] INFO: count = 170
+0000176515 [app] INFO: count = 171
+0000177516 [app] INFO: count = 172
+0000178517 [app] INFO: count = 173
+0000179518 [app] INFO: count = 174
+0000179761 [comm.coap] TRACE: Sending CoAP message
+0000179766 [comm.coap] TRACE: CON 0.00  size=4 token= id=3352
+0000179879 [comm.coap] TRACE: Received CoAP message
+0000179885 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3352
+0000180519 [app] INFO: count = 175
+0000181520 [app] INFO: count = 176
+0000182521 [app] INFO: count = 177
+0000183522 [app] INFO: count = 178
+0000184523 [app] INFO: count = 179
+0000184603 [comm.coap] TRACE: Sending CoAP message
+0000184608 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=35 id=3353
+0000184727 [comm.coap] TRACE: Received CoAP message
+0000184733 [comm.coap] TRACE: ACK 0.00  size=5 token=35 id=3353
+0000185524 [app] INFO: count = 180
+0000186525 [app] INFO: count = 181
+0000187526 [app] INFO: count = 182
+0000188527 [app] INFO: count = 183
+0000189528 [app] INFO: count = 184
+0000190529 [app] INFO: count = 185
+0000191530 [app] INFO: count = 186
+0000192531 [app] INFO: count = 187
+0000193532 [app] INFO: count = 188
+0000194533 [app] INFO: count = 189
+0000195534 [app] INFO: count = 190
+0000196535 [app] INFO: count = 191
+0000197536 [app] INFO: count = 192
+0000198537 [app] INFO: count = 193
+0000199538 [app] INFO: count = 194
+0000200539 [app] INFO: count = 195
+0000201540 [app] INFO: count = 196
+0000202541 [app] INFO: count = 197
+0000203542 [app] INFO: count = 198
+0000204543 [app] INFO: count = 199
+0000205544 [app] INFO: count = 200
+0000206545 [app] INFO: count = 201
+0000207546 [app] INFO: count = 202
+0000208547 [app] INFO: count = 203
+0000209548 [app] INFO: count = 204
+0000209765 [comm.coap] TRACE: Sending CoAP message
+0000209770 [comm.coap] TRACE: CON 0.00  size=4 token= id=3354
+0000209885 [comm.coap] TRACE: Received CoAP message
+0000209890 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3354
+0000210549 [app] INFO: count = 205
+0000211550 [app] INFO: count = 206
+0000212551 [app] INFO: count = 207
+0000213552 [app] INFO: count = 208
+0000214553 [app] INFO: count = 209
+0000214603 [comm.coap] TRACE: Sending CoAP message
+0000214608 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=36 id=3355
+0000214727 [comm.coap] TRACE: Received CoAP message
+0000214733 [comm.coap] TRACE: ACK 0.00  size=5 token=36 id=3355
+0000215554 [app] INFO: count = 210
+0000216555 [app] INFO: count = 211
+0000217556 [app] INFO: count = 212
+0000218557 [app] INFO: count = 213
+0000219558 [app] INFO: count = 214
+0000220559 [app] INFO: count = 215
+0000221560 [app] INFO: count = 216
+0000222561 [app] INFO: count = 217
+0000223562 [app] INFO: count = 218
+0000224563 [app] INFO: count = 219
+0000225564 [app] INFO: count = 220
+0000226565 [app] INFO: count = 221
+0000227566 [app] INFO: count = 222
+0000228567 [app] INFO: count = 223
+0000229568 [app] INFO: count = 224
+0000230569 [app] INFO: count = 225
+0000231570 [app] INFO: count = 226
+0000232571 [app] INFO: count = 227
+0000233572 [app] INFO: count = 228
+0000234573 [app] INFO: count = 229
+0000235574 [app] INFO: count = 230
+0000236575 [app] INFO: count = 231
+0000237576 [app] INFO: count = 232
+0000238577 [app] INFO: count = 233
+0000239578 [app] INFO: count = 234
+0000239757 [comm.coap] TRACE: Sending CoAP message
+0000239762 [comm.coap] TRACE: CON 0.00  size=4 token= id=3356
+0000239891 [comm.coap] TRACE: Received CoAP message
+0000239898 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3356
+0000240579 [app] INFO: count = 235
+0000241580 [app] INFO: count = 236
+0000242581 [app] INFO: count = 237
+0000243582 [app] INFO: count = 238
+0000244583 [app] INFO: count = 239
+0000244603 [comm.coap] TRACE: Sending CoAP message
+0000244608 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=37 id=3357
+0000244723 [comm.coap] TRACE: Received CoAP message
+0000244728 [comm.coap] TRACE: ACK 0.00  size=5 token=37 id=3357
+0000245584 [app] INFO: count = 240
+0000246585 [app] INFO: count = 241
+0000247586 [app] INFO: count = 242
+0000248587 [app] INFO: count = 243
+0000249588 [app] INFO: count = 244
+0000250589 [app] INFO: count = 245
+0000251590 [app] INFO: count = 246
+0000252591 [app] INFO: count = 247
+0000253592 [app] INFO: count = 248
+0000254593 [app] INFO: count = 249
+0000255594 [app] INFO: count = 250
+0000256595 [app] INFO: count = 251
+0000257596 [app] INFO: count = 252
+0000258597 [app] INFO: count = 253
+0000259598 [app] INFO: count = 254
+0000260599 [app] INFO: count = 255
+0000261600 [app] INFO: count = 256
+0000262601 [app] INFO: count = 257
+0000263602 [app] INFO: count = 258
+0000264603 [app] INFO: count = 259
+0000265604 [app] INFO: count = 260
+0000266605 [app] INFO: count = 261
+0000267283 [ncp.rltk.client] INFO: disconnected
+0000267285 [ncp.rltk.client] TRACE: NCP connection state changed: 0
+0000267289 [net.rltkncp] TRACE: NCP event 2
+#0000004350 [app] INFO: 1.0.0-20231107T194559-5.5.0-32-0a10aced202194944a004be0
+0000004353 [app] INFO: Reset: Watchdog
+0000004357 [app] INFO: Connecting Ethernet
+0000004361 [app] INFO: timeout set to 5000 ms
+0000004365 [app] INFO: State: 'eth connecting' (previous: 'unknown')
+0000004364 [system.nm] INFO: State changed: DISABLED -> IFACE_DOWN
+0000004383 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000004393 [net.ifapi] INFO: Netif en2 state UP
+0000004637 [net.en] TRACE: Closed MACRAW socket
+0000004684 [net.en] TRACE: Opened MACRAW socket, err = 0
+0000004686 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000005358 [app] INFO: count = 0
+0000006359 [app] INFO: count = 1
+0000007360 [app] INFO: count = 2
+0000008361 [app] INFO: count = 3
+0000009362 [app] INFO: count = 4
+0000009366 [app] INFO: timed out
+0000009368 [app] INFO: Ethernet network connecting takes too long (disconnect)
+0000009372 [app] INFO: State: 'wifi connect' (previous: 'eth connecting')
+0000009371 [net.ifapi] INFO: Netif en2 state DOWN
+0000009383 [hal] INFO: DNS server list changed
+0000009388 [hal] INFO: DNS server list changed
+0000009425 [net.en] TRACE: Closed MACRAW socket
+0000009427 [system.nm] INFO: State changed: IFACE_UP -> IFACE_REQUEST_DOWN
+0000009429 [app] INFO: found 1 credentials
+0000009436 [app] INFO: ssid: qqextender
+0000009433 [system.nm] INFO: State changed: IFACE_REQUEST_DOWN -> IFACE_DOWN
+0000009442 [app] INFO: Connecting WiFi
+0000009450 [app] INFO: timeout set to 60000 ms
+0000009455 [app] INFO: State: 'wifi connecting' (previous: 'wifi connect')
+0000009457 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000009474 [net.ifapi] INFO: Netif wl3 state UP
+0000009476 [net.rltkncp] TRACE: NCP event 3
+0000009478 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_POWERING_UP
+0000009486 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000009495 [system.nm] TRACE: Interface 4 power state changed: 4
+0000009498 [hal] INFO: WiFi is already on
+0000009502 [net.rltkncp] TRACE: NCP event 3
+0000009505 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000009512 [system.nm] TRACE: Interface 4 power state changed: 2
+0000009518 [ncp.rltk.client] INFO: rltkOff
+0000009522 [ncp.rltk.client] INFO: rltkOff done
+0000009526 [net.rltkncp] TRACE: NCP event 3
+0000009530 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_DOWN
+0000009537 [system.nm] TRACE: Interface 4 power state changed: 1
+0000009543 [hal] INFO: WiFi is already on
+0000009547 [net.rltkncp] TRACE: NCP event 3
+0000009550 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000009557 [system.nm] TRACE: Interface 4 power state changed: 2
+0000009562 [ncp.rltk.client] TRACE: NCP state changed: 1
+0000009568 [net.rltkncp] TRACE: NCP event 1
+0000009573 [ncp.rltk.client] INFO: Try to connect to ssid: qqextender
+0000009578 [net.lwip_rltk] INFO: is_promisc_enabled
+0000009583 [net.lwip_rltk] INFO: get_eap_phase
+0000010363 [app] INFO: count = 5
+0000011364 [app] INFO: count = 6
+0000012365 [app] INFO: count = 7
+0000013366 [app] INFO: count = 8
+0000014276 [net.lwip_rltk] INFO: get_eap_phase
+0000014367 [app] INFO: count = 9
+0000014531 [net.lwip_rltk] INFO: get_eap_phase
+0000014545 [ncp.rltk.client] TRACE: NCP connection state changed: 2
+0000014548 [net.rltkncp] TRACE: NCP event 2
+0000014551 [net.rltkncp] TRACE: State changed event: 2
+0000014557 [net.ifapi] INFO: Netif wl3 link UP, profile=qqextender
+0000014570 [system.nm] INFO: State changed: IFACE_UP -> IFACE_LINK_UP
+0000014662 [ncp.mgr] TRACE: Updated file: /sys/wifi_config.bin
+0000015069 [hal] INFO: DNS server list changed
+0000015073 [net.ifapi] TRACE: Netif wl3 ipv4 configuration changed
+0000015076 [system.nm] INFO: State changed: IFACE_LINK_UP -> IP_CONFIGURED
+0000015083 [app] INFO: WiFi network (qqextender) connected in 5 s
+0000015089 [app] INFO: WiFi IP address: 172.217.28.98
+0000015093 [app] INFO: timeout set to 180000 ms
+0000015097 [app] INFO: State: 'wifi cloud connecting' (previous: 'wifi connecting')
+0000015192 [system] INFO: Cloud: connecting
+0000015199 [system] INFO: Read Server Address = type:1,domain:$id.udp.particle.io
+0000015206 [system] INFO: Loaded cloud server address and port from session data
+0000015213 [system] TRACE: Address type: 1
+0000015218 [system] TRACE: Cloud socket=0, family=2, type=2, protocol=17
+0000015223 [system] INFO: Cloud socket=0, connecting to 18.213.90.196#5684
+0000015230 [system] TRACE: Cloud socket=0, connected to 18.213.90.196#5684
+0000015237 [system] TRACE: Updating cloud keepalive for AF_INET: 25000 -> 25000
+0000015245 [system] TRACE: Applying new keepalive interval now
+0000015251 [system] INFO: Cloud socket connected
+0000015257 [system] INFO: Starting handshake: presense_announce=0
+0000015262 [comm.protocol.handshake] INFO: Establish secure connection
+0000015269 [comm.dtls] INFO: session has 0 uses
+0000015279 [comm.dtls] INFO: (CMPL,RENEG,NO_SESS,ERR) restoreStatus=0
+0000015285 [comm.dtls] INFO: out_ctr 0,1,0,0,0,0,0,244, next_coap_id=d1d
+0000015291 [comm.dtls] INFO: restored session from persisted session data. next_msg_id=3357
+0000015299 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 2
+0000015368 [app] INFO: count = 10
+0000016108 [comm.protocol.handshake] INFO: Skipping HELLO message
+0000016114 [comm.coap] TRACE: Sending CoAP message
+0000016118 [comm.coap] TRACE: CON 0.00  size=4 token= id=3358
+0000016127 [system] INFO: cloud connected from existing session.
+0000016135 [comm.coap] TRACE: Sending CoAP message
+0000016140 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=3359
+0000016150 [comm.coap] TRACE: Sending CoAP message
+0000016155 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=3360
+0000016163 [comm] INFO: Sending TIME request
+0000016168 [comm.coap] TRACE: Sending CoAP message
+0000016174 [comm.coap] TRACE: CON GET /t size=7 token=10 id=3361
+0000016181 [system] INFO: Sending application DESCRIBE
+0000016188 [comm.protocol] INFO: Checksum has not changed; not sending application DESCRIBE
+0000016196 [system] INFO: Sending subscriptions
+0000016201 [comm.protocol] INFO: Checksum has not changed; not sending subscriptions
+0000016207 [system] TRACE: Waiting until all handshake messages are processed by the protocol layer
+0000016257 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000016263 [comm.coap] TRACE: Received CoAP message
+0000016268 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3358
+0000016275 [comm.coap] TRACE: Received CoAP message
+0000016280 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3359
+0000016288 [comm.coap] TRACE: Received CoAP message
+0000016294 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3360
+0000016300 [comm.coap] TRACE: Received CoAP message
+0000016305 [comm.coap] TRACE: ACK 2.05  size=10 token=10 id=3361
+0000016310 [system] INFO: All handshake messages have been processed
+0000016317 [comm.protocol] INFO: Received TIME response: 1699386445
+0000016369 [app] INFO: count = 11
+0000016422 [system] INFO: Cloud connected
+0000016428 [app] INFO: WiFi (qqextender) cloud connected in 6 s (link: 5 s), (re)connected in 16 s
+0000016484 [app] INFO: State: 'wifi cloud connected' (previous: 'wifi cloud connecting')
+0000017275 [comm.coap] TRACE: Received CoAP message
+0000017280 [comm.coap] TRACE: CON POST /E/particle/device/updates/pending size=47 token=01 id=40459
+0000017289 [comm.coap] TRACE: Sending CoAP message
+0000017294 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40459
+0000017305 [comm.coap] TRACE: Received CoAP message
+0000017310 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=02 id=40460
+0000017316 [comm.coap] TRACE: Sending CoAP message
+0000017321 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40460
+0000017384 [app] INFO: 1.0.0-20231107T194559-5.5.0-32-0a10aced202194944a004be0-qqextender
+0000017390 [app] INFO: Reset: Watchdog
+0000017393 [app] INFO: count = 12
+0000018371 [app] INFO: count = 13
+0000019372 [app] INFO: count = 14
+0000020373 [app] INFO: count = 15
+0000021374 [app] INFO: count = 16
+0000022375 [app] INFO: count = 17
+0000023376 [app] INFO: count = 18
+0000024377 [app] INFO: count = 19
+0000025378 [app] INFO: count = 20
+0000026379 [app] INFO: count = 21
+0000027380 [app] INFO: count = 22
+0000028381 [app] INFO: count = 23
+0000029382 [app] INFO: count = 24
+0000030383 [app] INFO: count = 25
+0000031384 [app] INFO: count = 26
+0000032385 [app] INFO: count = 27
+0000033386 [app] INFO: count = 28
+0000034387 [app] INFO: count = 29
+0000034618 [comm.coap] TRACE: Sending CoAP message
+0000034622 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=11 id=3362
+0000034742 [comm.coap] TRACE: Received CoAP message
+0000034748 [comm.coap] TRACE: ACK 0.00  size=5 token=11 id=3362
+0000035388 [app] INFO: count = 30
+0000036389 [app] INFO: count = 31
+0000037390 [app] INFO: count = 32
+0000038391 [app] INFO: count = 33
+0000039392 [app] INFO: count = 34
+0000040393 [app] INFO: count = 35
+0000041394 [app] INFO: count = 36
+0000042395 [app] INFO: count = 37
+0000043396 [app] INFO: count = 38
+0000044397 [app] INFO: count = 39
+0000045398 [app] INFO: count = 40
+0000046399 [app] INFO: count = 41
+0000047400 [app] INFO: count = 42
+0000048401 [app] INFO: count = 43
+0000049402 [app] INFO: count = 44
+0000050403 [app] INFO: count = 45
+0000051404 [app] INFO: count = 46
+0000052405 [app] INFO: count = 47
+0000053406 [app] INFO: count = 48
+0000054407 [app] INFO: count = 49
+0000055408 [app] INFO: count = 50
+0000056409 [app] INFO: count = 51
+0000057410 [app] INFO: count = 52
+0000058411 [app] INFO: count = 53
+0000059412 [app] INFO: count = 54
+0000059773 [comm.coap] TRACE: Sending CoAP message
+0000059778 [comm.coap] TRACE: CON 0.00  size=4 token= id=3363
+0000059910 [comm.coap] TRACE: Received CoAP message
+0000059915 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3363
+0000060413 [app] INFO: count = 55
+0000061414 [app] INFO: count = 56
+0000062415 [app] INFO: count = 57
+0000063416 [app] INFO: count = 58
+0000064417 [app] INFO: count = 59
+0000064618 [comm.coap] TRACE: Sending CoAP message
+0000064624 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=12 id=3364
+0000064764 [comm.coap] TRACE: Received CoAP message
+0000064769 [comm.coap] TRACE: ACK 0.00  size=5 token=12 id=3364
+0000065418 [app] INFO: count = 60
+0000065771 [comm.coap] TRACE: Received CoAP message
+0000065777 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40463
+0000065783 [comm.coap] TRACE: Sending CoAP message
+0000065788 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40463
+0000066419 [app] INFO: count = 61
+0000067420 [app] INFO: count = 62
+0000068421 [app] INFO: count = 63
+0000069422 [app] INFO: count = 64
+0000070423 [app] INFO: count = 65
+0000071424 [app] INFO: count = 66
+0000072425 [app] INFO: count = 67
+0000073426 [app] INFO: count = 68
+0000074427 [app] INFO: count = 69
+0000075428 [app] INFO: count = 70
+0000076429 [app] INFO: count = 71
+0000077430 [app] INFO: count = 72
+0000078431 [app] INFO: count = 73
+0000079432 [app] INFO: count = 74
+0000080433 [app] INFO: count = 75
+0000081434 [app] INFO: count = 76
+0000082435 [app] INFO: count = 77
+0000083436 [app] INFO: count = 78
+0000084437 [app] INFO: count = 79
+0000085438 [app] INFO: count = 80
+0000086439 [app] INFO: count = 81
+0000087440 [app] INFO: count = 82
+0000088441 [app] INFO: count = 83
+0000089442 [app] INFO: count = 84
+0000090443 [app] INFO: count = 85
+0000090817 [comm.coap] TRACE: Sending CoAP message
+0000090822 [comm.coap] TRACE: CON 0.00  size=4 token= id=3365
+0000090943 [comm.coap] TRACE: Received CoAP message
+0000090949 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3365
+0000091444 [app] INFO: count = 86
+0000091589 [comm.coap] TRACE: Received CoAP message
+0000091595 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40465
+0000091602 [comm.coap] TRACE: Sending CoAP message
+0000091607 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40465
+0000092445 [app] INFO: count = 87
+0000093446 [app] INFO: count = 88
+0000094447 [app] INFO: count = 89
+0000094618 [comm.coap] TRACE: Sending CoAP message
+0000094623 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=13 id=3366
+0000094741 [comm.coap] TRACE: Received CoAP message
+0000094746 [comm.coap] TRACE: ACK 0.00  size=5 token=13 id=3366
+0000095448 [app] INFO: count = 90
+0000096449 [app] INFO: count = 91
+0000097450 [app] INFO: count = 92
+0000098451 [app] INFO: count = 93
+0000099452 [app] INFO: count = 94
+0000100453 [app] INFO: count = 95
+0000101454 [app] INFO: count = 96
+0000102455 [app] INFO: count = 97
+0000103456 [app] INFO: count = 98
+0000104457 [app] INFO: count = 99
+0000105458 [app] INFO: count = 100
+0000106459 [app] INFO: count = 101
+0000107460 [app] INFO: count = 102
+0000108461 [app] INFO: count = 103
+0000109462 [app] INFO: count = 104
+0000110463 [app] INFO: count = 105
+0000111464 [app] INFO: count = 106
+0000112465 [app] INFO: count = 107
+0000113466 [app] INFO: count = 108
+0000114467 [app] INFO: count = 109
+0000115468 [app] INFO: count = 110
+0000116469 [app] INFO: count = 111
+0000117470 [app] INFO: count = 112
+0000118471 [app] INFO: count = 113
+0000119472 [app] INFO: count = 114
+0000119773 [comm.coap] TRACE: Sending CoAP message
+0000119778 [comm.coap] TRACE: CON 0.00  size=4 token= id=3367
+0000119895 [comm.coap] TRACE: Received CoAP message
+0000119900 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3367
+0000120473 [app] INFO: count = 115
+0000120834 [comm.coap] TRACE: Received CoAP message
+0000120840 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=02 id=40466
+0000120847 [comm.coap] TRACE: Sending CoAP message
+0000120852 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40466
+0000121474 [app] INFO: count = 116
+0000122360 [comm.coap] TRACE: Received CoAP message
+0000122365 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=03 id=40467
+0000122372 [comm.coap] TRACE: Sending CoAP message
+0000122377 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40467
+0000122475 [app] INFO: count = 117
+0000123476 [app] INFO: count = 118
+0000124477 [app] INFO: count = 119
+0000124618 [comm.coap] TRACE: Sending CoAP message
+0000124622 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=14 id=3368
+0000124745 [comm.coap] TRACE: Received CoAP message
+0000124750 [comm.coap] TRACE: ACK 0.00  size=5 token=14 id=3368
+0000125478 [app] INFO: count = 120
+0000125748 [comm.coap] TRACE: Received CoAP message
+0000125753 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=04 id=40468
+0000125761 [comm.coap] TRACE: Sending CoAP message
+0000125766 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40468
+0000126479 [app] INFO: count = 121
+0000127480 [app] INFO: count = 122
+0000128481 [app] INFO: count = 123
+0000129482 [app] INFO: count = 124
+0000130483 [app] INFO: count = 125
+0000131484 [app] INFO: count = 126
+0000132485 [app] INFO: count = 127
+0000133486 [app] INFO: count = 128
+0000134487 [app] INFO: count = 129
+0000135488 [app] INFO: count = 130
+0000136489 [app] INFO: count = 131
+0000137490 [app] INFO: count = 132
+0000138491 [app] INFO: count = 133
+0000139492 [app] INFO: count = 134
+0000140493 [app] INFO: count = 135
+0000141494 [app] INFO: count = 136
+0000142495 [app] INFO: count = 137
+0000143496 [app] INFO: count = 138
+0000144497 [app] INFO: count = 139
+0000145498 [app] INFO: count = 140
+0000146499 [app] INFO: count = 141
+0000147500 [app] INFO: count = 142
+0000148501 [app] INFO: count = 143
+0000149502 [app] INFO: count = 144
+0000150503 [app] INFO: count = 145
+0000150799 [comm.coap] TRACE: Sending CoAP message
+0000150804 [comm.coap] TRACE: CON 0.00  size=4 token= id=3369
+0000150921 [comm.coap] TRACE: Received CoAP message
+0000150926 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3369
+0000151504 [app] INFO: count = 146
+0000151881 [comm.coap] TRACE: Received CoAP message
+0000151886 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=05 id=40469
+0000151892 [comm.coap] TRACE: Sending CoAP message
+0000151897 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40469
+0000152505 [app] INFO: count = 147
+0000153506 [app] INFO: count = 148
+0000154507 [app] INFO: count = 149
+0000154618 [comm.coap] TRACE: Sending CoAP message
+0000154623 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=15 id=3370
+0000154741 [comm.coap] TRACE: Received CoAP message
+0000154746 [comm.coap] TRACE: ACK 0.00  size=5 token=15 id=3370
+0000155508 [app] INFO: count = 150
+0000156509 [app] INFO: count = 151
+0000157510 [app] INFO: count = 152
+0000158511 [app] INFO: count = 153
+0000159512 [app] INFO: count = 154
+0000160513 [app] INFO: count = 155
+0000161514 [app] INFO: count = 156
+0000162515 [app] INFO: count = 157
+0000163516 [app] INFO: count = 158
+0000164517 [app] INFO: count = 159
+0000165518 [app] INFO: count = 160
+0000166519 [app] INFO: count = 161
+0000167520 [app] INFO: count = 162
+0000168521 [app] INFO: count = 163
+0000169522 [app] INFO: count = 164
+0000170523 [app] INFO: count = 165
+0000171524 [app] INFO: count = 166
+0000172525 [app] INFO: count = 167
+0000173526 [app] INFO: count = 168
+0000174527 [app] INFO: count = 169
+0000175528 [app] INFO: count = 170
+0000176529 [app] INFO: count = 171
+0000177530 [app] INFO: count = 172
+0000178531 [app] INFO: count = 173
+0000179532 [app] INFO: count = 174
+0000179778 [comm.coap] TRACE: Sending CoAP message
+0000179783 [comm.coap] TRACE: CON 0.00  size=4 token= id=3371
+0000179900 [comm.coap] TRACE: Received CoAP message
+0000179905 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3371
+0000180533 [app] INFO: count = 175
+0000181534 [app] INFO: count = 176
+0000182535 [app] INFO: count = 177
+0000183536 [app] INFO: count = 178
+0000184537 [app] INFO: count = 179
+0000184618 [comm.coap] TRACE: Sending CoAP message
+0000184622 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=16 id=3372
+0000184745 [comm.coap] TRACE: Received CoAP message
+0000184751 [comm.coap] TRACE: ACK 0.00  size=5 token=16 id=3372
+0000185538 [app] INFO: count = 180
+0000186539 [app] INFO: count = 181
+0000187540 [app] INFO: count = 182
+0000188541 [app] INFO: count = 183
+0000189542 [app] INFO: count = 184
+0000190543 [app] INFO: count = 185
+0000191544 [app] INFO: count = 186
+0000192545 [app] INFO: count = 187
+0000193546 [app] INFO: count = 188
+0000194547 [app] INFO: count = 189
+0000195548 [app] INFO: count = 190
+0000196549 [app] INFO: count = 191
+0000197550 [app] INFO: count = 192
+0000198551 [app] INFO: count = 193
+0000199552 [app] INFO: count = 194
+0000200553 [app] INFO: count = 195
+0000201554 [app] INFO: count = 196
+0000202555 [app] INFO: count = 197
+0000203556 [app] INFO: count = 198
+0000204557 [app] INFO: count = 199
+0000205558 [app] INFO: count = 200
+0000206559 [app] INFO: count = 201
+0000207560 [app] INFO: count = 202
+0000208561 [app] INFO: count = 203
+0000209562 [app] INFO: count = 204
+0000209776 [comm.coap] TRACE: Sending CoAP message
+0000209781 [comm.coap] TRACE: CON 0.00  size=4 token= id=3373
+0000209895 [comm.coap] TRACE: Received CoAP message
+0000209901 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3373
+0000210563 [app] INFO: count = 205
+0000211564 [app] INFO: count = 206
+0000212565 [app] INFO: count = 207
+0000213566 [app] INFO: count = 208
+0000214567 [app] INFO: count = 209
+0000214618 [comm.coap] TRACE: Sending CoAP message
+0000214622 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=17 id=3374
+0000214743 [comm.coap] TRACE: Received CoAP message
+0000214748 [comm.coap] TRACE: ACK 0.00  size=5 token=17 id=3374
+0000215568 [app] INFO: count = 210
+0000216569 [app] INFO: count = 211
+0000217570 [app] INFO: count = 212
+0000218571 [app] INFO: count = 213
+0000219572 [app] INFO: count = 214
+0000220573 [app] INFO: count = 215
+0000221574 [app] INFO: count = 216
+0000222575 [app] INFO: count = 217
+0000223576 [app] INFO: count = 218
+0000224577 [app] INFO: count = 219
+0000225578 [app] INFO: count = 220
+0000226579 [app] INFO: count = 221
+0000227580 [app] INFO: count = 222
+0000228581 [app] INFO: count = 223
+0000229582 [app] INFO: count = 224
+0000230583 [app] INFO: count = 225
+0000231584 [app] INFO: count = 226
+0000232585 [app] INFO: count = 227
+0000233586 [app] INFO: count = 228
+0000234587 [app] INFO: count = 229
+0000235588 [app] INFO: count = 230
+0000236589 [app] INFO: count = 231
+0000237590 [app] INFO: count = 232
+0000238591 [app] INFO: count = 233
+0000239592 [app] INFO: count = 234
+0000239774 [comm.coap] TRACE: Sending CoAP message
+0000239779 [comm.coap] TRACE: CON 0.00  size=4 token= id=3375
+0000239904 [comm.coap] TRACE: Received CoAP message
+0000239909 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3375
+0000240593 [app] INFO: count = 235
+0000241594 [app] INFO: count = 236
+0000242595 [app] INFO: count = 237
+0000243596 [app] INFO: count = 238
+0000244597 [app] INFO: count = 239
+0000244618 [comm.coap] TRACE: Sending CoAP message
+0000244622 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=18 id=3376
+0000244738 [comm.coap] TRACE: Received CoAP message
+0000244743 [comm.coap] TRACE: ACK 0.00  size=5 token=18 id=3376
+0000245598 [app] INFO: count = 240
+0000246599 [app] INFO: count = 241
+0000247600 [app] INFO: count = 242
+0000248601 [app] INFO: count = 243
+0000249602 [app] INFO: count = 244
+0000250603 [app] INFO: count = 245
+0000251604 [app] INFO: count = 246
+0000252605 [app] INFO: count = 247
+0000253606 [app] INFO: count = 248
+0000254607 [app] INFO: count = 249
+0000255608 [app] INFO: count = 250
+0000256609 [app] INFO: count = 251
+0000257610 [app] INFO: count = 252
+0000258611 [app] INFO: count = 253
+0000259612 [app] INFO: count = 254
+0000260613 [app] INFO: count = 255
+0000261614 [app] INFO: count = 256
+0000262615 [app] INFO: count = 257
+0000263616 [app] INFO: count = 258
+0000264617 [app] INFO: count = 259
+0000265618 [app] INFO: count = 260
+0000266619 [app] INFO: count = 261
+0000267620 [app] INFO: count = 262
+0000268621 [app] INFO: count = 263
+0000269184 [ncp.rltk.client] INFO: disconnected
+0000269187 [ncp.rltk.client] TRACE: NCP connection state changed: 0
+0000269191 [net.rltkncp] TRACE: NCP event 2
+0000269195 [net.rltkncp] TRACE: State changed event: 0
+0000269200 [net.ifapi] INFO: Netif wl3 link DOWN, profile=NONE
+0000269206 [net.rltkncp] ERROR: linkOutput up=1 link_up=0
+0000269210 [net.ifapi] TRACE: Netif wl3 ipv4 configuration changed
+0000269217 [system.nm] INFO: State changed: IP_CONFIGURED -> IFACE_LINK_UP
+0000269223 [hal] INFO: DNS server list changed
+0000269227 [hal] INFO: DNS server list changed
+0000269234 [system.nm] INFO: State changed: IFACE_LINK_UP -> IFACE_UP
+0000269244 [ncp.rltk.client] INFO: Try to connect to ssid: qqextender
+0000269247 [net.lwip_rltk] INFO: is_promisc_enabled
+0000269252 [net.lwip_rltk] INFO: get_eap_phase
+0000269622 [app] INFO: count = 264
+0000269839 [comm.coap] TRACE: Sending CoAP message
+0000269844 [comm.coap] TRACE: CON 0.00  size=4 token= id=3377
+0000269850 [system] ERROR: sock_send returned -1 118
+0000269856 [comm.dtls] ERROR: mbedtls_ssl_write() failed: -0x4e
+0000269861 [comm.protocol] ERROR: Event loop error 33
+0000269866 [system] WARN: Communication loop error, closing cloud socket
+0000269872 [system] INFO: Cloud: disconnecting
+0000269877 [system] INFO: Cloud: disconnected
+0000269878 [app] INFO: WiFi cloud disconnected (after 253 s), try Ethernet
+#0000004355 [app] INFO: 1.0.0-20231107T194559-5.5.0-32-0a10aced202194944a004be0
+0000004358 [app] INFO: Reset: Watchdog
+0000004362 [app] INFO: Connecting Ethernet
+0000004366 [app] INFO: timeout set to 5000 ms
+0000004371 [app] INFO: State: 'eth connecting' (previous: 'unknown')
+0000004370 [system.nm] INFO: State changed: DISABLED -> IFACE_DOWN
+0000004388 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000004397 [net.ifapi] INFO: Netif en2 state UP
+0000004640 [net.en] TRACE: Closed MACRAW socket
+0000004688 [net.en] TRACE: Opened MACRAW socket, err = 0
+0000004690 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000005363 [app] INFO: count = 0
+0000006364 [app] INFO: count = 1
+0000007365 [app] INFO: count = 2
+0000008366 [app] INFO: count = 3
+0000009367 [app] INFO: count = 4
+0000009371 [app] INFO: timed out
+0000009373 [app] INFO: Ethernet network connecting takes too long (disconnect)
+0000009377 [app] INFO: State: 'wifi connect' (previous: 'eth connecting')
+0000009376 [net.ifapi] INFO: Netif en2 state DOWN
+0000009388 [hal] INFO: DNS server list changed
+0000009392 [hal] INFO: DNS server list changed
+0000009387 [app] INFO: found 1 credentials
+0000009429 [net.en] TRACE: Closed MACRAW socket
+0000009432 [app] INFO: ssid: qqextender
+0000009433 [system.nm] INFO: State changed: IFACE_UP -> IFACE_REQUEST_DOWN
+0000009442 [system.nm] INFO: State changed: IFACE_REQUEST_DOWN -> IFACE_DOWN
+0000009438 [app] INFO: Connecting WiFi
+0000009453 [app] INFO: timeout set to 60000 ms
+0000009458 [app] INFO: State: 'wifi connecting' (previous: 'wifi connect')
+0000009460 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000009475 [net.ifapi] INFO: Netif wl3 state UP
+0000009477 [net.rltkncp] TRACE: NCP event 3
+0000009479 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_POWERING_UP
+0000009487 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000009495 [system.nm] TRACE: Interface 4 power state changed: 4
+0000009499 [hal] INFO: WiFi is already on
+0000009503 [net.rltkncp] TRACE: NCP event 3
+0000009506 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000009513 [system.nm] TRACE: Interface 4 power state changed: 2
+0000009519 [ncp.rltk.client] INFO: rltkOff
+0000009523 [ncp.rltk.client] INFO: rltkOff done
+0000009527 [net.rltkncp] TRACE: NCP event 3
+0000009531 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_DOWN
+0000009538 [system.nm] TRACE: Interface 4 power state changed: 1
+0000009543 [hal] INFO: WiFi is already on
+0000009548 [net.rltkncp] TRACE: NCP event 3
+0000009551 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000009557 [system.nm] TRACE: Interface 4 power state changed: 2
+0000009563 [ncp.rltk.client] TRACE: NCP state changed: 1
+0000009569 [net.rltkncp] TRACE: NCP event 1
+0000009574 [ncp.rltk.client] INFO: Try to connect to ssid: qqextender
+0000009578 [net.lwip_rltk] INFO: is_promisc_enabled
+0000009584 [net.lwip_rltk] INFO: get_eap_phase
+0000010368 [app] INFO: count = 5
+0000011369 [app] INFO: count = 6
+0000012370 [app] INFO: count = 7
+0000013371 [app] INFO: count = 8
+0000014277 [net.lwip_rltk] INFO: get_eap_phase
+0000014372 [app] INFO: count = 9
+0000014491 [net.lwip_rltk] INFO: get_eap_phase
+0000014506 [ncp.rltk.client] TRACE: NCP connection state changed: 2
+0000014508 [net.rltkncp] TRACE: NCP event 2
+0000014511 [net.rltkncp] TRACE: State changed event: 2
+0000014517 [net.ifapi] INFO: Netif wl3 link UP, profile=qqextender
+0000014530 [system.nm] INFO: State changed: IFACE_UP -> IFACE_LINK_UP
+0000014619 [ncp.mgr] TRACE: Updated file: /sys/wifi_config.bin
+0000015004 [hal] INFO: DNS server list changed
+0000015008 [net.ifapi] TRACE: Netif wl3 ipv4 configuration changed
+0000015011 [system.nm] INFO: State changed: IFACE_LINK_UP -> IP_CONFIGURED
+0000015017 [app] INFO: WiFi network (qqextender) connected in 5 s
+0000015024 [app] INFO: WiFi IP address: 172.217.28.98
+0000015028 [app] INFO: timeout set to 180000 ms
+0000015032 [app] INFO: State: 'wifi cloud connecting' (previous: 'wifi connecting')
+0000015127 [system] INFO: Cloud: connecting
+0000015134 [system] INFO: Read Server Address = type:1,domain:$id.udp.particle.io
+0000015141 [system] INFO: Loaded cloud server address and port from session data
+0000015151 [system] TRACE: Address type: 1
+0000015156 [system] TRACE: Cloud socket=0, family=2, type=2, protocol=17
+0000015162 [system] INFO: Cloud socket=0, connecting to 18.213.90.196#5684
+0000015169 [system] TRACE: Cloud socket=0, connected to 18.213.90.196#5684
+0000015176 [system] TRACE: Updating cloud keepalive for AF_INET: 25000 -> 25000
+0000015183 [system] TRACE: Applying new keepalive interval now
+0000015190 [system] INFO: Cloud socket connected
+0000015197 [system] INFO: Starting handshake: presense_announce=0
+0000015203 [comm.protocol.handshake] INFO: Establish secure connection
+0000015211 [comm.dtls] INFO: session has 0 uses
+0000015223 [comm.dtls] INFO: (CMPL,RENEG,NO_SESS,ERR) restoreStatus=0
+0000015229 [comm.dtls] INFO: out_ctr 0,1,0,0,0,0,1,15, next_coap_id=d30
+0000015235 [comm.dtls] INFO: restored session from persisted session data. next_msg_id=3376
+0000015244 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 2
+0000015373 [app] INFO: count = 10
+0000016120 [comm.protocol.handshake] INFO: Skipping HELLO message
+0000016126 [comm.coap] TRACE: Sending CoAP message
+0000016131 [comm.coap] TRACE: CON 0.00  size=4 token= id=3377
+0000016141 [system] INFO: cloud connected from existing session.
+0000016146 [comm.coap] TRACE: Sending CoAP message
+0000016151 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=3378
+0000016160 [comm.coap] TRACE: Sending CoAP message
+0000016165 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=3379
+0000016177 [comm] INFO: Sending TIME request
+0000016181 [comm.coap] TRACE: Sending CoAP message
+0000016186 [comm.coap] TRACE: CON GET /t size=7 token=ba id=3380
+0000016194 [system] INFO: Sending application DESCRIBE
+0000016200 [comm.protocol] INFO: Checksum has not changed; not sending application DESCRIBE
+0000016207 [system] INFO: Sending subscriptions
+0000016212 [comm.protocol] INFO: Checksum has not changed; not sending subscriptions
+0000016221 [system] TRACE: Waiting until all handshake messages are processed by the protocol layer
+0000016262 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000016268 [comm.coap] TRACE: Received CoAP message
+0000016273 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3377
+0000016293 [comm.coap] TRACE: Received CoAP message
+0000016298 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3378
+0000016308 [comm.coap] TRACE: Received CoAP message
+0000016315 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3379
+0000016374 [app] INFO: count = 11
+0000016423 [comm.coap] TRACE: Received CoAP message
+0000016429 [comm.coap] TRACE: ACK 2.05  size=10 token=ba id=3380
+0000016433 [system] INFO: All handshake messages have been processed
+0000016439 [comm.protocol] INFO: Received TIME response: 1699386776
+0000016547 [system] INFO: Cloud connected
+0000016552 [app] INFO: WiFi (qqextender) cloud connected in 7 s (link: 5 s), (re)connected in 16 s
+0000016599 [app] INFO: State: 'wifi cloud connected' (previous: 'wifi cloud connecting')
+0000017278 [comm.coap] TRACE: Received CoAP message
+0000017284 [comm.coap] TRACE: CON POST /E/particle/device/updates/pending size=47 token=01 id=40470
+0000017291 [comm.coap] TRACE: Sending CoAP message
+0000017296 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40470
+0000017320 [comm.coap] TRACE: Received CoAP message
+0000017326 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=02 id=40471
+0000017331 [comm.coap] TRACE: Sending CoAP message
+0000017336 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40471
+0000017389 [app] INFO: 1.0.0-20231107T194559-5.5.0-32-0a10aced202194944a004be0-qqextender
+0000017394 [app] INFO: Reset: Watchdog
+0000017397 [app] INFO: count = 12
+0000018376 [app] INFO: count = 13
+0000019377 [app] INFO: count = 14
+0000020378 [app] INFO: count = 15
+0000021379 [app] INFO: count = 16
+0000022380 [app] INFO: count = 17
+0000023381 [app] INFO: count = 18
+0000024382 [app] INFO: count = 19
+0000025383 [app] INFO: count = 20
+0000026384 [app] INFO: count = 21
+0000027385 [app] INFO: count = 22
+0000028386 [app] INFO: count = 23
+0000029387 [app] INFO: count = 24
+0000030388 [app] INFO: count = 25
+0000031389 [app] INFO: count = 26
+0000032390 [app] INFO: count = 27
+0000033391 [app] INFO: count = 28
+0000034392 [app] INFO: count = 29
+0000034621 [comm.coap] TRACE: Sending CoAP message
+0000034626 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=bb id=3381
+0000034747 [comm.coap] TRACE: Received CoAP message
+0000034752 [comm.coap] TRACE: ACK 0.00  size=5 token=bb id=3381
+0000035393 [app] INFO: count = 30
+0000036394 [app] INFO: count = 31
+0000037395 [app] INFO: count = 32
+0000038396 [app] INFO: count = 33
+0000039397 [app] INFO: count = 34
+0000040398 [app] INFO: count = 35
+0000041399 [app] INFO: count = 36
+0000042400 [app] INFO: count = 37
+0000043401 [app] INFO: count = 38
+0000044402 [app] INFO: count = 39
+0000045403 [app] INFO: count = 40
+0000046404 [app] INFO: count = 41
+0000047405 [app] INFO: count = 42
+0000048406 [app] INFO: count = 43
+0000049407 [app] INFO: count = 44
+0000050408 [app] INFO: count = 45
+0000051409 [app] INFO: count = 46
+0000052410 [app] INFO: count = 47
+0000053411 [app] INFO: count = 48
+0000054412 [app] INFO: count = 49
+0000055413 [app] INFO: count = 50
+0000056414 [app] INFO: count = 51
+0000057415 [app] INFO: count = 52
+0000058416 [app] INFO: count = 53
+0000059417 [app] INFO: count = 54
+0000059778 [comm.coap] TRACE: Sending CoAP message
+0000059783 [comm.coap] TRACE: CON 0.00  size=4 token= id=3382
+0000059904 [comm.coap] TRACE: Received CoAP message
+0000059910 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3382
+0000060418 [app] INFO: count = 55
+0000060909 [comm.coap] TRACE: Received CoAP message
+0000060914 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40473
+0000060921 [comm.coap] TRACE: Sending CoAP message
+0000060926 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40473
+0000061419 [app] INFO: count = 56
+0000062420 [app] INFO: count = 57
+0000063421 [app] INFO: count = 58
+0000064422 [app] INFO: count = 59
+0000064621 [comm.coap] TRACE: Sending CoAP message
+0000064627 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=bc id=3383
+0000064744 [comm.coap] TRACE: Received CoAP message
+0000064749 [comm.coap] TRACE: ACK 0.00  size=5 token=bc id=3383
+0000065423 [app] INFO: count = 60
+0000066424 [app] INFO: count = 61
+0000067425 [app] INFO: count = 62
+0000068426 [app] INFO: count = 63
+0000069427 [app] INFO: count = 64
+0000070428 [app] INFO: count = 65
+0000071429 [app] INFO: count = 66
+0000072430 [app] INFO: count = 67
+0000073431 [app] INFO: count = 68
+0000074432 [app] INFO: count = 69
+0000075433 [app] INFO: count = 70
+0000076434 [app] INFO: count = 71
+0000077435 [app] INFO: count = 72
+0000078436 [app] INFO: count = 73
+0000079437 [app] INFO: count = 74
+0000080438 [app] INFO: count = 75
+0000081439 [app] INFO: count = 76
+0000082440 [app] INFO: count = 77
+0000083441 [app] INFO: count = 78
+0000084442 [app] INFO: count = 79
+0000085443 [app] INFO: count = 80
+0000086444 [app] INFO: count = 81
+0000087445 [app] INFO: count = 82
+0000088446 [app] INFO: count = 83
+0000089447 [app] INFO: count = 84
+0000089780 [comm.coap] TRACE: Sending CoAP message
+0000089785 [comm.coap] TRACE: CON 0.00  size=4 token= id=3384
+0000089907 [comm.coap] TRACE: Received CoAP message
+0000089912 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3384
+0000090448 [app] INFO: count = 85
+0000091449 [app] INFO: count = 86
+0000092450 [app] INFO: count = 87
+0000093451 [app] INFO: count = 88
+0000094452 [app] INFO: count = 89
+0000094621 [comm.coap] TRACE: Sending CoAP message
+0000094627 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=bd id=3385
+0000094745 [comm.coap] TRACE: Received CoAP message
+0000094750 [comm.coap] TRACE: ACK 0.00  size=5 token=bd id=3385
+0000095453 [app] INFO: count = 90
+0000096454 [app] INFO: count = 91
+0000097455 [app] INFO: count = 92
+0000098456 [app] INFO: count = 93
+0000099457 [app] INFO: count = 94
+0000100458 [app] INFO: count = 95
+0000101459 [app] INFO: count = 96
+0000102460 [app] INFO: count = 97
+0000103461 [app] INFO: count = 98
+0000104462 [app] INFO: count = 99
+0000105463 [app] INFO: count = 100
+0000106464 [app] INFO: count = 101
+0000107465 [app] INFO: count = 102
+0000108466 [app] INFO: count = 103
+0000109467 [app] INFO: count = 104
+0000110468 [app] INFO: count = 105
+0000111469 [app] INFO: count = 106
+0000112470 [app] INFO: count = 107
+0000113471 [app] INFO: count = 108
+0000114472 [app] INFO: count = 109
+0000115473 [app] INFO: count = 110
+0000116474 [app] INFO: count = 111
+0000117475 [app] INFO: count = 112
+0000118476 [app] INFO: count = 113
+0000119477 [app] INFO: count = 114
+0000119773 [comm.coap] TRACE: Sending CoAP message
+0000119778 [comm.coap] TRACE: CON 0.00  size=4 token= id=3386
+0000119899 [comm.coap] TRACE: Received CoAP message
+0000119904 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3386
+0000120478 [app] INFO: count = 115
+0000120888 [comm.coap] TRACE: Received CoAP message
+0000120894 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40475
+0000120900 [comm.coap] TRACE: Sending CoAP message
+0000120905 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40475
+0000120915 [comm.coap] TRACE: Received CoAP message
+0000120920 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=02 id=40476
+0000120925 [comm.coap] TRACE: Sending CoAP message
+0000120931 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40476
+0000121479 [app] INFO: count = 116
+0000122480 [app] INFO: count = 117
+0000123481 [app] INFO: count = 118
+0000124482 [app] INFO: count = 119
+0000124621 [comm.coap] TRACE: Sending CoAP message
+0000124627 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=be id=3387
+0000124744 [comm.coap] TRACE: Received CoAP message
+0000124750 [comm.coap] TRACE: ACK 0.00  size=5 token=be id=3387
+0000125483 [app] INFO: count = 120
+0000126484 [app] INFO: count = 121
+0000127485 [app] INFO: count = 122
+0000128486 [app] INFO: count = 123
+0000129487 [app] INFO: count = 124
+0000130488 [app] INFO: count = 125
+0000131489 [app] INFO: count = 126
+0000132490 [app] INFO: count = 127
+0000133491 [app] INFO: count = 128
+0000134492 [app] INFO: count = 129
+0000135493 [app] INFO: count = 130
+0000136494 [app] INFO: count = 131
+0000137495 [app] INFO: count = 132
+0000138496 [app] INFO: count = 133
+0000139497 [app] INFO: count = 134
+0000140498 [app] INFO: count = 135
+0000141499 [app] INFO: count = 136
+0000142500 [app] INFO: count = 137
+0000143501 [app] INFO: count = 138
+0000144502 [app] INFO: count = 139
+0000145503 [app] INFO: count = 140
+0000146504 [app] INFO: count = 141
+0000147505 [app] INFO: count = 142
+0000148506 [app] INFO: count = 143
+0000149507 [app] INFO: count = 144
+0000149780 [comm.coap] TRACE: Sending CoAP message
+0000149785 [comm.coap] TRACE: CON 0.00  size=4 token= id=3388
+0000149901 [comm.coap] TRACE: Received CoAP message
+0000149906 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3388
+0000150508 [app] INFO: count = 145
+0000150935 [comm.coap] TRACE: Received CoAP message
+0000150941 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=03 id=40477
+0000150948 [comm.coap] TRACE: Sending CoAP message
+0000150953 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40477
+0000151509 [app] INFO: count = 146
+0000152510 [app] INFO: count = 147
+0000153511 [app] INFO: count = 148
+0000154512 [app] INFO: count = 149
+0000154621 [comm.coap] TRACE: Sending CoAP message
+0000154627 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=bf id=3389
+0000154745 [comm.coap] TRACE: Received CoAP message
+0000154750 [comm.coap] TRACE: ACK 0.00  size=5 token=bf id=3389
+0000155513 [app] INFO: count = 150
+0000156514 [app] INFO: count = 151
+0000157515 [app] INFO: count = 152
+0000158516 [app] INFO: count = 153
+0000159517 [app] INFO: count = 154
+0000160518 [app] INFO: count = 155
+0000161519 [app] INFO: count = 156
+0000162520 [app] INFO: count = 157
+0000163521 [app] INFO: count = 158
+0000164522 [app] INFO: count = 159
+0000165523 [app] INFO: count = 160
+0000166524 [app] INFO: count = 161
+0000167525 [app] INFO: count = 162
+0000168526 [app] INFO: count = 163
+0000169527 [app] INFO: count = 164
+0000170528 [app] INFO: count = 165
+0000171529 [app] INFO: count = 166
+0000172530 [app] INFO: count = 167
+0000173531 [app] INFO: count = 168
+0000174532 [app] INFO: count = 169
+0000175533 [app] INFO: count = 170
+0000176534 [app] INFO: count = 171
+0000177535 [app] INFO: count = 172
+0000178536 [app] INFO: count = 173
+0000179537 [app] INFO: count = 174
+0000179775 [comm.coap] TRACE: Sending CoAP message
+0000179780 [comm.coap] TRACE: CON 0.00  size=4 token= id=3390
+0000179899 [comm.coap] TRACE: Received CoAP message
+0000179905 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3390
+0000180538 [app] INFO: count = 175
+0000181539 [app] INFO: count = 176
+0000182540 [app] INFO: count = 177
+0000183541 [app] INFO: count = 178
+0000184542 [app] INFO: count = 179
+0000184621 [comm.coap] TRACE: Sending CoAP message
+0000184626 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=c0 id=3391
+0000184750 [comm.coap] TRACE: Received CoAP message
+0000184755 [comm.coap] TRACE: ACK 0.00  size=5 token=c0 id=3391
+0000185543 [app] INFO: count = 180
+0000186544 [app] INFO: count = 181
+0000187545 [app] INFO: count = 182
+0000188546 [app] INFO: count = 183
+0000189547 [app] INFO: count = 184
+0000190548 [app] INFO: count = 185
+0000191549 [app] INFO: count = 186
+0000192550 [app] INFO: count = 187
+0000193551 [app] INFO: count = 188
+0000194552 [app] INFO: count = 189
+0000195553 [app] INFO: count = 190
+0000196554 [app] INFO: count = 191
+0000197555 [app] INFO: count = 192
+0000198556 [app] INFO: count = 193
+0000199557 [app] INFO: count = 194
+0000200558 [app] INFO: count = 195
+0000201559 [app] INFO: count = 196
+0000202560 [app] INFO: count = 197
+0000203561 [app] INFO: count = 198
+0000204562 [app] INFO: count = 199
+0000205563 [app] INFO: count = 200
+0000206564 [app] INFO: count = 201
+0000207565 [app] INFO: count = 202
+0000208566 [app] INFO: count = 203
+0000209567 [app] INFO: count = 204
+0000209786 [comm.coap] TRACE: Sending CoAP message
+0000209791 [comm.coap] TRACE: CON 0.00  size=4 token= id=3392
+0000209910 [comm.coap] TRACE: Received CoAP message
+0000209916 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3392
+0000210568 [app] INFO: count = 205
+0000211569 [app] INFO: count = 206
+0000212570 [app] INFO: count = 207
+0000213571 [app] INFO: count = 208
+0000214572 [app] INFO: count = 209
+0000214621 [comm.coap] TRACE: Sending CoAP message
+0000214626 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=c1 id=3393
+0000214745 [comm.coap] TRACE: Received CoAP message
+0000214750 [comm.coap] TRACE: ACK 0.00  size=5 token=c1 id=3393
+0000215573 [app] INFO: count = 210
+0000216574 [app] INFO: count = 211
+0000217575 [app] INFO: count = 212
+0000218576 [app] INFO: count = 213
+0000219577 [app] INFO: count = 214
+0000220578 [app] INFO: count = 215
+0000221579 [app] INFO: count = 216
+0000222580 [app] INFO: count = 217
+0000223581 [app] INFO: count = 218
+0000224582 [app] INFO: count = 219
+0000225583 [app] INFO: count = 220
+0000226584 [app] INFO: count = 221
+0000227585 [app] INFO: count = 222
+0000228586 [app] INFO: count = 223
+0000229587 [app] INFO: count = 224
+0000230588 [app] INFO: count = 225
+0000231589 [app] INFO: count = 226
+0000232590 [app] INFO: count = 227
+0000233591 [app] INFO: count = 228
+0000234592 [app] INFO: count = 229
+0000235593 [app] INFO: count = 230
+0000236594 [app] INFO: count = 231
+0000237595 [app] INFO: count = 232
+0000238596 [app] INFO: count = 233
+0000239597 [app] INFO: count = 234
+0000239772 [comm.coap] TRACE: Sending CoAP message
+0000239777 [comm.coap] TRACE: CON 0.00  size=4 token= id=3394
+0000239893 [comm.coap] TRACE: Received CoAP message
+0000239898 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3394
+0000240598 [app] INFO: count = 235
+0000241599 [app] INFO: count = 236
+0000242600 [app] INFO: count = 237
+0000243601 [app] INFO: count = 238
+0000244602 [app] INFO: count = 239
+0000244621 [comm.coap] TRACE: Sending CoAP message
+0000244626 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=c2 id=3395
+0000244744 [comm.coap] TRACE: Received CoAP message
+0000244749 [comm.coap] TRACE: ACK 0.00  size=5 token=c2 id=3395
+0000245603 [app] INFO: count = 240
+0000246604 [app] INFO: count = 241
+0000247605 [app] INFO: count = 242
+0000248606 [app] INFO: count = 243
+0000249607 [app] INFO: count = 244
+0000250608 [app] INFO: count = 245
+0000251609 [app] INFO: count = 246
+0000252610 [app] INFO: count = 247
+0000253611 [app] INFO: count = 248
+0000254612 [app] INFO: count = 249
+0000255613 [app] INFO: count = 250
+0000256614 [app] INFO: count = 251
+0000257615 [app] INFO: count = 252
+0000258616 [app] INFO: count = 253
+0000259617 [app] INFO: count = 254
+0000260618 [app] INFO: count = 255
+0000261619 [app] INFO: count = 256
+0000262620 [app] INFO: count = 257
+0000263621 [app] INFO: count = 258
+0000264622 [app] INFO: count = 259
+0000265623 [app] INFO: count = 260
+0000266624 [app] INFO: count = 261
+0000267625 [app] INFO: count = 262
+0000268626 [app] INFO: count = 263
+0000268813 [ncp.rltk.client] INFO: disconnected
+0000268816 [ncp.rltk.client] TRACE: NCP connection state changed: 0
+0000268820 [net.rltkncp] TRACE: NCP event 2
+0000268824 [net.rltkncp] TRACE: State changed event: 0
+0000268829 [net.ifapi] INFO: Netif wl3 link DOWN, profile=NONE
+0000268835 [net.rltkncp] ERROR: linkOutput up=1 link_up=0
+0000268840 [net.ifapi] TRACE: Netif wl3 ipv4 configuration changed
+0000268847 [system.nm] INFO: State changed: IP_CONFIGURED -> IFACE_LINK_UP
+0000268852 [hal] INFO: DNS server list changed
+0000268856 [hal] INFO: DNS server list changed
+0000268863 [system.nm] INFO: State changed: IFACE_LINK_UP -> IFACE_UP
+0000268902 [ncp.rltk.client] INFO: Try to connect to ssid: qqextender
+0000268905 [net.lwip_rltk] INFO: is_promisc_enabled
+0000268910 [net.lwip_rltk] INFO: get_eap_phase
+0000269627 [app] INFO: count = 264
+0000269769 [comm.coap] TRACE: Sending CoAP message
+0000269774 [comm.coap] TRACE: CON 0.00  size=4 token= id=3396
+0000269781 [system] ERROR: sock_send returned -1 118
+0000269786 [comm.dtls] ERROR: mbedtls_ssl_write() failed: -0x4e
+0000269791 [comm.protocol] ERROR: Event loop error 33
+0000269796 [system] WARN: Communication loop error, closing cloud socket
+0000269803 [system] INFO: Cloud: disconnecting
+0000269807 [system] INFO: Cloud: disconnected
+0000269808 [app] INFO: WiFi cloud disconnected (after 253 s), try Ethernet
+#0000004349 [app] INFO: 1.0.0-20231107T194559-5.5.0-32-0a10aced202194944a004be0
+0000004352 [app] INFO: Reset: Watchdog
+0000004356 [app] INFO: Connecting Ethernet
+0000004360 [app] INFO: timeout set to 5000 ms
+0000004365 [app] INFO: State: 'eth connecting' (previous: 'unknown')
+0000004364 [system.nm] INFO: State changed: DISABLED -> IFACE_DOWN
+0000004382 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000004392 [net.ifapi] INFO: Netif en2 state UP
+0000004636 [net.en] TRACE: Closed MACRAW socket
+0000004683 [net.en] TRACE: Opened MACRAW socket, err = 0
+0000004686 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000005357 [app] INFO: count = 0
+0000006358 [app] INFO: count = 1
+0000007359 [app] INFO: count = 2
+0000008360 [app] INFO: count = 3
+0000009361 [app] INFO: count = 4
+0000009366 [app] INFO: timed out
+0000009368 [app] INFO: Ethernet network connecting takes too long (disconnect)
+0000009371 [net.ifapi] INFO: Netif en2 state DOWN
+0000009378 [hal] INFO: DNS server list changed
+0000009382 [hal] INFO: DNS server list changed
+0000009390 [app] INFO: State: 'wifi connect' (previous: 'eth connecting')
+0000009419 [net.en] TRACE: Closed MACRAW socket
+0000009425 [system.nm] INFO: State changed: IFACE_UP -> IFACE_REQUEST_DOWN
+0000009432 [system.nm] INFO: State changed: IFACE_REQUEST_DOWN -> IFACE_DOWN
+0000009429 [app] INFO: found 1 credentials
+0000009442 [app] INFO: ssid: qqextender
+0000009448 [app] INFO: Connecting WiFi
+0000009450 [app] INFO: timeout set to 60000 ms
+0000009455 [app] INFO: State: 'wifi connecting' (previous: 'wifi connect')
+0000009457 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000009473 [net.ifapi] INFO: Netif wl3 state UP
+0000009475 [net.rltkncp] TRACE: NCP event 3
+0000009477 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_POWERING_UP
+0000009485 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000009494 [system.nm] TRACE: Interface 4 power state changed: 4
+0000009497 [hal] INFO: WiFi is already on
+0000009501 [net.rltkncp] TRACE: NCP event 3
+0000009504 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000009511 [system.nm] TRACE: Interface 4 power state changed: 2
+0000009517 [ncp.rltk.client] INFO: rltkOff
+0000009521 [ncp.rltk.client] INFO: rltkOff done
+0000009525 [net.rltkncp] TRACE: NCP event 3
+0000009529 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_DOWN
+0000009536 [system.nm] TRACE: Interface 4 power state changed: 1
+0000009542 [hal] INFO: WiFi is already on
+0000009546 [net.rltkncp] TRACE: NCP event 3
+0000009549 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000009556 [system.nm] TRACE: Interface 4 power state changed: 2
+0000009561 [ncp.rltk.client] TRACE: NCP state changed: 1
+0000009567 [net.rltkncp] TRACE: NCP event 1
+0000009572 [ncp.rltk.client] INFO: Try to connect to ssid: qqextender
+0000009577 [net.lwip_rltk] INFO: is_promisc_enabled
+0000009582 [net.lwip_rltk] INFO: get_eap_phase
+0000010362 [app] INFO: count = 5
+0000011363 [app] INFO: count = 6
+0000012364 [app] INFO: count = 7
+0000013365 [app] INFO: count = 8
+0000014276 [net.lwip_rltk] INFO: get_eap_phase
+0000014366 [app] INFO: count = 9
+0000014495 [net.lwip_rltk] INFO: get_eap_phase
+0000014512 [ncp.rltk.client] TRACE: NCP connection state changed: 2
+0000014514 [net.rltkncp] TRACE: NCP event 2
+0000014517 [net.rltkncp] TRACE: State changed event: 2
+0000014523 [net.ifapi] INFO: Netif wl3 link UP, profile=qqextender
+0000014536 [system.nm] INFO: State changed: IFACE_UP -> IFACE_LINK_UP
+0000014630 [ncp.mgr] TRACE: Updated file: /sys/wifi_config.bin
+0000015011 [hal] INFO: DNS server list changed
+0000015015 [net.ifapi] TRACE: Netif wl3 ipv4 configuration changed
+0000015018 [system.nm] INFO: State changed: IFACE_LINK_UP -> IP_CONFIGURED
+0000015024 [app] INFO: WiFi network (qqextender) connected in 5 s
+0000015030 [app] INFO: WiFi IP address: 172.217.28.98
+0000015035 [app] INFO: timeout set to 180000 ms
+0000015039 [app] INFO: State: 'wifi cloud connecting' (previous: 'wifi connecting')
+0000015134 [system] INFO: Cloud: connecting
+0000015140 [system] INFO: Read Server Address = type:1,domain:$id.udp.particle.io
+0000015147 [system] INFO: Loaded cloud server address and port from session data
+0000015153 [system] TRACE: Address type: 1
+0000015159 [system] TRACE: Cloud socket=0, family=2, type=2, protocol=17
+0000015165 [system] INFO: Cloud socket=0, connecting to 18.213.90.196#5684
+0000015173 [system] TRACE: Cloud socket=0, connected to 18.213.90.196#5684
+0000015180 [system] TRACE: Updating cloud keepalive for AF_INET: 25000 -> 25000
+0000015189 [system] TRACE: Applying new keepalive interval now
+0000015197 [system] INFO: Cloud socket connected
+0000015203 [system] INFO: Starting handshake: presense_announce=0
+0000015208 [comm.protocol.handshake] INFO: Establish secure connection
+0000015217 [comm.dtls] INFO: session has 0 uses
+0000015226 [comm.dtls] INFO: (CMPL,RENEG,NO_SESS,ERR) restoreStatus=0
+0000015231 [comm.dtls] INFO: out_ctr 0,1,0,0,0,0,1,40, next_coap_id=d43
+0000015237 [comm.dtls] INFO: restored session from persisted session data. next_msg_id=3395
+0000015247 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 2
+0000015367 [app] INFO: count = 10
+0000016053 [comm.protocol.handshake] INFO: Skipping HELLO message
+0000016058 [comm.coap] TRACE: Sending CoAP message
+0000016064 [comm.coap] TRACE: CON 0.00  size=4 token= id=3396
+0000016072 [system] INFO: cloud connected from existing session.
+0000016080 [comm.coap] TRACE: Sending CoAP message
+0000016085 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=3397
+0000016093 [comm.coap] TRACE: Sending CoAP message
+0000016098 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=3398
+0000016108 [comm] INFO: Sending TIME request
+0000016117 [comm.coap] TRACE: Sending CoAP message
+0000016122 [comm.coap] TRACE: CON GET /t size=7 token=46 id=3399
+0000016129 [system] INFO: Sending application DESCRIBE
+0000016134 [comm.protocol] INFO: Checksum has not changed; not sending application DESCRIBE
+0000016142 [system] INFO: Sending subscriptions
+0000016147 [comm.protocol] INFO: Checksum has not changed; not sending subscriptions
+0000016156 [system] TRACE: Waiting until all handshake messages are processed by the protocol layer
+0000016195 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000016202 [comm.coap] TRACE: Received CoAP message
+0000016206 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3396
+0000016211 [comm.coap] TRACE: Received CoAP message
+0000016218 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3397
+0000016225 [comm.coap] TRACE: Received CoAP message
+0000016230 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3398
+0000016238 [comm.coap] TRACE: Received CoAP message
+0000016242 [comm.coap] TRACE: ACK 2.05  size=10 token=46 id=3399
+0000016248 [system] INFO: All handshake messages have been processed
+0000016254 [comm.protocol] INFO: Received TIME response: 1699387107
+0000016359 [system] INFO: Cloud connected
+0000016364 [app] INFO: WiFi (qqextender) cloud connected in 6 s (link: 5 s), (re)connected in 16 s
+0000016423 [app] INFO: State: 'wifi cloud connected' (previous: 'wifi cloud connecting')
+0000016443 [app] INFO: 1.0.0-20231107T194559-5.5.0-32-0a10aced202194944a004be0-qqextender
+0000016448 [app] INFO: Reset: Watchdog
+0000016451 [app] INFO: count = 11
+0000017169 [comm.coap] TRACE: Received CoAP message
+0000017174 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40478
+0000017181 [comm.coap] TRACE: Sending CoAP message
+0000017186 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40478
+0000017211 [comm.coap] TRACE: Received CoAP message
+0000017217 [comm.coap] TRACE: CON POST /E/particle/device/updates/pending size=47 token=02 id=40479
+0000017224 [comm.coap] TRACE: Sending CoAP message
+0000017229 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40479
+0000017428 [app] INFO: count = 12
+0000018429 [app] INFO: count = 13
+0000019430 [app] INFO: count = 14
+0000020431 [app] INFO: count = 15
+0000021432 [app] INFO: count = 16
+0000022433 [app] INFO: count = 17
+0000023434 [app] INFO: count = 18
+0000024435 [app] INFO: count = 19
+0000025436 [app] INFO: count = 20
+0000026437 [app] INFO: count = 21
+0000027438 [app] INFO: count = 22
+0000028439 [app] INFO: count = 23
+0000029440 [app] INFO: count = 24
+0000030441 [app] INFO: count = 25
+0000031442 [app] INFO: count = 26
+0000032443 [app] INFO: count = 27
+0000033444 [app] INFO: count = 28
+0000034445 [app] INFO: count = 29
+0000034618 [comm.coap] TRACE: Sending CoAP message
+0000034623 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=47 id=3400
+0000034752 [comm.coap] TRACE: Received CoAP message
+0000034758 [comm.coap] TRACE: ACK 0.00  size=5 token=47 id=3400
+0000035446 [app] INFO: count = 30
+0000035846 [comm.coap] TRACE: Received CoAP message
+0000035852 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40480
+0000035859 [comm.coap] TRACE: Sending CoAP message
+0000035864 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40480
+0000036447 [app] INFO: count = 31
+0000037448 [app] INFO: count = 32
+0000038449 [app] INFO: count = 33
+0000039450 [app] INFO: count = 34
+0000040451 [app] INFO: count = 35
+0000041452 [app] INFO: count = 36
+0000042453 [app] INFO: count = 37
+0000043454 [app] INFO: count = 38
+0000044455 [app] INFO: count = 39
+0000045456 [app] INFO: count = 40
+0000046457 [app] INFO: count = 41
+0000047458 [app] INFO: count = 42
+0000048459 [app] INFO: count = 43
+0000049460 [app] INFO: count = 44
+0000050461 [app] INFO: count = 45
+0000051462 [app] INFO: count = 46
+0000052463 [app] INFO: count = 47
+0000053464 [app] INFO: count = 48
+0000054465 [app] INFO: count = 49
+0000055466 [app] INFO: count = 50
+0000056467 [app] INFO: count = 51
+0000057468 [app] INFO: count = 52
+0000058469 [app] INFO: count = 53
+0000059470 [app] INFO: count = 54
+0000060471 [app] INFO: count = 55
+0000060891 [comm.coap] TRACE: Sending CoAP message
+0000060896 [comm.coap] TRACE: CON 0.00  size=4 token= id=3401
+0000061025 [comm.coap] TRACE: Received CoAP message
+0000061030 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3401
+0000061472 [app] INFO: count = 56
+0000062274 [comm.coap] TRACE: Received CoAP message
+0000062279 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40482
+0000062285 [comm.coap] TRACE: Sending CoAP message
+0000062289 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40482
+0000062473 [app] INFO: count = 57
+0000063474 [app] INFO: count = 58
+0000064475 [app] INFO: count = 59
+0000064618 [comm.coap] TRACE: Sending CoAP message
+0000064623 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=48 id=3402
+0000064752 [comm.coap] TRACE: Received CoAP message
+0000064758 [comm.coap] TRACE: ACK 0.00  size=5 token=48 id=3402
+0000065476 [app] INFO: count = 60
+0000065656 [comm.coap] TRACE: Received CoAP message
+0000065662 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40483
+0000065669 [comm.coap] TRACE: Sending CoAP message
+0000065674 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40483
+0000065752 [comm.coap] TRACE: Received CoAP message
+0000065757 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=02 id=40484
+0000065763 [comm.coap] TRACE: Sending CoAP message
+0000065767 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40484
+0000066477 [app] INFO: count = 61
+0000067478 [app] INFO: count = 62
+0000068479 [app] INFO: count = 63
+0000069480 [app] INFO: count = 64
+0000070481 [app] INFO: count = 65
+0000071482 [app] INFO: count = 66
+0000072483 [app] INFO: count = 67
+0000073484 [app] INFO: count = 68
+0000074485 [app] INFO: count = 69
+0000075486 [app] INFO: count = 70
+0000076487 [app] INFO: count = 71
+0000077488 [app] INFO: count = 72
+0000078489 [app] INFO: count = 73
+0000079490 [app] INFO: count = 74
+0000080491 [app] INFO: count = 75
+0000081492 [app] INFO: count = 76
+0000082493 [app] INFO: count = 77
+0000083494 [app] INFO: count = 78
+0000084495 [app] INFO: count = 79
+0000085496 [app] INFO: count = 80
+0000086497 [app] INFO: count = 81
+0000087498 [app] INFO: count = 82
+0000088499 [app] INFO: count = 83
+0000089500 [app] INFO: count = 84
+0000090501 [app] INFO: count = 85
+0000090800 [comm.coap] TRACE: Sending CoAP message
+0000090805 [comm.coap] TRACE: CON 0.00  size=4 token= id=3403
+0000090933 [comm.coap] TRACE: Received CoAP message
+0000090938 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3403
+0000091502 [app] INFO: count = 86
+0000091878 [comm.coap] TRACE: Received CoAP message
+0000091883 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40485
+0000091890 [comm.coap] TRACE: Sending CoAP message
+0000091895 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40485
+0000092503 [app] INFO: count = 87
+0000093504 [app] INFO: count = 88
+0000094505 [app] INFO: count = 89
+0000094618 [comm.coap] TRACE: Sending CoAP message
+0000094622 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=49 id=3404
+0000094753 [comm.coap] TRACE: Received CoAP message
+0000094759 [comm.coap] TRACE: ACK 0.00  size=5 token=49 id=3404
+0000095506 [app] INFO: count = 90
+0000095752 [comm.coap] TRACE: Received CoAP message
+0000095756 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40486
+0000095763 [comm.coap] TRACE: Sending CoAP message
+0000095768 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40486
+0000096507 [app] INFO: count = 91
+0000097508 [app] INFO: count = 92
+0000098509 [app] INFO: count = 93
+0000099510 [app] INFO: count = 94
+0000100511 [app] INFO: count = 95
+0000101512 [app] INFO: count = 96
+0000102513 [app] INFO: count = 97
+0000103514 [app] INFO: count = 98
+0000104515 [app] INFO: count = 99
+0000105516 [app] INFO: count = 100
+0000106517 [app] INFO: count = 101
+0000107518 [app] INFO: count = 102
+0000108519 [app] INFO: count = 103
+0000109520 [app] INFO: count = 104
+0000110521 [app] INFO: count = 105
+0000111522 [app] INFO: count = 106
+0000112523 [app] INFO: count = 107
+0000113524 [app] INFO: count = 108
+0000114525 [app] INFO: count = 109
+0000115526 [app] INFO: count = 110
+0000116527 [app] INFO: count = 111
+0000117528 [app] INFO: count = 112
+0000118529 [app] INFO: count = 113
+0000119530 [app] INFO: count = 114
+0000120531 [app] INFO: count = 115
+0000120795 [comm.coap] TRACE: Sending CoAP message
+0000120800 [comm.coap] TRACE: CON 0.00  size=4 token= id=3405
+0000120927 [comm.coap] TRACE: Received CoAP message
+0000120932 [comm.coap] TRACE: ACK 0.00  size=4 token= id=3405
+0000121532 [app] INFO: count = 116
+0000121841 [comm.coap] TRACE: Received CoAP message
+0000121846 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40487
+0000121853 [comm.coap] TRACE: Sending CoAP message
+0000121858 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40487
+0000122533 [app] INFO: count = 117
+0000123534 [app] INFO: count = 118
+0000124535 [app] INFO: count = 119
+0000124618 [comm.coap] TRACE: Sending CoAP message
+0000124623 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=4a id=3406
+0000124759 [comm.coap] TRACE: Received CoAP message
+0000124764 [comm.coap] TRACE: ACK 0.00  size=5 token=4a id=3406
+0000125536 [app] INFO: count = 120
+0000125811 [comm.coap] TRACE: Received CoAP message
+0000125816 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=40488
+0000125823 [comm.coap] TRACE: Sending CoAP message
+0000125828 [comm.coap] TRACE: ACK 0.00  size=4 token= id=40488
+0000126537 [app] INFO: count = 121
+0000127538 [app] INFO: count = 122
