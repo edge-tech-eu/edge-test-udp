@@ -31,7 +31,7 @@ void setup() {
   logging_init();
 
   logging_serial1(LOG_ON, LOG_ON_DEBUG);
-  logging_remote(LOG_ON, LOG_ON_DEBUG);
+  // logging_remote(LOG_ON, LOG_ON_DEBUG);
 
   Log.info("%s-%s-%d-%s", completeVersion, System.version().c_str(),(int)PLATFORM_ID, System.deviceID().c_str());
 
