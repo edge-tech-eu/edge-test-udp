@@ -14,7 +14,7 @@ retained bool serial2LoggerDebugEnabled = LOG_ON_DEBUG;
 retained bool remoteLoggerEnabled = LOG_OFF;
 retained bool remoteLoggerDebugEnabled = LOG_ON_DEBUG;
 
-// RemoteLogHandler *remoteLogHandler = NULL;
+RemoteLogHandler *remoteLogHandler = NULL;
 #ifdef PLATFORM_HAS_SERIAL_2
 Serial2LogHandler *serial2LogHandler = NULL;
 #endif
@@ -29,7 +29,7 @@ void logging_init(void) {
 #ifdef PLATFORM_HAS_SERIAL_2
     logging_serial2(serial2LoggerEnabled,serial2LoggerDebugEnabled);
 #endif
-   // logging_remote(remoteLoggerEnabled,remoteLoggerDebugEnabled);
+    logging_remote(remoteLoggerEnabled,remoteLoggerDebugEnabled);
 }
 
 void logging_serial(bool logon, bool debug) {
@@ -103,7 +103,6 @@ void logging_serial2(bool logon, bool debug) {
 }
 #endif
 
-/*
 void logging_remote(bool logon, bool debug) {
 
     auto logManager = LogManager::instance();
@@ -127,4 +126,3 @@ void logging_remote(bool logon, bool debug) {
     
     remoteLogHandler = newLogHandler;
 }
-*/
