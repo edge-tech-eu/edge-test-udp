@@ -6,6 +6,16 @@
 
 #include "Particle.h"
 
+
+#define USE_SERIAL_LOGGER
+// #undef USE_SERIAL_LOGGER
+
+// #define USE_REMOTE_LOGGER
+#undef USE_REMOTE_LOGGER
+
+#define USE_UDP_SEND
+// #undef USE_UDP_SEND
+
 #define PS      Serial2.begin(115200)
 #define P(x)    {Serial2.println(x);Serial2.flush();}
 

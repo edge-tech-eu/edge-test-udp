@@ -1,6 +1,8 @@
 #include "EdgePlatform.h"
 #include "RemoteLogger.h"
 
+#ifdef USE_REMOTE_LOGGER
+
 const uint16_t RemoteLogHandler::kLocalPort = 8888;
 
 RemoteLogHandler::RemoteLogHandler(String host, uint16_t port, String app, LogLevel level, 
@@ -168,3 +170,5 @@ void RemoteLogHandler::logMessage(const char *msg, LogLevel level, const char *c
     //    m_inited = false;
     //}
 }
+
+#endif

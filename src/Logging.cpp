@@ -3,6 +3,7 @@
 #include "RemoteLogger.h"
 
 // keep order of 'retained' variables
+#ifdef USE_SERIAL_LOGGER
 retained bool serialLoggerEnabled = LOG_OFF;
 retained bool serialLoggerDebugEnabled = LOG_ON_DEBUG;
 retained bool serial1LoggerEnabled = LOG_OFF;
@@ -11,26 +12,41 @@ retained bool serial1LoggerDebugEnabled = LOG_ON_DEBUG;
 retained bool serial2LoggerEnabled = LOG_OFF;
 retained bool serial2LoggerDebugEnabled = LOG_ON_DEBUG;
 #endif
+#endif
+
+#ifdef USE_REMOTE_LOGGER
 retained bool remoteLoggerEnabled = LOG_OFF;
 retained bool remoteLoggerDebugEnabled = LOG_ON_DEBUG;
+#endif
 
+#ifdef USE_REMOTE_LOGGER
 RemoteLogHandler *remoteLogHandler = NULL;
+#endif
+
+#ifdef USE_SERIAL_LOGGER
 #ifdef PLATFORM_HAS_SERIAL_2
 Serial2LogHandler *serial2LogHandler = NULL;
 #endif
 SerialLogHandler *serialLogHandler = NULL;
 Serial1LogHandler *serial1LogHandler = NULL;
-
+#endif
 
 void logging_init(void) {
 
+#ifdef USE_SERIAL_LOGGER
     logging_serial(serialLoggerEnabled,serialLoggerDebugEnabled);
     logging_serial1(serial1LoggerEnabled,serial1LoggerDebugEnabled);
 #ifdef PLATFORM_HAS_SERIAL_2
     logging_serial2(serial2LoggerEnabled,serial2LoggerDebugEnabled);
 #endif
+#endif
+
+#ifdef USE_REMOTE_LOGGER
     logging_remote(remoteLoggerEnabled,remoteLoggerDebugEnabled);
+#endif
 }
+
+#ifdef USE_SERIAL_LOGGER
 
 void logging_serial(bool logon, bool debug) {
 
@@ -103,6 +119,9 @@ void logging_serial2(bool logon, bool debug) {
 }
 #endif
 
+#endif
+
+#ifdef USE_REMOTE_LOGGER
 void logging_remote(bool logon, bool debug) {
 
     auto logManager = LogManager::instance();
@@ -126,3 +145,5 @@ void logging_remote(bool logon, bool debug) {
     
     remoteLogHandler = newLogHandler;
 }
+
+#endif

@@ -6,6 +6,8 @@
 #error This library requires FW version 0.6.1 and above.
 #endif
 
+#ifdef USE_REMOTE_LOGGER
+
 class RemoteLogHandler : public LogHandler {
     String m_host;
     uint16_t m_port;
@@ -33,3 +35,5 @@ private:
 protected:
     virtual void logMessage(const char *msg, LogLevel level, const char *category, const LogAttributes &attr) override;
 };
+
+#endif
