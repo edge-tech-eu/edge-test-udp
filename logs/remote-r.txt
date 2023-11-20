@@ -1,0 +1,222 @@
+[2023-11-18 15:31:13.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000019670 [app] INFO: WiFi (qqextender) cloud connected in 10 s (link: 5 s), (re)connected in 19 s
+[2023-11-18 15:31:13.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000019732 [app] INFO: State: 'wifi cloud connected' (previous: 'wifi cloud connecting')
+[2023-11-18 15:31:13.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000019671 [comm.coap] TRACE: Received CoAP message
+[2023-11-18 15:31:13.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000019736 [comm.coap] TRACE: CON POST /E/particle/device/updates/pending size=47 token=02 id=61055
+[2023-11-18 15:31:13.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000019739 [comm.coap] TRACE: Sending CoAP message
+[2023-11-18 15:31:13.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000019742 [comm.coap] TRACE: ACK 0.00  size=4 token= id=61055
+[2023-11-18 15:31:13.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000019756 [app] INFO: 1.0.0-20231118T161905-5.5.0-32-0a10aced202194944a004be0-qqextender
+[2023-11-18 15:31:13.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000019757 [app] INFO: remote logger is on
+[2023-11-18 15:31:13.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000019758 [app] INFO: Reset: Watchdog
+[2023-11-18 15:31:13.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000019760 [app] INFO: count = 15
+[2023-11-18 15:31:14.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000019847 [comm.coap] TRACE: Received CoAP message
+[2023-11-18 15:31:14.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000019850 [comm.coap] TRACE: CON GET /d?\x04 size=9 token=03 id=61056
+[2023-11-18 15:31:14.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000019853 [comm.protocol] INFO: Received DESCRIBE request; flags: 0x04
+[2023-11-18 15:31:14.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000019856 [comm.coap] TRACE: Sending CoAP message
+[2023-11-18 15:31:14.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000019859 [comm.coap] TRACE: ACK 0.00  size=4 token= id=61056
+[2023-11-18 15:31:14.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000019863 [comm.coap] TRACE: Sending CoAP message
+[2023-11-18 15:31:14.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000019866 [comm.coap] TRACE: CON 2.05  size=151 token=03 id=10
+[2023-11-18 15:31:14.1] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000019982 [comm.coap] TRACE: Received CoAP message
+[2023-11-18 15:31:14.1] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000019985 [comm.coap] TRACE: ACK 0.00  size=4 token= id=10
+[2023-11-18 15:31:14.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000020737 [app] INFO: count = 16
+[2023-11-18 15:31:15.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000021738 [app] INFO: count = 17
+[2023-11-18 15:31:16.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000022739 [app] INFO: count = 18
+[2023-11-18 15:31:17.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000023740 [app] INFO: count = 19
+[2023-11-18 15:31:18.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000024741 [app] INFO: count = 20
+[2023-11-18 15:31:19.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000025742 [app] INFO: count = 21
+[2023-11-18 15:31:20.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000026743 [app] INFO: count = 22
+[2023-11-18 15:31:21.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000027744 [app] INFO: count = 23
+[2023-11-18 15:31:22.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000028745 [app] INFO: count = 24
+[2023-11-18 15:31:23.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000029746 [app] INFO: count = 25
+[2023-11-18 15:31:24.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000030747 [app] INFO: count = 26
+[2023-11-18 15:31:25.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000031748 [app] INFO: count = 27
+[2023-11-18 15:31:26.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000032749 [app] INFO: count = 28
+[2023-11-18 15:31:27.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000033750 [app] INFO: count = 29
+[2023-11-18 15:31:28.1] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000033981 [comm.coap] TRACE: Sending CoAP message
+[2023-11-18 15:31:28.1] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000033984 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=8e id=11
+[2023-11-18 15:31:28.3] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000034099 [comm.coap] TRACE: Received CoAP message
+[2023-11-18 15:31:28.3] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000034102 [comm.coap] TRACE: ACK 0.00  size=5 token=8e id=11
+[2023-11-18 15:31:28.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000034751 [app] INFO: count = 30
+[2023-11-18 15:31:29.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000035752 [app] INFO: count = 31
+[2023-11-18 15:31:30.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000036753 [app] INFO: count = 32
+[2023-11-18 15:31:31.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000037754 [app] INFO: count = 33
+[2023-11-18 15:31:32.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000038755 [app] INFO: count = 34
+[2023-11-18 15:31:33.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000039756 [app] INFO: count = 35
+[2023-11-18 15:31:34.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000040757 [app] INFO: count = 36
+[2023-11-18 15:31:35.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000041758 [app] INFO: count = 37
+[2023-11-18 15:31:36.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000042759 [app] INFO: count = 38
+[2023-11-18 15:31:37.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000043760 [app] INFO: count = 39
+[2023-11-18 15:31:38.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000044761 [app] INFO: count = 40
+[2023-11-18 15:33:00.1] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000016840 [app] INFO: WiFi (qqextender) cloud connected in 8 s (link: 6 s), (re)connected in 16 s
+[2023-11-18 15:33:00.1] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000016858 [app] INFO: State: 'wifi cloud connected' (previous: 'wifi cloud connecting')
+[2023-11-18 15:33:00.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000017704 [comm.coap] TRACE: Received CoAP message
+[2023-11-18 15:33:00.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000017707 [comm.coap] TRACE: CON POST /E/particle/device/updates/pending size=47 token=01 id=61059
+[2023-11-18 15:33:00.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000017710 [comm.coap] TRACE: Sending CoAP message
+[2023-11-18 15:33:00.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000017713 [comm.coap] TRACE: ACK 0.00  size=4 token= id=61059
+[2023-11-18 15:33:01.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000017735 [comm.coap] TRACE: Received CoAP message
+[2023-11-18 15:33:01.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000017738 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=02 id=61060
+[2023-11-18 15:33:01.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000017741 [comm.coap] TRACE: Sending CoAP message
+[2023-11-18 15:33:01.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000017744 [comm.coap] TRACE: ACK 0.00  size=4 token= id=61060
+[2023-11-18 15:33:01.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000017751 [app] INFO: 1.0.0-20231118T161905-5.5.0-32-0a10aced202194944a004be0-qqextender
+[2023-11-18 15:33:01.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000017752 [app] INFO: remote logger is on
+[2023-11-18 15:33:01.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000017753 [app] INFO: Reset: Watchdog
+[2023-11-18 15:33:01.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000017755 [app] INFO: count = 13
+[2023-11-18 15:33:01.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000018729 [app] INFO: count = 14
+[2023-11-18 15:33:02.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000019730 [app] INFO: count = 15
+[2023-11-18 15:33:03.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000020731 [app] INFO: count = 16
+[2023-11-18 15:33:04.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000021732 [app] INFO: count = 17
+[2023-11-18 15:33:05.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000022733 [app] INFO: count = 18
+[2023-11-18 15:33:06.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000023734 [app] INFO: count = 19
+[2023-11-18 15:33:07.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000024735 [app] INFO: count = 20
+[2023-11-18 15:33:08.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000025736 [app] INFO: count = 21
+[2023-11-18 15:33:09.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000026737 [app] INFO: count = 22
+[2023-11-18 15:33:10.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000027738 [app] INFO: count = 23
+[2023-11-18 15:33:11.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000028739 [app] INFO: count = 24
+[2023-11-18 15:33:13.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000029740 [app] INFO: count = 25
+[2023-11-18 15:33:14.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000030741 [app] INFO: count = 26
+[2023-11-18 15:33:15.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000031742 [app] INFO: count = 27
+[2023-11-18 15:33:16.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000032743 [app] INFO: count = 28
+[2023-11-18 15:33:17.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000033744 [app] INFO: count = 29
+[2023-11-18 15:33:17.2] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000033975 [comm.coap] TRACE: Sending CoAP message
+[2023-11-18 15:33:17.2] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000033978 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=0e id=16
+[2023-11-18 15:33:17.3] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000034099 [comm.coap] TRACE: Received CoAP message
+[2023-11-18 15:33:17.3] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000034102 [comm.coap] TRACE: ACK 0.00  size=5 token=0e id=16
+[2023-11-18 15:33:18.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000034745 [app] INFO: count = 30
+[2023-11-18 15:33:19.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000035746 [app] INFO: count = 31
+[2023-11-18 15:33:20.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000036747 [app] INFO: count = 32
+[2023-11-18 15:33:21.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000037748 [app] INFO: count = 33
+[2023-11-18 15:33:22.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000038749 [app] INFO: count = 34
+[2023-11-18 15:33:23.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000039750 [app] INFO: count = 35
+[2023-11-18 15:33:24.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000040751 [app] INFO: count = 36
+[2023-11-18 15:33:25.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000041752 [app] INFO: count = 37
+[2023-11-18 15:33:26.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000042753 [app] INFO: count = 38
+[2023-11-18 15:33:27.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000043754 [app] INFO: count = 39
+[2023-11-18 15:33:28.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000044755 [app] INFO: count = 40
+[2023-11-18 15:33:29.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000045756 [app] INFO: count = 41
+[2023-11-18 15:33:30.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000046757 [app] INFO: count = 42
+[2023-11-18 15:33:31.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000047758 [app] INFO: count = 43
+[2023-11-18 15:33:32.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000048759 [app] INFO: count = 44
+[2023-11-18 15:33:33.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000049760 [app] INFO: count = 45
+[2023-11-18 15:33:34.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000050761 [app] INFO: count = 46
+[2023-11-18 15:33:35.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000051762 [app] INFO: count = 47
+[2023-11-18 15:33:36.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000052763 [app] INFO: count = 48
+[2023-11-18 15:33:37.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000053764 [app] INFO: count = 49
+[2023-11-18 15:33:38.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000054765 [app] INFO: count = 50
+[2023-11-18 15:33:39.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000055766 [app] INFO: count = 51
+[2023-11-18 15:33:40.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000056767 [app] INFO: count = 52
+[2023-11-18 15:34:59.1] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000015248 [app] INFO: WiFi (qqextender) cloud connected in 6 s (link: 5 s), (re)connected in 15 s
+[2023-11-18 15:34:59.1] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000015303 [app] INFO: State: 'wifi cloud connected' (previous: 'wifi cloud connecting')
+[2023-11-18 15:34:59.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000015741 [app] INFO: 1.0.0-20231118T161905-5.5.0-32-0a10aced202194944a004be0-qqextender
+[2023-11-18 15:34:59.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000015742 [app] INFO: remote logger is on
+[2023-11-18 15:34:59.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000015744 [app] INFO: Reset: Watchdog
+[2023-11-18 15:34:59.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000015745 [app] INFO: count = 11
+[2023-11-18 15:34:59.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000016126 [comm.coap] TRACE: Received CoAP message
+[2023-11-18 15:34:59.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000016129 [comm.coap] TRACE: CON POST /E/particle/device/updates/pending size=47 token=01 id=61063
+[2023-11-18 15:34:59.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000016132 [comm.coap] TRACE: Sending CoAP message
+[2023-11-18 15:34:59.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000016135 [comm.coap] TRACE: ACK 0.00  size=4 token= id=61063
+[2023-11-18 15:34:59.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000016154 [comm.coap] TRACE: Received CoAP message
+[2023-11-18 15:34:59.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000016157 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=02 id=61064
+[2023-11-18 15:34:59.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000016160 [comm.coap] TRACE: Sending CoAP message
+[2023-11-18 15:34:59.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000016163 [comm.coap] TRACE: ACK 0.00  size=4 token= id=61064
+[2023-11-18 15:35:00.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000016727 [app] INFO: count = 12
+[2023-11-18 15:35:01.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000017728 [app] INFO: count = 13
+[2023-11-18 15:35:02.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000018729 [app] INFO: count = 14
+[2023-11-18 15:35:03.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000019730 [app] INFO: count = 15
+[2023-11-18 15:35:04.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000020731 [app] INFO: count = 16
+[2023-11-18 15:35:05.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000021732 [app] INFO: count = 17
+[2023-11-18 15:35:06.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000022733 [app] INFO: count = 18
+[2023-11-18 15:35:07.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000023734 [app] INFO: count = 19
+[2023-11-18 15:35:08.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000024735 [app] INFO: count = 20
+[2023-11-18 15:35:09.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000025736 [app] INFO: count = 21
+[2023-11-18 15:35:10.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000026737 [app] INFO: count = 22
+[2023-11-18 15:35:11.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000027738 [app] INFO: count = 23
+[2023-11-18 15:35:12.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000028739 [app] INFO: count = 24
+[2023-11-18 15:35:13.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000029740 [app] INFO: count = 25
+[2023-11-18 15:35:14.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000030741 [app] INFO: count = 26
+[2023-11-18 15:35:15.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000031742 [app] INFO: count = 27
+[2023-11-18 15:35:16.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000032743 [app] INFO: count = 28
+[2023-11-18 15:35:17.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000033744 [app] INFO: count = 29
+[2023-11-18 15:35:17.7] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000033970 [comm.coap] TRACE: Sending CoAP message
+[2023-11-18 15:35:17.7] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000033973 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=02 id=21
+[2023-11-18 15:35:17.8] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000034091 [comm.coap] TRACE: Received CoAP message
+[2023-11-18 15:35:17.8] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000034095 [comm.coap] TRACE: ACK 0.00  size=5 token=02 id=21
+[2023-11-18 15:35:18.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000034745 [app] INFO: count = 30
+[2023-11-18 15:35:19.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000035746 [app] INFO: count = 31
+[2023-11-18 15:35:20.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000036747 [app] INFO: count = 32
+[2023-11-18 15:35:21.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000037748 [app] INFO: count = 33
+[2023-11-18 15:35:22.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000038749 [app] INFO: count = 34
+[2023-11-18 15:35:23.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000039750 [app] INFO: count = 35
+[2023-11-18 15:35:24.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000040751 [app] INFO: count = 36
+[2023-11-18 15:35:25.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000041752 [app] INFO: count = 37
+[2023-11-18 15:35:26.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000042753 [app] INFO: count = 38
+[2023-11-18 15:35:27.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000043754 [app] INFO: count = 39
+[2023-11-18 15:35:28.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000044755 [app] INFO: count = 40
+[2023-11-18 15:35:29.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000045756 [app] INFO: count = 41
+[2023-11-18 15:35:30.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000046757 [app] INFO: count = 42
+[2023-11-18 15:35:31.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000047758 [app] INFO: count = 43
+[2023-11-18 15:35:32.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000048759 [app] INFO: count = 44
+[2023-11-18 15:35:33.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000049760 [app] INFO: count = 45
+[2023-11-18 15:35:34.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000050761 [app] INFO: count = 46
+[2023-11-18 15:35:35.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000051762 [app] INFO: count = 47
+[2023-11-18 15:35:36.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000052763 [app] INFO: count = 48
+[2023-11-18 15:35:37.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000053764 [app] INFO: count = 49
+[2023-11-18 15:35:38.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000054765 [app] INFO: count = 50
+[2023-11-18 15:35:39.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000055766 [app] INFO: count = 51
+[2023-11-18 15:35:40.5] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000056767 [app] INFO: count = 52
+[2023-11-18 15:37:01.1] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000016794 [app] INFO: WiFi (qqextender) cloud connected in 8 s (link: 6 s), (re)connected in 16 s
+[2023-11-18 15:37:01.1] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000016813 [app] INFO: State: 'wifi cloud connected' (previous: 'wifi cloud connecting')
+[2023-11-18 15:37:01.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000017618 [comm.coap] TRACE: Received CoAP message
+[2023-11-18 15:37:01.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000017621 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=61067
+[2023-11-18 15:37:01.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000017625 [comm.coap] TRACE: Sending CoAP message
+[2023-11-18 15:37:01.9] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000017628 [comm.coap] TRACE: ACK 0.00  size=4 token= id=61067
+[2023-11-18 15:37:02.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000017676 [comm.coap] TRACE: Received CoAP message
+[2023-11-18 15:37:02.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000017679 [comm.coap] TRACE: CON POST /E/particle/device/updates/pending size=47 token=02 id=61068
+[2023-11-18 15:37:02.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000017682 [comm.coap] TRACE: Sending CoAP message
+[2023-11-18 15:37:02.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000017685 [comm.coap] TRACE: ACK 0.00  size=4 token= id=61068
+[2023-11-18 15:37:02.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000017745 [app] INFO: 1.0.0-20231118T161905-5.5.0-32-0a10aced202194944a004be0-qqextender
+[2023-11-18 15:37:02.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000017747 [app] INFO: remote logger is on
+[2023-11-18 15:37:02.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000017748 [app] INFO: Reset: Watchdog
+[2023-11-18 15:37:02.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000017749 [app] INFO: count = 13
+[2023-11-18 15:37:03.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000018732 [app] INFO: count = 14
+[2023-11-18 15:37:04.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000019733 [app] INFO: count = 15
+[2023-11-18 15:37:05.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000020734 [app] INFO: count = 16
+[2023-11-18 15:37:06.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000021735 [app] INFO: count = 17
+[2023-11-18 15:37:07.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000022736 [app] INFO: count = 18
+[2023-11-18 15:37:08.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000023737 [app] INFO: count = 19
+[2023-11-18 15:37:09.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000024738 [app] INFO: count = 20
+[2023-11-18 15:37:10.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000025739 [app] INFO: count = 21
+[2023-11-18 15:37:11.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000026740 [app] INFO: count = 22
+[2023-11-18 15:37:12.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000027741 [app] INFO: count = 23
+[2023-11-18 15:37:13.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000028742 [app] INFO: count = 24
+[2023-11-18 15:37:14.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000029743 [app] INFO: count = 25
+[2023-11-18 15:37:15.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000030744 [app] INFO: count = 26
+[2023-11-18 15:37:16.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000031745 [app] INFO: count = 27
+[2023-11-18 15:37:17.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000032746 [app] INFO: count = 28
+[2023-11-18 15:37:18.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000033747 [app] INFO: count = 29
+[2023-11-18 15:37:18.3] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000033981 [comm.coap] TRACE: Sending CoAP message
+[2023-11-18 15:37:18.3] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000033984 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=26 id=26
+[2023-11-18 15:37:18.4] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000034102 [comm.coap] TRACE: Received CoAP message
+[2023-11-18 15:37:18.4] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000034105 [comm.coap] TRACE: ACK 0.00  size=5 token=26 id=26
+[2023-11-18 15:37:19.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000034748 [app] INFO: count = 30
+[2023-11-18 15:37:20.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000035749 [app] INFO: count = 31
+[2023-11-18 15:37:21.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000036750 [app] INFO: count = 32
+[2023-11-18 15:37:22.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000037751 [app] INFO: count = 33
+[2023-11-18 15:37:23.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000038752 [app] INFO: count = 34
+[2023-11-18 15:37:24.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000039753 [app] INFO: count = 35
+[2023-11-18 15:37:25.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000040754 [app] INFO: count = 36
+[2023-11-18 15:37:26.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000041755 [app] INFO: count = 37
+[2023-11-18 15:37:27.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000042756 [app] INFO: count = 38
+[2023-11-18 15:37:28.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000043757 [app] INFO: count = 39
+[2023-11-18 15:37:29.1] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000044758 [app] INFO: count = 40
+[2023-11-18 15:37:30.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000045759 [app] INFO: count = 41
+[2023-11-18 15:37:31.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000046760 [app] INFO: count = 42
+[2023-11-18 15:37:32.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000047761 [app] INFO: count = 43
+[2023-11-18 15:37:33.0] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000048762 [app] INFO: count = 44
+[2023-11-18 15:37:34.1] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000049763 [app] INFO: count = 45
+[2023-11-18 15:37:35.1] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000050764 [app] INFO: count = 46
+[2023-11-18 15:37:36.1] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000051765 [app] INFO: count = 47
+[2023-11-18 15:37:37.1] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000052766 [app] INFO: count = 48
+[2023-11-18 15:37:38.1] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000053767 [app] INFO: count = 49
+[2023-11-18 15:37:39.1] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000054768 [app] INFO: count = 50
+[2023-11-18 15:37:40.1] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000055769 [app] INFO: count = 51
+[2023-11-18 15:37:41.1] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000056770 [app] INFO: count = 52
+[2023-11-18 15:37:42.1] [/217.123.15.160] [0a10aced202194944a004be0] [connectivity] 0000057771 [app] INFO: count = 53

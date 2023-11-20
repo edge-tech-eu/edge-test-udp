@@ -1,0 +1,61 @@
+
+**** Port Open
+.....
+STA: 192.168.1.158 (dns: 192.168.1.1 / (IP unset))
+AP: 172.217.28.254
+Heap before: 48152
+ip_napt_init(1000,10): ret=0 (OK=0)
+ip_napt_enable_no(SOFTAP_IF): ret=0 (OK=0)
+WiFi Network 'qqextender' with same password is now NATed behind 'qq'
+Heap after napt init: 23936
+clients = 0
+clients = 1
+disconnecting
+clients = 0
+disconnected
+reconnecting
+clients = 0
+connected
+clients = 1
+disconnecting
+clients = 0
+disconnected
+reconnecting
+clients = 0
+connected
+clients = 1
+disconnecting
+clients = 0
+disconnected
+reconnecting
+clients = 0
+connected
+clients = 1
+disconnecting
+clients = 0
+disconnected
+reconnecting
+clients = 0
+connected
+clients = 1
+disconnecting
+clients = 0
+disconnected
+reconnecting
+clients = 0
+connected
+clients = 1
+disconnecting
+clients = 0
+disconnected
+reconnecting
+clients = 0
+connected
+clients = 1
+disconnecting
+clients = 0
+disconnected
+reconnecting
+clients = 0
+connected
+clients = 1

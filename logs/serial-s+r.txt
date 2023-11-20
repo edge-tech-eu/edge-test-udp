@@ -1,0 +1,1618 @@
+#0000003928 [app] INFO: 1.0.0-20231118T155731-5.5.0-32-0a10aced202194944a004be0
+0000003931 [app] INFO: serial logger is on
+0000003935 [app] INFO: remote logger is on
+0000003939 [app] INFO: Reset: Power down
+0000003944 [app] INFO: Connecting Ethernet
+0000003946 [app] INFO: timeout set to 5000 ms
+0000003951 [app] INFO: State: 'eth connecting' (previous: 'unknown')
+0000003950 [system.nm] INFO: State changed: DISABLED -> IFACE_DOWN
+0000003971 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000003981 [net.ifapi] INFO: Netif en2 state UP
+0000004222 [net.en] TRACE: Closed MACRAW socket
+0000004269 [net.en] TRACE: Opened MACRAW socket, err = 0
+0000004271 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000004944 [app] INFO: count = 0
+0000005945 [app] INFO: count = 1
+0000006946 [app] INFO: count = 2
+0000007947 [app] INFO: count = 3
+0000008948 [app] INFO: count = 4
+0000008952 [app] INFO: timed out
+0000008954 [app] INFO: Ethernet network connecting takes too long (disconnect)
+0000008956 [net.ifapi] INFO: Netif en2 state DOWN
+0000008963 [hal] INFO: DNS server list changed
+0000008967 [hal] INFO: DNS server list changed
+0000008975 [app] INFO: State: 'wifi connect' (previous: 'eth connecting')
+0000009004 [net.en] TRACE: Closed MACRAW socket
+0000009010 [system.nm] INFO: State changed: IFACE_UP -> IFACE_REQUEST_DOWN
+0000009016 [system.nm] INFO: State changed: IFACE_REQUEST_DOWN -> IFACE_DOWN
+0000009014 [app] INFO: found 1 credentials
+0000009027 [app] INFO: ssid: qqextender
+0000009032 [app] INFO: Connecting WiFi
+0000009034 [app] INFO: timeout set to 60000 ms
+0000009039 [app] INFO: State: 'wifi connecting' (previous: 'wifi connect')
+0000009041 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000009059 [net.ifapi] INFO: Netif wl3 state UP
+0000009062 [net.rltkncp] TRACE: NCP event 3
+0000009064 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_POWERING_UP
+0000009068 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000009079 [system.nm] TRACE: Interface 4 power state changed: 4
+0000009084 [hal] INFO: WiFi is already on
+0000009087 [net.rltkncp] TRACE: NCP event 3
+0000009091 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000009098 [system.nm] TRACE: Interface 4 power state changed: 2
+0000009103 [ncp.rltk.client] INFO: rltkOff
+0000009108 [ncp.rltk.client] INFO: rltkOff done
+0000009112 [net.rltkncp] TRACE: NCP event 3
+0000009116 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_DOWN
+0000009122 [system.nm] TRACE: Interface 4 power state changed: 1
+0000009128 [hal] INFO: WiFi is already on
+0000009131 [net.rltkncp] TRACE: NCP event 3
+0000009135 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000009142 [system.nm] TRACE: Interface 4 power state changed: 2
+0000009148 [ncp.rltk.client] TRACE: NCP state changed: 1
+0000009154 [net.rltkncp] TRACE: NCP event 1
+0000009158 [ncp.rltk.client] INFO: Try to connect to ssid: qqextender
+0000009163 [net.lwip_rltk] INFO: is_promisc_enabled
+0000009168 [net.lwip_rltk] INFO: get_eap_phase
+0000009949 [app] INFO: count = 5
+0000010950 [app] INFO: count = 6
+0000011951 [app] INFO: count = 7
+0000012952 [app] INFO: count = 8
+0000013861 [net.lwip_rltk] INFO: get_eap_phase
+0000013953 [app] INFO: count = 9
+0000014954 [app] INFO: count = 10
+0000015955 [app] INFO: count = 11
+0000016956 [app] INFO: count = 12
+0000017957 [app] INFO: count = 13
+0000018070 [ncp.rltk.client] INFO: disconnected
+0000018572 [ncp.rltk.client] INFO: Try to connect to ssid: qqextender
+0000018575 [net.lwip_rltk] INFO: is_promisc_enabled
+0000018579 [net.lwip_rltk] INFO: get_eap_phase
+0000018958 [app] INFO: count = 14
+0000019959 [app] INFO: count = 15
+0000020960 [app] INFO: count = 16
+0000021961 [app] INFO: count = 17
+0000022788 [net.lwip_rltk] INFO: get_eap_phase
+0000022962 [app] INFO: count = 18
+0000023027 [net.lwip_rltk] INFO: get_eap_phase
+0000023043 [ncp.rltk.client] TRACE: NCP connection state changed: 2
+0000023045 [net.rltkncp] TRACE: NCP event 2
+0000023049 [net.rltkncp] TRACE: State changed event: 2
+0000023054 [net.ifapi] INFO: Netif wl3 link UP, profile=qqextender
+0000023067 [system.nm] INFO: State changed: IFACE_UP -> IFACE_LINK_UP
+0000023305 [hal] INFO: DNS server list changed
+0000023309 [net.ifapi] TRACE: Netif wl3 ipv4 configuration changed
+0000023312 [system.nm] INFO: State changed: IFACE_LINK_UP -> IP_CONFIGURED
+0000023319 [app] INFO: WiFi network (qqextender) connected in 14 s
+0000023324 [app] INFO: WiFi IP address: 172.217.28.97
+0000023329 [app] INFO: timeout set to 180000 ms
+0000023332 [app] INFO: State: 'wifi cloud connecting' (previous: 'wifi connecting')
+0000023428 [system] INFO: Cloud: connecting
+0000023435 [system] INFO: Read Server Address = type:1,domain:$id.udp.particle.io
+0000023441 [system] INFO: Loaded cloud server address and port from session data
+0000023447 [system] TRACE: Address type: 1
+0000023453 [system] TRACE: Cloud socket=0, family=2, type=2, protocol=17
+0000023459 [system] INFO: Cloud socket=0, connecting to 3.215.122.234#5684
+0000023465 [system] TRACE: Cloud socket=0, connected to 3.215.122.234#5684
+0000023473 [system] TRACE: Updating cloud keepalive for AF_INET: 25000 -> 25000
+0000023482 [system] TRACE: Applying new keepalive interval now
+0000023487 [system] INFO: Cloud socket connected
+0000023493 [system] INFO: Starting handshake: presense_announce=0
+0000023499 [comm.protocol.handshake] INFO: Establish secure connection
+0000023507 [comm.dtls] INFO: session has 0 uses
+0000023518 [comm.dtls] INFO: (CMPL,RENEG,NO_SESS,ERR) restoreStatus=0
+0000023523 [comm.dtls] INFO: out_ctr 0,1,0,0,0,0,1,78, next_coap_id=2b25
+0000023531 [comm.dtls] INFO: restored session from persisted session data. next_msg_id=11045
+0000023539 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 2
+0000023963 [app] INFO: count = 19
+0000024411 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000024416 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 3
+0000024422 [comm.protocol.handshake] INFO: Sending HELLO message
+0000024428 [comm.coap] TRACE: Sending CoAP message
+0000024436 [comm.coap] TRACE: CON POST /h size=39 token= id=11046
+0000024575 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000024581 [comm.coap] TRACE: Received CoAP message
+0000024585 [comm.coap] TRACE: ACK 0.00  size=4 token= id=11046
+0000024591 [comm.protocol.handshake] INFO: Handshake completed
+0000024597 [comm.protocol.handshake] TRACE: Updating cached session parameters
+0000024603 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000024610 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 3
+0000024964 [app] INFO: count = 20
+0000025355 [comm.coap] TRACE: Sending CoAP message
+0000025361 [comm.coap] TRACE: CON POST /d?\x01 size=179 token=ff id=11047
+0000025375 [system] INFO: Send spark/device/last_reset event
+0000025383 [comm.coap] TRACE: Sending CoAP message
+0000025387 [comm.coap] TRACE: CON POST /E/spark/device/last_reset size=42 token= id=11048
+0000025398 [comm.coap] TRACE: Sending CoAP message
+0000025402 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=11049
+0000025413 [comm.coap] TRACE: Sending CoAP message
+0000025417 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=11050
+0000025430 [comm] INFO: Sending TIME request
+0000025436 [comm.coap] TRACE: Sending CoAP message
+0000025440 [comm.coap] TRACE: CON GET /t size=7 token=00 id=11051
+0000025447 [system] INFO: Sending application DESCRIBE
+0000025452 [comm.coap] TRACE: Sending CoAP message
+0000025457 [comm.coap] TRACE: CON POST /d?\x02 size=25 token=01 id=11052
+0000025466 [system] INFO: Sending subscriptions
+0000025470 [comm.protocol] INFO: Sending subscriptions
+0000025476 [comm.coap] TRACE: Sending CoAP message
+0000025484 [comm.coap] TRACE: CON GET /e/particle?u size=17 token= id=11053
+0000025494 [comm.coap] TRACE: Sending CoAP message
+0000025499 [comm.coap] TRACE: CON GET /e/spark?u size=14 token= id=11054
+0000025507 [system] TRACE: Waiting until all handshake messages are processed by the protocol layer
+0000025517 [comm.coap] TRACE: Received CoAP message
+0000025523 [comm.coap] TRACE: ACK 0.00  size=5 token=ff id=11047
+0000025528 [comm.protocol] TRACE: Updating system DESCRIBE checksum
+0000025534 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000025965 [app] INFO: count = 21
+0000026378 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 3
+0000026388 [comm.coap] TRACE: Received CoAP message
+0000026394 [comm.coap] TRACE: ACK 0.00  size=4 token= id=11048
+0000026500 [comm.coap] TRACE: Received CoAP message
+0000026504 [comm.coap] TRACE: ACK 0.00  size=4 token= id=11049
+0000026530 [comm.coap] TRACE: Received CoAP message
+0000026536 [comm.coap] TRACE: ACK 0.00  size=4 token= id=11050
+0000026644 [comm.coap] TRACE: Received CoAP message
+0000026648 [comm.coap] TRACE: ACK 2.05  size=10 token=00 id=11051
+0000026653 [comm.protocol] INFO: Received TIME response: 1700319621
+0000026759 [comm.coap] TRACE: Received CoAP message
+0000026763 [comm.coap] TRACE: ACK 0.00  size=5 token=01 id=11052
+0000026770 [comm.protocol] TRACE: Updating application DESCRIBE checksum
+0000026775 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000026781 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 3
+0000026887 [comm.coap] TRACE: Received CoAP message
+0000026891 [comm.coap] TRACE: ACK 0.00  size=4 token= id=11053
+0000026966 [app] INFO: count = 22
+0000026997 [comm.coap] TRACE: Received CoAP message
+0000027001 [comm.coap] TRACE: ACK 0.00  size=4 token= id=11054
+0000027007 [system] INFO: All handshake messages have been processed
+0000027013 [comm.protocol] TRACE: Updating subscriptions checksum
+0000027021 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000027027 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 3
+0000027133 [comm.coap] TRACE: Received CoAP message
+0000027140 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=48894
+0000027146 [comm.coap] TRACE: Sending CoAP message
+0000027151 [comm.coap] TRACE: ACK 0.00  size=4 token= id=48894
+0000027159 [system] INFO: Cloud connected
+0000027166 [app] INFO: WiFi (qqextender) cloud connected in 18 s (link: 14 s), (re)connected in 27 s
+0000027221 [app] INFO: State: 'wifi cloud connected' (previous: 'wifi cloud connecting')
+0000027167 [comm.coap] TRACE: Received CoAP message
+0000027231 [comm.coap] TRACE: CON POST /E/particle/device/updates/pending size=47 token=02 id=48895
+0000027244 [comm.coap] TRACE: Sending CoAP message
+0000027249 [comm.coap] TRACE: ACK 0.00  size=4 token= id=48895
+0000027982 [app] INFO: 1.0.0-20231118T155731-5.5.0-32-0a10aced202194944a004be0-qqextender
+0000027986 [app] INFO: serial logger is on
+0000027990 [app] INFO: remote logger is on
+0000027993 [app] INFO: Reset: Power down
+0000027997 [app] INFO: count = 23
+0000028968 [app] INFO: count = 24
+0000029969 [app] INFO: count = 25
+0000030970 [app] INFO: count = 26
+0000031971 [app] INFO: count = 27
+0000032972 [app] INFO: count = 28
+0000033973 [app] INFO: count = 29
+0000034200 [comm.coap] TRACE: Sending CoAP message
+0000034206 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=02 id=11055
+0000034325 [comm.coap] TRACE: Received CoAP message
+0000034330 [comm.coap] TRACE: ACK 0.00  size=5 token=02 id=11055
+0000034974 [app] INFO: count = 30
+0000035975 [app] INFO: count = 31
+0000036976 [app] INFO: count = 32
+0000037977 [app] INFO: count = 33
+0000038978 [app] INFO: count = 34
+0000039979 [app] INFO: count = 35
+0000040980 [app] INFO: count = 36
+0000041981 [app] INFO: count = 37
+0000042982 [app] INFO: count = 38
+0000043983 [app] INFO: count = 39
+0000044984 [app] INFO: count = 40
+0000045985 [app] INFO: count = 41
+0000046986 [app] INFO: count = 42
+0000047987 [app] INFO: count = 43
+0000048988 [app] INFO: count = 44
+0000049989 [app] INFO: count = 45
+0000050990 [app] INFO: count = 46
+0000051991 [app] INFO: count = 47
+0000052992 [app] INFO: count = 48
+0000053993 [app] INFO: count = 49
+0000054994 [app] INFO: count = 50
+0000055995 [app] INFO: count = 51
+0000056996 [app] INFO: count = 52
+0000057997 [app] INFO: count = 53
+0000058998 [app] INFO: count = 54
+0000059366 [comm.coap] TRACE: Sending CoAP message
+0000059371 [comm.coap] TRACE: CON 0.00  size=4 token= id=11056
+0000059492 [comm.coap] TRACE: Received CoAP message
+0000059497 [comm.coap] TRACE: ACK 0.00  size=4 token= id=11056
+0000059999 [app] INFO: count = 55
+0000061000 [app] INFO: count = 56
+0000061038 [comm.coap] TRACE: Received CoAP message
+0000061044 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=48897
+0000061051 [comm.coap] TRACE: Sending CoAP message
+0000061056 [comm.coap] TRACE: ACK 0.00  size=4 token= id=48897
+0000062001 [app] INFO: count = 57
+0000063002 [app] INFO: count = 58
+0000064003 [app] INFO: count = 59
+0000064200 [comm.coap] TRACE: Sending CoAP message
+0000064205 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=03 id=11057
+0000064327 [comm.coap] TRACE: Received CoAP message
+0000064332 [comm.coap] TRACE: ACK 0.00  size=5 token=03 id=11057
+0000065004 [app] INFO: count = 60
+0000066005 [app] INFO: count = 61
+0000067006 [app] INFO: count = 62
+0000068007 [app] INFO: count = 63
+0000069008 [app] INFO: count = 64
+0000070009 [app] INFO: count = 65
+0000071010 [app] INFO: count = 66
+0000072011 [app] INFO: count = 67
+0000073012 [app] INFO: count = 68
+0000074013 [app] INFO: count = 69
+0000075014 [app] INFO: count = 70
+0000076015 [app] INFO: count = 71
+0000077016 [app] INFO: count = 72
+0000078017 [app] INFO: count = 73
+0000079018 [app] INFO: count = 74
+0000080019 [app] INFO: count = 75
+0000081020 [app] INFO: count = 76
+0000082021 [app] INFO: count = 77
+0000083022 [app] INFO: count = 78
+0000084023 [app] INFO: count = 79
+0000085024 [app] INFO: count = 80
+0000086025 [app] INFO: count = 81
+0000087026 [app] INFO: count = 82
+0000088027 [app] INFO: count = 83
+0000089028 [app] INFO: count = 84
+0000089364 [comm.coap] TRACE: Sending CoAP message
+0000089370 [comm.coap] TRACE: CON 0.00  size=4 token= id=11058
+0000089487 [comm.coap] TRACE: Received CoAP message
+0000089494 [comm.coap] TRACE: ACK 0.00  size=4 token= id=11058
+0000090029 [app] INFO: count = 85
+0000090527 [comm.coap] TRACE: Received CoAP message
+0000090533 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=48899
+0000090539 [comm.coap] TRACE: Sending CoAP message
+0000090544 [comm.coap] TRACE: ACK 0.00  size=4 token= id=48899
+0000090591 [comm.coap] TRACE: Received CoAP message
+0000090596 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=02 id=48900
+0000090601 [comm.coap] TRACE: Sending CoAP message
+0000090606 [comm.coap] TRACE: ACK 0.00  size=4 token= id=48900
+0000091030 [app] INFO: count = 86
+0000092031 [app] INFO: count = 87
+0000093032 [app] INFO: count = 88
+0000094033 [app] INFO: count = 89
+0000094200 [comm.coap] TRACE: Sending CoAP message
+0000094206 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=04 id=11059
+0000094332 [comm.coap] TRACE: Received CoAP message
+0000094337 [comm.coap] TRACE: ACK 0.00  size=5 token=04 id=11059
+0000095034 [app] INFO: count = 90
+0000096035 [app] INFO: count = 91
+0000097036 [app] INFO: count = 92
+0000098037 [app] INFO: count = 93
+0000099038 [app] INFO: count = 94
+0000100039 [app] INFO: count = 95
+0000100480 [ncp.rltk.client] INFO: disconnected
+0000100482 [ncp.rltk.client] TRACE: NCP connection state changed: 0
+0000100486 [net.rltkncp] TRACE: NCP event 2
+0000100491 [net.rltkncp] TRACE: State changed event: 0
+0000100495 [net.ifapi] INFO: Netif wl3 link DOWN, profile=NONE
+0000100501 [net.rltkncp] ERROR: linkOutput up=1 link_up=0
+0000100506 [net.ifapi] TRACE: Netif wl3 ipv4 configuration changed
+0000100512 [system.nm] INFO: State changed: IP_CONFIGURED -> IFACE_LINK_UP
+0000100519 [hal] INFO: DNS server list changed
+0000100524 [hal] INFO: DNS server list changed
+0000100530 [system.nm] INFO: State changed: IFACE_LINK_UP -> IFACE_UP
+0000100586 [ncp.rltk.client] INFO: Try to connect to ssid: qqextender
+0000100590 [net.lwip_rltk] INFO: is_promisc_enabled
+0000100594 [net.lwip_rltk] INFO: get_eap_phase
+0000101040 [app] INFO: count = 96
+0000102041 [app] INFO: count = 97
+0000102707 [comm] INFO: Forcing a cloud ping
+0000102712 [comm.coap] TRACE: Sending CoAP message
+0000102716 [comm.coap] TRACE: CON 0.00  size=4 token= id=11060
+0000102723 [system] ERROR: sock_send returned -1 118
+0000102728 [comm.dtls] ERROR: mbedtls_ssl_write() failed: -0x4e
+0000102734 [system] ERROR: sock_send returned -1 118
+0000102740 [comm.dtls] ERROR: mbedtls_ssl_read() failed: -0x4e
+0000102744 [comm.protocol] ERROR: Event loop error 34
+0000102750 [system] WARN: Communication loop error, closing cloud socket
+0000102756 [system] INFO: Cloud: disconnecting
+0000102761 [system] INFO: Cloud: disconnected
+0000102762 [app] INFO: WiFi cloud disconnected (after 75 s), try Ethernet
+#0000003706 [app] INFO: 1.0.0-20231118T155731-5.5.0-32-0a10aced202194944a004be0
+0000003708 [app] INFO: serial logger is on
+0000003712 [app] INFO: remote logger is on
+0000003716 [app] INFO: Reset: Watchdog
+0000003720 [app] INFO: Connecting Ethernet
+0000003724 [app] INFO: timeout set to 5000 ms
+0000003728 [app] INFO: State: 'eth connecting' (previous: 'unknown')
+0000003727 [system.nm] INFO: State changed: DISABLED -> IFACE_DOWN
+0000003748 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000003758 [net.ifapi] INFO: Netif en2 state UP
+0000004001 [net.en] TRACE: Closed MACRAW socket
+0000004048 [net.en] TRACE: Opened MACRAW socket, err = 0
+0000004051 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000004721 [app] INFO: count = 0
+0000005722 [app] INFO: count = 1
+0000006723 [app] INFO: count = 2
+0000007724 [app] INFO: count = 3
+0000008725 [app] INFO: count = 4
+0000008729 [app] INFO: timed out
+0000008731 [app] INFO: Ethernet network connecting takes too long (disconnect)
+0000008735 [app] INFO: State: 'wifi connect' (previous: 'eth connecting')
+0000008734 [net.ifapi] INFO: Netif en2 state DOWN
+0000008747 [hal] INFO: DNS server list changed
+0000008751 [hal] INFO: DNS server list changed
+0000008788 [net.en] TRACE: Closed MACRAW socket
+0000008791 [system.nm] INFO: State changed: IFACE_UP -> IFACE_REQUEST_DOWN
+0000008795 [system.nm] INFO: State changed: IFACE_REQUEST_DOWN -> IFACE_DOWN
+0000008792 [app] INFO: found 1 credentials
+0000008806 [app] INFO: ssid: qqextender
+0000008811 [app] INFO: Connecting WiFi
+0000008813 [app] INFO: timeout set to 60000 ms
+0000008818 [app] INFO: State: 'wifi connecting' (previous: 'wifi connect')
+0000008820 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000008837 [net.ifapi] INFO: Netif wl3 state UP
+0000008839 [net.rltkncp] TRACE: NCP event 3
+0000008841 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_POWERING_UP
+0000008846 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000008857 [system.nm] TRACE: Interface 4 power state changed: 4
+0000008861 [hal] INFO: WiFi is already on
+0000008865 [net.rltkncp] TRACE: NCP event 3
+0000008869 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000008876 [system.nm] TRACE: Interface 4 power state changed: 2
+0000008881 [ncp.rltk.client] INFO: rltkOff
+0000008886 [ncp.rltk.client] INFO: rltkOff done
+0000008890 [net.rltkncp] TRACE: NCP event 3
+0000008893 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_DOWN
+0000008900 [system.nm] TRACE: Interface 4 power state changed: 1
+0000008905 [hal] INFO: WiFi is already on
+0000008909 [net.rltkncp] TRACE: NCP event 3
+0000008913 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000008920 [system.nm] TRACE: Interface 4 power state changed: 2
+0000008926 [ncp.rltk.client] TRACE: NCP state changed: 1
+0000008930 [net.rltkncp] TRACE: NCP event 1
+0000008936 [ncp.rltk.client] INFO: Try to connect to ssid: qqextender
+0000008941 [net.lwip_rltk] INFO: is_promisc_enabled
+0000008946 [net.lwip_rltk] INFO: get_eap_phase
+0000009726 [app] INFO: count = 5
+0000010727 [app] INFO: count = 6
+0000011728 [app] INFO: count = 7
+0000012729 [app] INFO: count = 8
+0000013639 [net.lwip_rltk] INFO: get_eap_phase
+0000013730 [app] INFO: count = 9
+0000013853 [net.lwip_rltk] INFO: get_eap_phase
+0000013868 [ncp.rltk.client] TRACE: NCP connection state changed: 2
+0000013870 [net.rltkncp] TRACE: NCP event 2
+0000013874 [net.rltkncp] TRACE: State changed event: 2
+0000013879 [net.ifapi] INFO: Netif wl3 link UP, profile=qqextender
+0000013893 [system.nm] INFO: State changed: IFACE_UP -> IFACE_LINK_UP
+0000014053 [hal] INFO: DNS server list changed
+0000014057 [net.ifapi] TRACE: Netif wl3 ipv4 configuration changed
+0000014059 [system.nm] INFO: State changed: IFACE_LINK_UP -> IP_CONFIGURED
+0000014066 [app] INFO: WiFi network (qqextender) connected in 5 s
+0000014071 [app] INFO: WiFi IP address: 172.217.28.97
+0000014077 [app] INFO: timeout set to 180000 ms
+0000014081 [app] INFO: State: 'wifi cloud connecting' (previous: 'wifi connecting')
+0000014176 [system] INFO: Cloud: connecting
+0000014182 [system] INFO: Read Server Address = type:1,domain:$id.udp.particle.io
+0000014189 [system] INFO: Loaded cloud server address and port from session data
+0000014197 [system] TRACE: Address type: 1
+0000014202 [system] TRACE: Cloud socket=0, family=2, type=2, protocol=17
+0000014208 [system] INFO: Cloud socket=0, connecting to 3.215.122.234#5684
+0000014215 [system] TRACE: Cloud socket=0, connected to 3.215.122.234#5684
+0000014221 [system] TRACE: Updating cloud keepalive for AF_INET: 25000 -> 25000
+0000014228 [system] TRACE: Applying new keepalive interval now
+0000014235 [system] INFO: Cloud socket connected
+0000014240 [system] INFO: Starting handshake: presense_announce=0
+0000014247 [comm.protocol.handshake] INFO: Establish secure connection
+0000014255 [comm.dtls] INFO: session has 0 uses
+0000014264 [comm.dtls] INFO: (CMPL,RENEG,NO_SESS,ERR) restoreStatus=0
+0000014271 [comm.dtls] INFO: out_ctr 0,1,0,0,0,0,1,97, next_coap_id=2b33
+0000014279 [comm.dtls] INFO: restored session from persisted session data. next_msg_id=11059
+0000014287 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 2
+0000014731 [app] INFO: count = 10
+0000015158 [comm.protocol.handshake] INFO: Skipping HELLO message
+0000015165 [comm.coap] TRACE: Sending CoAP message
+0000015173 [comm.coap] TRACE: CON 0.00  size=4 token= id=11060
+0000015182 [system] INFO: cloud connected from existing session.
+0000015189 [comm.coap] TRACE: Sending CoAP message
+0000015194 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=11061
+0000015204 [comm.coap] TRACE: Sending CoAP message
+0000015210 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=11062
+0000015221 [comm] INFO: Sending TIME request
+0000015226 [comm.coap] TRACE: Sending CoAP message
+0000015230 [comm.coap] TRACE: CON GET /t size=7 token=b9 id=11063
+0000015238 [system] INFO: Sending application DESCRIBE
+0000015243 [comm.protocol] INFO: Checksum has not changed; not sending application DESCRIBE
+0000015252 [system] INFO: Sending subscriptions
+0000015257 [comm.protocol] INFO: Checksum has not changed; not sending subscriptions
+0000015265 [system] TRACE: Waiting until all handshake messages are processed by the protocol layer
+0000015305 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000015311 [comm.coap] TRACE: Received CoAP message
+0000015318 [comm.coap] TRACE: ACK 0.00  size=4 token= id=11060
+0000015325 [comm.coap] TRACE: Received CoAP message
+0000015332 [comm.coap] TRACE: ACK 0.00  size=4 token= id=11061
+0000015338 [comm.coap] TRACE: Received CoAP message
+0000015343 [comm.coap] TRACE: ACK 0.00  size=4 token= id=11062
+0000015354 [comm.coap] TRACE: Received CoAP message
+0000015361 [comm.coap] TRACE: ACK 2.05  size=10 token=b9 id=11063
+0000015367 [system] INFO: All handshake messages have been processed
+0000015372 [comm.protocol] INFO: Received TIME response: 1700319775
+0000015478 [system] INFO: Cloud connected
+0000015483 [app] INFO: WiFi (qqextender) cloud connected in 6 s (link: 5 s), (re)connected in 15 s
+0000015532 [app] INFO: State: 'wifi cloud connected' (previous: 'wifi cloud connecting')
+0000015747 [app] INFO: 1.0.0-20231118T155731-5.5.0-32-0a10aced202194944a004be0-qqextender
+0000015752 [app] INFO: serial logger is on
+0000015755 [app] INFO: remote logger is on
+0000015759 [app] INFO: Reset: Watchdog
+0000015763 [app] INFO: count = 11
+0000016282 [comm.coap] TRACE: Received CoAP message
+0000016288 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=48903
+0000016294 [comm.coap] TRACE: Sending CoAP message
+0000016298 [comm.coap] TRACE: ACK 0.00  size=4 token= id=48903
+0000016352 [comm.coap] TRACE: Received CoAP message
+0000016357 [comm.coap] TRACE: CON POST /E/particle/device/updates/pending size=47 token=02 id=48904
+0000016366 [comm.coap] TRACE: Sending CoAP message
+0000016371 [comm.coap] TRACE: ACK 0.00  size=4 token= id=48904
+0000016733 [app] INFO: count = 12
+0000017734 [app] INFO: count = 13
+0000018735 [app] INFO: count = 14
+0000019736 [app] INFO: count = 15
+0000020737 [app] INFO: count = 16
+0000021738 [app] INFO: count = 17
+0000022739 [app] INFO: count = 18
+0000023740 [app] INFO: count = 19
+0000024741 [app] INFO: count = 20
+0000025742 [app] INFO: count = 21
+0000026743 [app] INFO: count = 22
+0000027744 [app] INFO: count = 23
+0000028745 [app] INFO: count = 24
+0000029746 [app] INFO: count = 25
+0000030747 [app] INFO: count = 26
+0000031748 [app] INFO: count = 27
+0000032749 [app] INFO: count = 28
+0000033750 [app] INFO: count = 29
+0000033980 [comm.coap] TRACE: Sending CoAP message
+0000033985 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=ba id=11064
+0000034107 [comm.coap] TRACE: Received CoAP message
+0000034113 [comm.coap] TRACE: ACK 0.00  size=5 token=ba id=11064
+0000034751 [app] INFO: count = 30
+0000035752 [app] INFO: count = 31
+0000036753 [app] INFO: count = 32
+0000037754 [app] INFO: count = 33
+0000038755 [app] INFO: count = 34
+0000039756 [app] INFO: count = 35
+0000040757 [app] INFO: count = 36
+0000041758 [app] INFO: count = 37
+0000042759 [app] INFO: count = 38
+0000043760 [app] INFO: count = 39
+0000044761 [app] INFO: count = 40
+0000045762 [app] INFO: count = 41
+0000046763 [app] INFO: count = 42
+0000047764 [app] INFO: count = 43
+0000048765 [app] INFO: count = 44
+0000049766 [app] INFO: count = 45
+0000050767 [app] INFO: count = 46
+0000051768 [app] INFO: count = 47
+0000052769 [app] INFO: count = 48
+0000053770 [app] INFO: count = 49
+0000054771 [app] INFO: count = 50
+0000055772 [app] INFO: count = 51
+0000056773 [app] INFO: count = 52
+0000057230 [ncp.rltk.client] INFO: disconnected
+0000057232 [ncp.rltk.client] TRACE: NCP connection state changed: 0
+0000057237 [net.rltkncp] TRACE: NCP event 2
+0000057240 [net.rltkncp] TRACE: State changed event: 0
+0000057245 [net.ifapi] INFO: Netif wl3 link DOWN, profile=NONE
+0000057251 [net.rltkncp] ERROR: linkOutput up=1 link_up=0
+0000057257 [net.ifapi] TRACE: Netif wl3 ipv4 configuration changed
+0000057263 [system.nm] INFO: State changed: IP_CONFIGURED -> IFACE_LINK_UP
+0000057269 [hal] INFO: DNS server list changed
+0000057274 [hal] INFO: DNS server list changed
+0000057280 [system.nm] INFO: State changed: IFACE_LINK_UP -> IFACE_UP
+0000057297 [ncp.rltk.client] INFO: Try to connect to ssid: qqextender
+0000057300 [net.lwip_rltk] INFO: is_promisc_enabled
+0000057304 [net.lwip_rltk] INFO: get_eap_phase
+0000057774 [app] INFO: count = 53
+0000058775 [app] INFO: count = 54
+0000059184 [comm.coap] TRACE: Sending CoAP message
+0000059189 [comm.coap] TRACE: CON 0.00  size=4 token= id=11065
+0000059195 [system] ERROR: sock_send returned -1 118
+0000059200 [comm.dtls] ERROR: mbedtls_ssl_write() failed: -0x4e
+0000059205 [comm.protocol] ERROR: Event loop error 33
+0000059210 [system] WARN: Communication loop error, closing cloud socket
+0000059216 [system] INFO: Cloud: disconnecting
+0000059221 [system] INFO: Cloud: disconnected
+0000059221 [app] INFO: WiFi cloud disconnected (after 43 s), try Ethernet
+#0000003707 [app] INFO: 1.0.0-20231118T155731-5.5.0-32-0a10aced202194944a004be0
+0000003710 [app] INFO: serial logger is on
+0000003714 [app] INFO: remote logger is on
+0000003718 [app] INFO: Reset: Watchdog
+0000003721 [app] INFO: Connecting Ethernet
+0000003725 [app] INFO: timeout set to 5000 ms
+0000003730 [system.nm] INFO: State changed: DISABLED -> IFACE_DOWN
+0000003731 [app] INFO: State: 'eth connecting' (previous: 'unknown')
+0000003739 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000003757 [net.ifapi] INFO: Netif en2 state UP
+0000004000 [net.en] TRACE: Closed MACRAW socket
+0000004047 [net.en] TRACE: Opened MACRAW socket, err = 0
+0000004049 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000004722 [app] INFO: count = 0
+0000005723 [app] INFO: count = 1
+0000006724 [app] INFO: count = 2
+0000007725 [app] INFO: count = 3
+0000008726 [app] INFO: count = 4
+0000008731 [app] INFO: timed out
+0000008733 [app] INFO: Ethernet network connecting takes too long (disconnect)
+0000008736 [net.ifapi] INFO: Netif en2 state DOWN
+0000008743 [hal] INFO: DNS server list changed
+0000008747 [hal] INFO: DNS server list changed
+0000008755 [app] INFO: State: 'wifi connect' (previous: 'eth connecting')
+0000008784 [net.en] TRACE: Closed MACRAW socket
+0000008791 [system.nm] INFO: State changed: IFACE_UP -> IFACE_REQUEST_DOWN
+0000008796 [system.nm] INFO: State changed: IFACE_REQUEST_DOWN -> IFACE_DOWN
+0000008793 [app] INFO: found 1 credentials
+0000008807 [app] INFO: ssid: qqextender
+0000008812 [app] INFO: Connecting WiFi
+0000008814 [app] INFO: timeout set to 60000 ms
+0000008819 [app] INFO: State: 'wifi connecting' (previous: 'wifi connect')
+0000008821 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000008839 [net.ifapi] INFO: Netif wl3 state UP
+0000008841 [net.rltkncp] TRACE: NCP event 3
+0000008843 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_POWERING_UP
+0000008849 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000008859 [system.nm] TRACE: Interface 4 power state changed: 4
+0000008862 [hal] INFO: WiFi is already on
+0000008866 [net.rltkncp] TRACE: NCP event 3
+0000008870 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000008877 [system.nm] TRACE: Interface 4 power state changed: 2
+0000008883 [ncp.rltk.client] INFO: rltkOff
+0000008887 [ncp.rltk.client] INFO: rltkOff done
+0000008891 [net.rltkncp] TRACE: NCP event 3
+0000008894 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_DOWN
+0000008901 [system.nm] TRACE: Interface 4 power state changed: 1
+0000008907 [hal] INFO: WiFi is already on
+0000008911 [net.rltkncp] TRACE: NCP event 3
+0000008915 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000008922 [system.nm] TRACE: Interface 4 power state changed: 2
+0000008927 [ncp.rltk.client] TRACE: NCP state changed: 1
+0000008932 [net.rltkncp] TRACE: NCP event 1
+0000008937 [ncp.rltk.client] INFO: Try to connect to ssid: qqextender
+0000008943 [net.lwip_rltk] INFO: is_promisc_enabled
+0000008947 [net.lwip_rltk] INFO: get_eap_phase
+0000009727 [app] INFO: count = 5
+0000010728 [app] INFO: count = 6
+0000011729 [app] INFO: count = 7
+0000012730 [app] INFO: count = 8
+0000013641 [net.lwip_rltk] INFO: get_eap_phase
+0000013731 [app] INFO: count = 9
+0000013856 [net.lwip_rltk] INFO: get_eap_phase
+0000013871 [ncp.rltk.client] TRACE: NCP connection state changed: 2
+0000013873 [net.rltkncp] TRACE: NCP event 2
+0000013877 [net.rltkncp] TRACE: State changed event: 2
+0000013881 [net.ifapi] INFO: Netif wl3 link UP, profile=qqextender
+0000013895 [system.nm] INFO: State changed: IFACE_UP -> IFACE_LINK_UP
+0000014732 [app] INFO: count = 10
+0000015733 [app] INFO: count = 11
+0000016076 [hal] INFO: DNS server list changed
+0000016078 [net.ifapi] TRACE: Netif wl3 ipv4 configuration changed
+0000016083 [system.nm] INFO: State changed: IFACE_LINK_UP -> IP_CONFIGURED
+0000016089 [app] INFO: WiFi network (qqextender) connected in 7 s
+0000016095 [app] INFO: WiFi IP address: 172.217.28.97
+0000016100 [app] INFO: timeout set to 180000 ms
+0000016103 [app] INFO: State: 'wifi cloud connecting' (previous: 'wifi connecting')
+0000016199 [system] INFO: Cloud: connecting
+0000016206 [system] INFO: Read Server Address = type:1,domain:$id.udp.particle.io
+0000016212 [system] INFO: Loaded cloud server address and port from session data
+0000016218 [system] TRACE: Address type: 1
+0000016224 [system] TRACE: Cloud socket=0, family=2, type=2, protocol=17
+0000016230 [system] INFO: Cloud socket=0, connecting to 3.215.122.234#5684
+0000016240 [system] TRACE: Cloud socket=0, connected to 3.215.122.234#5684
+0000016247 [system] TRACE: Updating cloud keepalive for AF_INET: 25000 -> 25000
+0000016253 [system] TRACE: Applying new keepalive interval now
+0000016258 [system] INFO: Cloud socket connected
+0000016266 [system] INFO: Starting handshake: presense_announce=0
+0000016272 [comm.protocol.handshake] INFO: Establish secure connection
+0000016279 [comm.dtls] INFO: session has 0 uses
+0000016289 [comm.dtls] INFO: (CMPL,RENEG,NO_SESS,ERR) restoreStatus=0
+0000016295 [comm.dtls] INFO: out_ctr 0,1,0,0,0,0,1,104, next_coap_id=2b38
+0000016302 [comm.dtls] INFO: restored session from persisted session data. next_msg_id=11064
+0000016308 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 2
+0000016734 [app] INFO: count = 12
+0000017186 [comm.protocol.handshake] INFO: Skipping HELLO message
+0000017192 [comm.coap] TRACE: Sending CoAP message
+0000017197 [comm.coap] TRACE: CON 0.00  size=4 token= id=11065
+0000017204 [system] INFO: cloud connected from existing session.
+0000017212 [comm.coap] TRACE: Sending CoAP message
+0000017217 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=11066
+0000017227 [comm.coap] TRACE: Sending CoAP message
+0000017232 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=11067
+0000017242 [comm] INFO: Sending TIME request
+0000017247 [comm.coap] TRACE: Sending CoAP message
+0000017253 [comm.coap] TRACE: CON GET /t size=7 token=db id=11068
+0000017259 [system] INFO: Sending application DESCRIBE
+0000017264 [comm.protocol] INFO: Checksum has not changed; not sending application DESCRIBE
+0000017272 [system] INFO: Sending subscriptions
+0000017276 [comm.protocol] INFO: Checksum has not changed; not sending subscriptions
+0000017283 [system] TRACE: Waiting until all handshake messages are processed by the protocol layer
+0000017337 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000017343 [comm.coap] TRACE: Received CoAP message
+0000017349 [comm.coap] TRACE: ACK 0.00  size=4 token= id=11065
+0000017360 [comm.coap] TRACE: Received CoAP message
+0000017366 [comm.coap] TRACE: ACK 0.00  size=4 token= id=11066
+0000017372 [comm.coap] TRACE: Received CoAP message
+0000017376 [comm.coap] TRACE: ACK 0.00  size=4 token= id=11067
+0000017483 [comm.coap] TRACE: Received CoAP message
+0000017489 [comm.coap] TRACE: ACK 2.05  size=10 token=db id=11068
+0000017495 [system] INFO: All handshake messages have been processed
+0000017501 [comm.protocol] INFO: Received TIME response: 1700319897
+0000017606 [system] INFO: Cloud connected
+0000017611 [app] INFO: WiFi (qqextender) cloud connected in 8 s (link: 7 s), (re)connected in 17 s
+0000017666 [app] INFO: State: 'wifi cloud connected' (previous: 'wifi cloud connecting')
+0000017750 [app] INFO: 1.0.0-20231118T155731-5.5.0-32-0a10aced202194944a004be0-qqextender
+0000017754 [app] INFO: serial logger is on
+0000017758 [app] INFO: remote logger is on
+0000017761 [app] INFO: Reset: Watchdog
+0000017765 [app] INFO: count = 13
+0000018312 [comm.coap] TRACE: Received CoAP message
+0000018317 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=48907
+0000018324 [comm.coap] TRACE: Sending CoAP message
+0000018329 [comm.coap] TRACE: ACK 0.00  size=4 token= id=48907
+0000018350 [comm.coap] TRACE: Received CoAP message
+0000018356 [comm.coap] TRACE: CON POST /E/particle/device/updates/pending size=47 token=02 id=48908
+0000018363 [comm.coap] TRACE: Sending CoAP message
+0000018368 [comm.coap] TRACE: ACK 0.00  size=4 token= id=48908
+0000018736 [app] INFO: count = 14
+0000019737 [app] INFO: count = 15
+0000020738 [app] INFO: count = 16
+0000021739 [app] INFO: count = 17
+0000022740 [app] INFO: count = 18
+0000023741 [app] INFO: count = 19
+0000024742 [app] INFO: count = 20
+0000025743 [app] INFO: count = 21
+0000026744 [app] INFO: count = 22
+0000027745 [app] INFO: count = 23
+0000028746 [app] INFO: count = 24
+0000029747 [app] INFO: count = 25
+0000030748 [app] INFO: count = 26
+0000031749 [app] INFO: count = 27
+0000032750 [app] INFO: count = 28
+0000033751 [app] INFO: count = 29
+0000033980 [comm.coap] TRACE: Sending CoAP message
+0000033985 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=dc id=11069
+0000034107 [comm.coap] TRACE: Received CoAP message
+0000034113 [comm.coap] TRACE: ACK 0.00  size=5 token=dc id=11069
+0000034752 [app] INFO: count = 30
+0000035753 [app] INFO: count = 31
+0000036754 [app] INFO: count = 32
+0000037755 [app] INFO: count = 33
+0000038756 [app] INFO: count = 34
+0000039757 [app] INFO: count = 35
+0000040758 [app] INFO: count = 36
+0000041759 [app] INFO: count = 37
+0000042760 [app] INFO: count = 38
+0000043761 [app] INFO: count = 39
+0000044762 [app] INFO: count = 40
+0000045763 [app] INFO: count = 41
+0000046764 [app] INFO: count = 42
+0000047765 [app] INFO: count = 43
+0000048766 [app] INFO: count = 44
+0000049767 [app] INFO: count = 45
+0000050768 [app] INFO: count = 46
+0000051769 [app] INFO: count = 47
+0000052770 [app] INFO: count = 48
+0000053771 [app] INFO: count = 49
+0000054772 [app] INFO: count = 50
+0000055773 [app] INFO: count = 51
+0000056774 [app] INFO: count = 52
+0000057514 [ncp.rltk.client] INFO: disconnected
+0000057516 [ncp.rltk.client] TRACE: NCP connection state changed: 0
+0000057521 [net.rltkncp] TRACE: NCP event 2
+0000057524 [net.rltkncp] TRACE: State changed event: 0
+0000057529 [net.ifapi] INFO: Netif wl3 link DOWN, profile=NONE
+0000057535 [net.rltkncp] ERROR: linkOutput up=1 link_up=0
+0000057540 [net.ifapi] TRACE: Netif wl3 ipv4 configuration changed
+0000057546 [system.nm] INFO: State changed: IP_CONFIGURED -> IFACE_LINK_UP
+0000057553 [hal] INFO: DNS server list changed
+0000057558 [hal] INFO: DNS server list changed
+0000057564 [system.nm] INFO: State changed: IFACE_LINK_UP -> IFACE_UP
+0000057600 [ncp.rltk.client] INFO: Try to connect to ssid: qqextender
+0000057603 [net.lwip_rltk] INFO: is_promisc_enabled
+0000057607 [net.lwip_rltk] INFO: get_eap_phase
+0000057775 [app] INFO: count = 53
+0000058776 [app] INFO: count = 54
+0000059167 [comm.coap] TRACE: Sending CoAP message
+0000059172 [comm.coap] TRACE: CON 0.00  size=4 token= id=11070
+0000059178 [system] ERROR: sock_send returned -1 118
+0000059184 [comm.dtls] ERROR: mbedtls_ssl_write() failed: -0x4e
+0000059189 [comm.protocol] ERROR: Event loop error 33
+0000059194 [system] WARN: Communication loop error, closing cloud socket
+0000059199 [system] INFO: Cloud: disconnecting
+0000059204 [system] INFO: Cloud: disconnected
+0000059205 [app] INFO: WiFi cloud disconnected (after 41 s), try Ethernet
+#0000003710 [app] INFO: 1.0.0-20231118T155731-5.5.0-32-0a10aced202194944a004be0
+0000003712 [app] INFO: serial logger is on
+0000003717 [app] INFO: remote logger is on
+0000003721 [app] INFO: Reset: Watchdog
+0000003724 [app] INFO: Connecting Ethernet
+0000003728 [app] INFO: timeout set to 5000 ms
+0000003733 [app] INFO: State: 'eth connecting' (previous: 'unknown')
+0000003731 [system.nm] INFO: State changed: DISABLED -> IFACE_DOWN
+0000003752 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000003763 [net.ifapi] INFO: Netif en2 state UP
+0000004007 [net.en] TRACE: Closed MACRAW socket
+0000004054 [net.en] TRACE: Opened MACRAW socket, err = 0
+0000004056 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000004725 [app] INFO: count = 0
+0000005726 [app] INFO: count = 1
+0000006727 [app] INFO: count = 2
+0000007728 [app] INFO: count = 3
+0000008729 [app] INFO: count = 4
+0000008734 [app] INFO: timed out
+0000008735 [app] INFO: Ethernet network connecting takes too long (disconnect)
+0000008740 [app] INFO: State: 'wifi connect' (previous: 'eth connecting')
+0000008739 [net.ifapi] INFO: Netif en2 state DOWN
+0000008751 [hal] INFO: DNS server list changed
+0000008756 [hal] INFO: DNS server list changed
+0000008793 [net.en] TRACE: Closed MACRAW socket
+0000008795 [system.nm] INFO: State changed: IFACE_UP -> IFACE_REQUEST_DOWN
+0000008797 [app] INFO: found 1 credentials
+0000008803 [app] INFO: ssid: qqextender
+0000008800 [system.nm] INFO: State changed: IFACE_REQUEST_DOWN -> IFACE_DOWN
+0000008810 [app] INFO: Connecting WiFi
+0000008817 [app] INFO: timeout set to 60000 ms
+0000008822 [app] INFO: State: 'wifi connecting' (previous: 'wifi connect')
+0000008824 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000008841 [net.ifapi] INFO: Netif wl3 state UP
+0000008843 [net.rltkncp] TRACE: NCP event 3
+0000008845 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_POWERING_UP
+0000008851 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000008861 [system.nm] TRACE: Interface 4 power state changed: 4
+0000008864 [hal] INFO: WiFi is already on
+0000008868 [net.rltkncp] TRACE: NCP event 3
+0000008873 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000008879 [system.nm] TRACE: Interface 4 power state changed: 2
+0000008885 [ncp.rltk.client] INFO: rltkOff
+0000008889 [ncp.rltk.client] INFO: rltkOff done
+0000008893 [net.rltkncp] TRACE: NCP event 3
+0000008896 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_DOWN
+0000008903 [system.nm] TRACE: Interface 4 power state changed: 1
+0000008909 [hal] INFO: WiFi is already on
+0000008913 [net.rltkncp] TRACE: NCP event 3
+0000008917 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000008924 [system.nm] TRACE: Interface 4 power state changed: 2
+0000008930 [ncp.rltk.client] TRACE: NCP state changed: 1
+0000008934 [net.rltkncp] TRACE: NCP event 1
+0000008940 [ncp.rltk.client] INFO: Try to connect to ssid: qqextender
+0000008945 [net.lwip_rltk] INFO: is_promisc_enabled
+0000008949 [net.lwip_rltk] INFO: get_eap_phase
+0000009730 [app] INFO: count = 5
+0000010731 [app] INFO: count = 6
+0000011732 [app] INFO: count = 7
+0000012733 [app] INFO: count = 8
+0000013643 [net.lwip_rltk] INFO: get_eap_phase
+0000013734 [app] INFO: count = 9
+0000013857 [net.lwip_rltk] INFO: get_eap_phase
+0000013872 [ncp.rltk.client] TRACE: NCP connection state changed: 2
+0000013874 [net.rltkncp] TRACE: NCP event 2
+0000013878 [net.rltkncp] TRACE: State changed event: 2
+0000013883 [net.ifapi] INFO: Netif wl3 link UP, profile=qqextender
+0000013897 [system.nm] INFO: State changed: IFACE_UP -> IFACE_LINK_UP
+0000014129 [hal] INFO: DNS server list changed
+0000014133 [net.ifapi] TRACE: Netif wl3 ipv4 configuration changed
+0000014136 [system.nm] INFO: State changed: IFACE_LINK_UP -> IP_CONFIGURED
+0000014143 [app] INFO: WiFi network (qqextender) connected in 5 s
+0000014148 [app] INFO: WiFi IP address: 172.217.28.98
+0000014154 [app] INFO: timeout set to 180000 ms
+0000014157 [app] INFO: State: 'wifi cloud connecting' (previous: 'wifi connecting')
+0000014253 [system] INFO: Cloud: connecting
+0000014260 [system] INFO: Read Server Address = type:1,domain:$id.udp.particle.io
+0000014266 [system] INFO: Loaded cloud server address and port from session data
+0000014274 [system] TRACE: Address type: 1
+0000014278 [system] TRACE: Cloud socket=0, family=2, type=2, protocol=17
+0000014285 [system] INFO: Cloud socket=0, connecting to 3.215.122.234#5684
+0000014291 [system] TRACE: Cloud socket=0, connected to 3.215.122.234#5684
+0000014299 [system] TRACE: Updating cloud keepalive for AF_INET: 25000 -> 25000
+0000014307 [system] TRACE: Applying new keepalive interval now
+0000014313 [system] INFO: Cloud socket connected
+0000014319 [system] INFO: Starting handshake: presense_announce=0
+0000014323 [comm.protocol.handshake] INFO: Establish secure connection
+0000014331 [comm.dtls] INFO: session has 0 uses
+0000014341 [comm.dtls] INFO: (CMPL,RENEG,NO_SESS,ERR) restoreStatus=0
+0000014347 [comm.dtls] INFO: out_ctr 0,1,0,0,0,0,1,111, next_coap_id=2b3d
+0000014353 [comm.dtls] INFO: restored session from persisted session data. next_msg_id=11069
+0000014363 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 2
+0000014735 [app] INFO: count = 10
+0000015234 [comm.protocol.handshake] INFO: Skipping HELLO message
+0000015240 [comm.coap] TRACE: Sending CoAP message
+0000015246 [comm.coap] TRACE: CON 0.00  size=4 token= id=11070
+0000015256 [system] INFO: cloud connected from existing session.
+0000015262 [comm.coap] TRACE: Sending CoAP message
+0000015268 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=11071
+0000015279 [comm.coap] TRACE: Sending CoAP message
+0000015283 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=11072
+0000015293 [comm] INFO: Sending TIME request
+0000015298 [comm.coap] TRACE: Sending CoAP message
+0000015305 [comm.coap] TRACE: CON GET /t size=7 token=0d id=11073
+0000015312 [system] INFO: Sending application DESCRIBE
+0000015318 [comm.protocol] INFO: Checksum has not changed; not sending application DESCRIBE
+0000015324 [system] INFO: Sending subscriptions
+0000015330 [comm.protocol] INFO: Checksum has not changed; not sending subscriptions
+0000015340 [system] TRACE: Waiting until all handshake messages are processed by the protocol layer
+0000015381 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000015387 [comm.coap] TRACE: Received CoAP message
+0000015392 [comm.coap] TRACE: ACK 0.00  size=4 token= id=11070
+0000015400 [comm.coap] TRACE: Received CoAP message
+0000015406 [comm.coap] TRACE: ACK 0.00  size=4 token= id=11071
+0000015413 [comm.coap] TRACE: Received CoAP message
+0000015418 [comm.coap] TRACE: ACK 0.00  size=4 token= id=11072
+0000015427 [comm.coap] TRACE: Received CoAP message
+0000015432 [comm.coap] TRACE: ACK 2.05  size=10 token=0d id=11073
+0000015438 [system] INFO: All handshake messages have been processed
+0000015443 [comm.protocol] INFO: Received TIME response: 1700320016
+0000015548 [system] INFO: Cloud connected
+0000015553 [app] INFO: WiFi (qqextender) cloud connected in 6 s (link: 5 s), (re)connected in 15 s
+0000015573 [app] INFO: State: 'wifi cloud connected' (previous: 'wifi cloud connecting')
+0000015751 [app] INFO: 1.0.0-20231118T155731-5.5.0-32-0a10aced202194944a004be0-qqextender
+0000015756 [app] INFO: serial logger is on
+0000015759 [app] INFO: remote logger is on
+0000015763 [app] INFO: Reset: Watchdog
+0000015767 [app] INFO: count = 11
+0000016395 [comm.coap] TRACE: Received CoAP message
+0000016400 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=48911
+0000016406 [comm.coap] TRACE: Sending CoAP message
+0000016410 [comm.coap] TRACE: ACK 0.00  size=4 token= id=48911
+0000016419 [comm.coap] TRACE: Received CoAP message
+0000016425 [comm.coap] TRACE: CON POST /E/particle/device/updates/pending size=47 token=02 id=48912
+0000016433 [comm.coap] TRACE: Sending CoAP message
+0000016437 [comm.coap] TRACE: ACK 0.00  size=4 token= id=48912
+0000016737 [app] INFO: count = 12
+0000017738 [app] INFO: count = 13
+0000018739 [app] INFO: count = 14
+0000019740 [app] INFO: count = 15
+0000020741 [app] INFO: count = 16
+0000021742 [app] INFO: count = 17
+0000022743 [app] INFO: count = 18
+0000023744 [app] INFO: count = 19
+0000024745 [app] INFO: count = 20
+0000025746 [app] INFO: count = 21
+0000026747 [app] INFO: count = 22
+0000027748 [app] INFO: count = 23
+0000028749 [app] INFO: count = 24
+0000029750 [app] INFO: count = 25
+0000030751 [app] INFO: count = 26
+0000031752 [app] INFO: count = 27
+0000032753 [app] INFO: count = 28
+0000033754 [app] INFO: count = 29
+0000033985 [comm.coap] TRACE: Sending CoAP message
+0000033991 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=0e id=11074
+0000034114 [comm.coap] TRACE: Received CoAP message
+0000034119 [comm.coap] TRACE: ACK 0.00  size=5 token=0e id=11074
+0000034755 [app] INFO: count = 30
+0000035756 [app] INFO: count = 31
+0000036757 [app] INFO: count = 32
+0000037758 [app] INFO: count = 33
+0000038759 [app] INFO: count = 34
+0000039760 [app] INFO: count = 35
+0000040761 [app] INFO: count = 36
+0000041762 [app] INFO: count = 37
+0000042763 [app] INFO: count = 38
+0000043764 [app] INFO: count = 39
+0000044765 [app] INFO: count = 40
+0000045766 [app] INFO: count = 41
+0000046767 [app] INFO: count = 42
+0000047768 [app] INFO: count = 43
+0000048769 [app] INFO: count = 44
+0000049770 [app] INFO: count = 45
+0000050771 [app] INFO: count = 46
+0000051772 [app] INFO: count = 47
+0000052773 [app] INFO: count = 48
+0000053774 [app] INFO: count = 49
+0000054775 [app] INFO: count = 50
+0000055776 [app] INFO: count = 51
+0000056777 [app] INFO: count = 52
+0000057778 [app] INFO: count = 53
+0000057816 [ncp.rltk.client] INFO: disconnected
+0000057818 [ncp.rltk.client] TRACE: NCP connection state changed: 0
+0000057823 [net.rltkncp] TRACE: NCP event 2
+0000057827 [net.rltkncp] TRACE: State changed event: 0
+0000057831 [net.ifapi] INFO: Netif wl3 link DOWN, profile=NONE
+0000057837 [net.rltkncp] ERROR: linkOutput up=1 link_up=0
+0000057842 [net.ifapi] TRACE: Netif wl3 ipv4 configuration changed
+0000057848 [system.nm] INFO: State changed: IP_CONFIGURED -> IFACE_LINK_UP
+0000057855 [hal] INFO: DNS server list changed
+0000057860 [hal] INFO: DNS server list changed
+0000057866 [system.nm] INFO: State changed: IFACE_LINK_UP -> IFACE_UP
+0000057901 [ncp.rltk.client] INFO: Try to connect to ssid: qqextender
+0000057904 [net.lwip_rltk] INFO: is_promisc_enabled
+0000057908 [net.lwip_rltk] INFO: get_eap_phase
+0000058779 [app] INFO: count = 54
+0000059169 [comm.coap] TRACE: Sending CoAP message
+0000059174 [comm.coap] TRACE: CON 0.00  size=4 token= id=11075
+0000059180 [system] ERROR: sock_send returned -1 118
+0000059185 [comm.dtls] ERROR: mbedtls_ssl_write() failed: -0x4e
+0000059190 [comm.protocol] ERROR: Event loop error 33
+0000059195 [system] WARN: Communication loop error, closing cloud socket
+0000059201 [system] INFO: Cloud: disconnecting
+0000059206 [system] INFO: Cloud: disconnected
+0000059207 [app] INFO: WiFi cloud disconnected (after 43 s), try Ethernet
+#0000003707 [app] INFO: 1.0.0-20231118T155731-5.5.0-32-0a10aced202194944a004be0
+0000003710 [app] INFO: serial logger is on
+0000003714 [app] INFO: remote logger is on
+0000003718 [app] INFO: Reset: Watchdog
+0000003721 [app] INFO: Connecting Ethernet
+0000003726 [app] INFO: timeout set to 5000 ms
+0000003729 [app] INFO: State: 'eth connecting' (previous: 'unknown')
+0000003728 [system.nm] INFO: State changed: DISABLED -> IFACE_DOWN
+0000003748 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000003758 [net.ifapi] INFO: Netif en2 state UP
+0000004002 [net.en] TRACE: Closed MACRAW socket
+0000004049 [net.en] TRACE: Opened MACRAW socket, err = 0
+0000004051 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000004722 [app] INFO: count = 0
+0000005723 [app] INFO: count = 1
+0000006724 [app] INFO: count = 2
+0000007725 [app] INFO: count = 3
+0000008726 [app] INFO: count = 4
+0000008730 [app] INFO: timed out
+0000008732 [app] INFO: Ethernet network connecting takes too long (disconnect)
+0000008737 [app] INFO: State: 'wifi connect' (previous: 'eth connecting')
+0000008735 [net.ifapi] INFO: Netif en2 state DOWN
+0000008748 [hal] INFO: DNS server list changed
+0000008753 [hal] INFO: DNS server list changed
+0000008790 [net.en] TRACE: Closed MACRAW socket
+0000008793 [system.nm] INFO: State changed: IFACE_UP -> IFACE_REQUEST_DOWN
+0000008796 [system.nm] INFO: State changed: IFACE_REQUEST_DOWN -> IFACE_DOWN
+0000008794 [app] INFO: found 1 credentials
+0000008807 [app] INFO: ssid: qqextender
+0000008813 [app] INFO: Connecting WiFi
+0000008815 [app] INFO: timeout set to 60000 ms
+0000008819 [app] INFO: State: 'wifi connecting' (previous: 'wifi connect')
+0000008821 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000008838 [net.ifapi] INFO: Netif wl3 state UP
+0000008840 [net.rltkncp] TRACE: NCP event 3
+0000008842 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_POWERING_UP
+0000008850 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000008858 [system.nm] TRACE: Interface 4 power state changed: 4
+0000008862 [hal] INFO: WiFi is already on
+0000008866 [net.rltkncp] TRACE: NCP event 3
+0000008870 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000008877 [system.nm] TRACE: Interface 4 power state changed: 2
+0000008882 [ncp.rltk.client] INFO: rltkOff
+0000008887 [ncp.rltk.client] INFO: rltkOff done
+0000008891 [net.rltkncp] TRACE: NCP event 3
+0000008894 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_DOWN
+0000008901 [system.nm] TRACE: Interface 4 power state changed: 1
+0000008906 [hal] INFO: WiFi is already on
+0000008910 [net.rltkncp] TRACE: NCP event 3
+0000008914 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000008921 [system.nm] TRACE: Interface 4 power state changed: 2
+0000008927 [ncp.rltk.client] TRACE: NCP state changed: 1
+0000008931 [net.rltkncp] TRACE: NCP event 1
+0000008937 [ncp.rltk.client] INFO: Try to connect to ssid: qqextender
+0000008942 [net.lwip_rltk] INFO: is_promisc_enabled
+0000008947 [net.lwip_rltk] INFO: get_eap_phase
+0000009727 [app] INFO: count = 5
+0000010728 [app] INFO: count = 6
+0000011729 [app] INFO: count = 7
+0000012730 [app] INFO: count = 8
+0000013641 [net.lwip_rltk] INFO: get_eap_phase
+0000013731 [app] INFO: count = 9
+0000013855 [net.lwip_rltk] INFO: get_eap_phase
+0000013870 [ncp.rltk.client] TRACE: NCP connection state changed: 2
+0000013873 [net.rltkncp] TRACE: NCP event 2
+0000013877 [net.rltkncp] TRACE: State changed event: 2
+0000013881 [net.ifapi] INFO: Netif wl3 link UP, profile=qqextender
+0000013895 [system.nm] INFO: State changed: IFACE_UP -> IFACE_LINK_UP
+0000014124 [hal] INFO: DNS server list changed
+0000014128 [net.ifapi] TRACE: Netif wl3 ipv4 configuration changed
+0000014131 [system.nm] INFO: State changed: IFACE_LINK_UP -> IP_CONFIGURED
+0000014138 [app] INFO: WiFi network (qqextender) connected in 5 s
+0000014143 [app] INFO: WiFi IP address: 172.217.28.99
+0000014148 [app] INFO: timeout set to 180000 ms
+0000014152 [app] INFO: State: 'wifi cloud connecting' (previous: 'wifi connecting')
+0000014248 [system] INFO: Cloud: connecting
+0000014254 [system] INFO: Read Server Address = type:1,domain:$id.udp.particle.io
+0000014261 [system] INFO: Loaded cloud server address and port from session data
+0000014269 [system] TRACE: Address type: 1
+0000014274 [system] TRACE: Cloud socket=0, family=2, type=2, protocol=17
+0000014279 [system] INFO: Cloud socket=0, connecting to 3.215.122.234#5684
+0000014285 [system] TRACE: Cloud socket=0, connected to 3.215.122.234#5684
+0000014293 [system] TRACE: Updating cloud keepalive for AF_INET: 25000 -> 25000
+0000014300 [system] TRACE: Applying new keepalive interval now
+0000014307 [system] INFO: Cloud socket connected
+0000014311 [system] INFO: Starting handshake: presense_announce=0
+0000014319 [comm.protocol.handshake] INFO: Establish secure connection
+0000014327 [comm.dtls] INFO: session has 0 uses
+0000014337 [comm.dtls] INFO: (CMPL,RENEG,NO_SESS,ERR) restoreStatus=0
+0000014343 [comm.dtls] INFO: out_ctr 0,1,0,0,0,0,1,118, next_coap_id=2b42
+0000014350 [comm.dtls] INFO: restored session from persisted session data. next_msg_id=11074
+0000014359 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 2
+0000014732 [app] INFO: count = 10
+0000015237 [comm.protocol.handshake] INFO: Skipping HELLO message
+0000015244 [comm.coap] TRACE: Sending CoAP message
+0000015249 [comm.coap] TRACE: CON 0.00  size=4 token= id=11075
+0000015258 [system] INFO: cloud connected from existing session.
+0000015265 [comm.coap] TRACE: Sending CoAP message
+0000015271 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=11076
+0000015281 [comm.coap] TRACE: Sending CoAP message
+0000015286 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=11077
+0000015296 [comm] INFO: Sending TIME request
+0000015301 [comm.coap] TRACE: Sending CoAP message
+0000015308 [comm.coap] TRACE: CON GET /t size=7 token=af id=11078
+0000015315 [system] INFO: Sending application DESCRIBE
+0000015321 [comm.protocol] INFO: Checksum has not changed; not sending application DESCRIBE
+0000015327 [system] INFO: Sending subscriptions
+0000015332 [comm.protocol] INFO: Checksum has not changed; not sending subscriptions
+0000015339 [system] TRACE: Waiting until all handshake messages are processed by the protocol layer
+0000015389 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000015395 [comm.coap] TRACE: Received CoAP message
+0000015401 [comm.coap] TRACE: ACK 0.00  size=4 token= id=11075
+0000015408 [comm.coap] TRACE: Received CoAP message
+0000015414 [comm.coap] TRACE: ACK 0.00  size=4 token= id=11076
+0000015437 [comm.coap] TRACE: Received CoAP message
+0000015441 [comm.coap] TRACE: ACK 0.00  size=4 token= id=11077
+0000015547 [comm.coap] TRACE: Received CoAP message
+0000015551 [comm.coap] TRACE: ACK 2.05  size=10 token=af id=11078
+0000015557 [system] INFO: All handshake messages have been processed
+0000015563 [comm.protocol] INFO: Received TIME response: 1700320136
+0000015670 [system] INFO: Cloud connected
+0000015675 [app] INFO: WiFi (qqextender) cloud connected in 6 s (link: 5 s), (re)connected in 15 s
+0000015692 [app] INFO: State: 'wifi cloud connected' (previous: 'wifi cloud connecting')
+0000015748 [app] INFO: 1.0.0-20231118T155731-5.5.0-32-0a10aced202194944a004be0-qqextender
+0000015753 [app] INFO: serial logger is on
+0000015756 [app] INFO: remote logger is on
+0000015760 [app] INFO: Reset: Watchdog
+0000015764 [app] INFO: count = 11
+0000016401 [comm.coap] TRACE: Received CoAP message
+0000016407 [comm.coap] TRACE: CON POST /E/particle/device/updates/pending size=47 token=01 id=48915
+0000016414 [comm.coap] TRACE: Sending CoAP message
+0000016419 [comm.coap] TRACE: ACK 0.00  size=4 token= id=48915
+0000016624 [comm.coap] TRACE: Received CoAP message
+0000016630 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=02 id=48916
+0000016637 [comm.coap] TRACE: Sending CoAP message
+0000016642 [comm.coap] TRACE: ACK 0.00  size=4 token= id=48916
+0000016734 [app] INFO: count = 12
+0000017735 [app] INFO: count = 13
+0000018736 [app] INFO: count = 14
+0000019737 [app] INFO: count = 15
+0000020738 [app] INFO: count = 16
+0000021739 [app] INFO: count = 17
+0000022740 [app] INFO: count = 18
+0000023741 [app] INFO: count = 19
+0000024742 [app] INFO: count = 20
+0000025743 [app] INFO: count = 21
+0000026744 [app] INFO: count = 22
+0000027745 [app] INFO: count = 23
+0000028746 [app] INFO: count = 24
+0000029747 [app] INFO: count = 25
+0000030748 [app] INFO: count = 26
+0000031749 [app] INFO: count = 27
+0000032750 [app] INFO: count = 28
+0000033751 [app] INFO: count = 29
+0000033982 [comm.coap] TRACE: Sending CoAP message
+0000033987 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=b0 id=11079
+0000034112 [comm.coap] TRACE: Received CoAP message
+0000034117 [comm.coap] TRACE: ACK 0.00  size=5 token=b0 id=11079
+0000034752 [app] INFO: count = 30
+0000035753 [app] INFO: count = 31
+0000036754 [app] INFO: count = 32
+0000037755 [app] INFO: count = 33
+0000038756 [app] INFO: count = 34
+0000039757 [app] INFO: count = 35
+0000040758 [app] INFO: count = 36
+0000041759 [app] INFO: count = 37
+0000042760 [app] INFO: count = 38
+0000043761 [app] INFO: count = 39
+0000044762 [app] INFO: count = 40
+0000045763 [app] INFO: count = 41
+0000046764 [app] INFO: count = 42
+0000047765 [app] INFO: count = 43
+0000048766 [app] INFO: count = 44
+0000049767 [app] INFO: count = 45
+0000050768 [app] INFO: count = 46
+0000051769 [app] INFO: count = 47
+0000052770 [app] INFO: count = 48
+0000053771 [app] INFO: count = 49
+0000054772 [app] INFO: count = 50
+0000055773 [app] INFO: count = 51
+0000056774 [app] INFO: count = 52
+0000057775 [app] INFO: count = 53
+0000058118 [ncp.rltk.client] INFO: disconnected
+0000058121 [ncp.rltk.client] TRACE: NCP connection state changed: 0
+0000058125 [net.rltkncp] TRACE: NCP event 2
+0000058129 [net.rltkncp] TRACE: State changed event: 0
+0000058134 [net.ifapi] INFO: Netif wl3 link DOWN, profile=NONE
+0000058139 [net.rltkncp] ERROR: linkOutput up=1 link_up=0
+0000058145 [net.ifapi] TRACE: Netif wl3 ipv4 configuration changed
+0000058151 [system.nm] INFO: State changed: IP_CONFIGURED -> IFACE_LINK_UP
+0000058158 [hal] INFO: DNS server list changed
+0000058162 [hal] INFO: DNS server list changed
+0000058169 [system.nm] INFO: State changed: IFACE_LINK_UP -> IFACE_UP
+0000058200 [ncp.rltk.client] INFO: Try to connect to ssid: qqextender
+0000058202 [net.lwip_rltk] INFO: is_promisc_enabled
+0000058207 [net.lwip_rltk] INFO: get_eap_phase
+0000058776 [app] INFO: count = 54
+0000059172 [comm.coap] TRACE: Sending CoAP message
+0000059177 [comm.coap] TRACE: CON 0.00  size=4 token= id=11080
+0000059183 [system] ERROR: sock_send returned -1 118
+0000059188 [comm.dtls] ERROR: mbedtls_ssl_write() failed: -0x4e
+0000059194 [comm.protocol] ERROR: Event loop error 33
+0000059198 [system] WARN: Communication loop error, closing cloud socket
+0000059204 [system] INFO: Cloud: disconnecting
+0000059209 [system] INFO: Cloud: disconnected
+0000059209 [app] INFO: WiFi cloud disconnected (after 43 s), try Ethernet
+#0000003705 [app] INFO: 1.0.0-20231118T155731-5.5.0-32-0a10aced202194944a004be0
+0000003707 [app] INFO: serial logger is on
+0000003712 [app] INFO: remote logger is on
+0000003716 [app] INFO: Reset: Watchdog
+0000003719 [app] INFO: Connecting Ethernet
+0000003723 [app] INFO: timeout set to 5000 ms
+0000003729 [app] INFO: State: 'eth connecting' (previous: 'unknown')
+0000003726 [system.nm] INFO: State changed: DISABLED -> IFACE_DOWN
+0000003746 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000003755 [net.ifapi] INFO: Netif en2 state UP
+0000003998 [net.en] TRACE: Closed MACRAW socket
+0000004046 [net.en] TRACE: Opened MACRAW socket, err = 0
+0000004048 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000004720 [app] INFO: count = 0
+0000005721 [app] INFO: count = 1
+0000006722 [app] INFO: count = 2
+0000007723 [app] INFO: count = 3
+0000008724 [app] INFO: count = 4
+0000008729 [app] INFO: timed out
+0000008730 [app] INFO: Ethernet network connecting takes too long (disconnect)
+0000008735 [app] INFO: State: 'wifi connect' (previous: 'eth connecting')
+0000008733 [net.ifapi] INFO: Netif en2 state DOWN
+0000008746 [hal] INFO: DNS server list changed
+0000008751 [hal] INFO: DNS server list changed
+0000008788 [net.en] TRACE: Closed MACRAW socket
+0000008790 [system.nm] INFO: State changed: IFACE_UP -> IFACE_REQUEST_DOWN
+0000008794 [system.nm] INFO: State changed: IFACE_REQUEST_DOWN -> IFACE_DOWN
+0000008793 [app] INFO: found 1 credentials
+0000008805 [app] INFO: ssid: qqextender
+0000008811 [app] INFO: Connecting WiFi
+0000008813 [app] INFO: timeout set to 60000 ms
+0000008817 [app] INFO: State: 'wifi connecting' (previous: 'wifi connect')
+0000008819 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000008836 [net.ifapi] INFO: Netif wl3 state UP
+0000008838 [net.rltkncp] TRACE: NCP event 3
+0000008840 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_POWERING_UP
+0000008849 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000008856 [system.nm] TRACE: Interface 4 power state changed: 4
+0000008860 [hal] INFO: WiFi is already on
+0000008864 [net.rltkncp] TRACE: NCP event 3
+0000008868 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000008875 [system.nm] TRACE: Interface 4 power state changed: 2
+0000008880 [ncp.rltk.client] INFO: rltkOff
+0000008885 [ncp.rltk.client] INFO: rltkOff done
+0000008889 [net.rltkncp] TRACE: NCP event 3
+0000008892 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_DOWN
+0000008899 [system.nm] TRACE: Interface 4 power state changed: 1
+0000008904 [hal] INFO: WiFi is already on
+0000008908 [net.rltkncp] TRACE: NCP event 3
+0000008913 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000008919 [system.nm] TRACE: Interface 4 power state changed: 2
+0000008925 [ncp.rltk.client] TRACE: NCP state changed: 1
+0000008929 [net.rltkncp] TRACE: NCP event 1
+0000008935 [ncp.rltk.client] INFO: Try to connect to ssid: qqextender
+0000008940 [net.lwip_rltk] INFO: is_promisc_enabled
+0000008945 [net.lwip_rltk] INFO: get_eap_phase
+0000009725 [app] INFO: count = 5
+0000010726 [app] INFO: count = 6
+0000011727 [app] INFO: count = 7
+0000012728 [app] INFO: count = 8
+0000013638 [net.lwip_rltk] INFO: get_eap_phase
+0000013729 [app] INFO: count = 9
+0000013852 [net.lwip_rltk] INFO: get_eap_phase
+0000013868 [ncp.rltk.client] TRACE: NCP connection state changed: 2
+0000013870 [net.rltkncp] TRACE: NCP event 2
+0000013874 [net.rltkncp] TRACE: State changed event: 2
+0000013878 [net.ifapi] INFO: Netif wl3 link UP, profile=qqextender
+0000013892 [system.nm] INFO: State changed: IFACE_UP -> IFACE_LINK_UP
+0000014117 [hal] INFO: DNS server list changed
+0000014121 [net.ifapi] TRACE: Netif wl3 ipv4 configuration changed
+0000014124 [system.nm] INFO: State changed: IFACE_LINK_UP -> IP_CONFIGURED
+0000014131 [app] INFO: WiFi network (qqextender) connected in 5 s
+0000014136 [app] INFO: WiFi IP address: 172.217.28.97
+0000014141 [app] INFO: timeout set to 180000 ms
+0000014145 [app] INFO: State: 'wifi cloud connecting' (previous: 'wifi connecting')
+0000014240 [system] INFO: Cloud: connecting
+0000014247 [system] INFO: Read Server Address = type:1,domain:$id.udp.particle.io
+0000014253 [system] INFO: Loaded cloud server address and port from session data
+0000014259 [system] TRACE: Address type: 1
+0000014265 [system] TRACE: Cloud socket=0, family=2, type=2, protocol=17
+0000014271 [system] INFO: Cloud socket=0, connecting to 3.215.122.234#5684
+0000014279 [system] TRACE: Cloud socket=0, connected to 3.215.122.234#5684
+0000014285 [system] TRACE: Updating cloud keepalive for AF_INET: 25000 -> 25000
+0000014293 [system] TRACE: Applying new keepalive interval now
+0000014300 [system] INFO: Cloud socket connected
+0000014304 [system] INFO: Starting handshake: presense_announce=0
+0000014310 [comm.protocol.handshake] INFO: Establish secure connection
+0000014320 [comm.dtls] INFO: session has 0 uses
+0000014331 [comm.dtls] INFO: (CMPL,RENEG,NO_SESS,ERR) restoreStatus=0
+0000014342 [comm.dtls] INFO: out_ctr 0,1,0,0,0,0,1,125, next_coap_id=2b47
+0000014348 [comm.dtls] INFO: restored session from persisted session data. next_msg_id=11079
+0000014360 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 2
+0000014730 [app] INFO: count = 10
+0000015231 [comm.protocol.handshake] INFO: Skipping HELLO message
+0000015236 [comm.coap] TRACE: Sending CoAP message
+0000015242 [comm.coap] TRACE: CON 0.00  size=4 token= id=11080
+0000015250 [system] INFO: cloud connected from existing session.
+0000015256 [comm.coap] TRACE: Sending CoAP message
+0000015262 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=11081
+0000015273 [comm.coap] TRACE: Sending CoAP message
+0000015277 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=11082
+0000015288 [comm] INFO: Sending TIME request
+0000015292 [comm.coap] TRACE: Sending CoAP message
+0000015298 [comm.coap] TRACE: CON GET /t size=7 token=ea id=11083
+0000015307 [system] INFO: Sending application DESCRIBE
+0000015313 [comm.protocol] INFO: Checksum has not changed; not sending application DESCRIBE
+0000015321 [system] INFO: Sending subscriptions
+0000015325 [comm.protocol] INFO: Checksum has not changed; not sending subscriptions
+0000015333 [system] TRACE: Waiting until all handshake messages are processed by the protocol layer
+0000015374 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000015380 [comm.coap] TRACE: Received CoAP message
+0000015384 [comm.coap] TRACE: ACK 0.00  size=4 token= id=11080
+0000015393 [comm.coap] TRACE: Received CoAP message
+0000015398 [comm.coap] TRACE: ACK 0.00  size=4 token= id=11081
+0000015404 [comm.coap] TRACE: Received CoAP message
+0000015409 [comm.coap] TRACE: ACK 0.00  size=4 token= id=11082
+0000015423 [comm.coap] TRACE: Received CoAP message
+0000015429 [comm.coap] TRACE: ACK 2.05  size=10 token=ea id=11083
+0000015436 [system] INFO: All handshake messages have been processed
+0000015443 [comm.protocol] INFO: Received TIME response: 1700320257
+0000015548 [system] INFO: Cloud connected
+0000015554 [app] INFO: WiFi (qqextender) cloud connected in 6 s (link: 5 s), (re)connected in 15 s
+0000015581 [app] INFO: State: 'wifi cloud connected' (previous: 'wifi cloud connecting')
+0000015745 [app] INFO: 1.0.0-20231118T155731-5.5.0-32-0a10aced202194944a004be0-qqextender
+0000015751 [app] INFO: serial logger is on
+0000015754 [app] INFO: remote logger is on
+0000015758 [app] INFO: Reset: Watchdog
+0000015762 [app] INFO: count = 11
+0000016256 [comm.coap] TRACE: Received CoAP message
+0000016262 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=48919
+0000016269 [comm.coap] TRACE: Sending CoAP message
+0000016274 [comm.coap] TRACE: ACK 0.00  size=4 token= id=48919
+0000016397 [comm.coap] TRACE: Received CoAP message
+0000016403 [comm.coap] TRACE: CON POST /E/particle/device/updates/pending size=47 token=02 id=48920
+0000016412 [comm.coap] TRACE: Sending CoAP message
+0000016417 [comm.coap] TRACE: ACK 0.00  size=4 token= id=48920
+0000016732 [app] INFO: count = 12
+0000017733 [app] INFO: count = 13
+0000018734 [app] INFO: count = 14
+0000019735 [app] INFO: count = 15
+0000020736 [app] INFO: count = 16
+0000021737 [app] INFO: count = 17
+0000022738 [app] INFO: count = 18
+0000023739 [app] INFO: count = 19
+0000024740 [app] INFO: count = 20
+0000025741 [app] INFO: count = 21
+0000026742 [app] INFO: count = 22
+0000027743 [app] INFO: count = 23
+0000028744 [app] INFO: count = 24
+0000029745 [app] INFO: count = 25
+0000030746 [app] INFO: count = 26
+0000031747 [app] INFO: count = 27
+0000032748 [app] INFO: count = 28
+0000033749 [app] INFO: count = 29
+0000033981 [comm.coap] TRACE: Sending CoAP message
+0000033987 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=eb id=11084
+0000034115 [comm.coap] TRACE: Received CoAP message
+0000034120 [comm.coap] TRACE: ACK 0.00  size=5 token=eb id=11084
+0000034750 [app] INFO: count = 30
+0000035751 [app] INFO: count = 31
+0000036752 [app] INFO: count = 32
+0000037753 [app] INFO: count = 33
+0000038754 [app] INFO: count = 34
+0000039755 [app] INFO: count = 35
+0000040756 [app] INFO: count = 36
+0000041757 [app] INFO: count = 37
+0000042758 [app] INFO: count = 38
+0000043759 [app] INFO: count = 39
+0000044760 [app] INFO: count = 40
+0000045761 [app] INFO: count = 41
+0000046762 [app] INFO: count = 42
+0000047763 [app] INFO: count = 43
+0000048764 [app] INFO: count = 44
+0000049765 [app] INFO: count = 45
+0000050766 [app] INFO: count = 46
+0000051767 [app] INFO: count = 47
+0000052768 [app] INFO: count = 48
+0000053769 [app] INFO: count = 49
+0000054770 [app] INFO: count = 50
+0000055771 [app] INFO: count = 51
+0000056772 [app] INFO: count = 52
+0000057773 [app] INFO: count = 53
+0000058416 [ncp.rltk.client] INFO: disconnected
+0000058418 [ncp.rltk.client] TRACE: NCP connection state changed: 0
+0000058423 [net.rltkncp] TRACE: NCP event 2
+0000058427 [net.rltkncp] TRACE: State changed event: 0
+0000058431 [net.ifapi] INFO: Netif wl3 link DOWN, profile=NONE
+0000058437 [net.rltkncp] ERROR: linkOutput up=1 link_up=0
+0000058443 [net.ifapi] TRACE: Netif wl3 ipv4 configuration changed
+0000058449 [system.nm] INFO: State changed: IP_CONFIGURED -> IFACE_LINK_UP
+0000058455 [hal] INFO: DNS server list changed
+0000058460 [hal] INFO: DNS server list changed
+0000058466 [system.nm] INFO: State changed: IFACE_LINK_UP -> IFACE_UP
+0000058497 [ncp.rltk.client] INFO: Try to connect to ssid: qqextender
+0000058500 [net.lwip_rltk] INFO: is_promisc_enabled
+0000058504 [net.lwip_rltk] INFO: get_eap_phase
+0000058774 [app] INFO: count = 54
+0000059169 [comm.coap] TRACE: Sending CoAP message
+0000059174 [comm.coap] TRACE: CON 0.00  size=4 token= id=11085
+0000059180 [system] ERROR: sock_send returned -1 118
+0000059185 [comm.dtls] ERROR: mbedtls_ssl_write() failed: -0x4e
+0000059190 [comm.protocol] ERROR: Event loop error 33
+0000059195 [system] WARN: Communication loop error, closing cloud socket
+0000059202 [system] INFO: Cloud: disconnecting
+0000059206 [system] INFO: Cloud: disconnected
+0000059207 [app] INFO: WiFi cloud disconnected (after 43 s), try Ethernet
+#0000003710 [app] INFO: 1.0.0-20231118T155731-5.5.0-32-0a10aced202194944a004be0
+0000003712 [app] INFO: serial logger is on
+0000003717 [app] INFO: remote logger is on
+0000003721 [app] INFO: Reset: Watchdog
+0000003724 [app] INFO: Connecting Ethernet
+0000003728 [app] INFO: timeout set to 5000 ms
+0000003733 [system.nm] INFO: State changed: DISABLED -> IFACE_DOWN
+0000003734 [app] INFO: State: 'eth connecting' (previous: 'unknown')
+0000003741 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000003758 [net.ifapi] INFO: Netif en2 state UP
+0000004002 [net.en] TRACE: Closed MACRAW socket
+0000004049 [net.en] TRACE: Opened MACRAW socket, err = 0
+0000004052 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000004725 [app] INFO: count = 0
+0000005726 [app] INFO: count = 1
+0000006727 [app] INFO: count = 2
+0000007728 [app] INFO: count = 3
+0000008729 [app] INFO: count = 4
+0000008734 [app] INFO: timed out
+0000008735 [app] INFO: Ethernet network connecting takes too long (disconnect)
+0000008742 [app] INFO: State: 'wifi connect' (previous: 'eth connecting')
+0000008738 [net.ifapi] INFO: Netif en2 state DOWN
+0000008753 [hal] INFO: DNS server list changed
+0000008758 [hal] INFO: DNS server list changed
+0000008751 [app] INFO: found 1 credentials
+0000008795 [net.en] TRACE: Closed MACRAW socket
+0000008798 [app] INFO: ssid: qqextender
+0000008799 [system.nm] INFO: State changed: IFACE_UP -> IFACE_REQUEST_DOWN
+0000008808 [system.nm] INFO: State changed: IFACE_REQUEST_DOWN -> IFACE_DOWN
+0000008803 [app] INFO: Connecting WiFi
+0000008818 [app] INFO: timeout set to 60000 ms
+0000008824 [app] INFO: State: 'wifi connecting' (previous: 'wifi connect')
+0000008825 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000008845 [net.ifapi] INFO: Netif wl3 state UP
+0000008847 [net.rltkncp] TRACE: NCP event 3
+0000008849 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_POWERING_UP
+0000008857 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000008865 [system.nm] TRACE: Interface 4 power state changed: 4
+0000008868 [hal] INFO: WiFi is already on
+0000008873 [net.rltkncp] TRACE: NCP event 3
+0000008877 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000008884 [system.nm] TRACE: Interface 4 power state changed: 2
+0000008889 [ncp.rltk.client] INFO: rltkOff
+0000008893 [ncp.rltk.client] INFO: rltkOff done
+0000008897 [net.rltkncp] TRACE: NCP event 3
+0000008900 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_DOWN
+0000008907 [system.nm] TRACE: Interface 4 power state changed: 1
+0000008913 [hal] INFO: WiFi is already on
+0000008917 [net.rltkncp] TRACE: NCP event 3
+0000008921 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000008928 [system.nm] TRACE: Interface 4 power state changed: 2
+0000008934 [ncp.rltk.client] TRACE: NCP state changed: 1
+0000008938 [net.rltkncp] TRACE: NCP event 1
+0000008944 [ncp.rltk.client] INFO: Try to connect to ssid: qqextender
+0000008949 [net.lwip_rltk] INFO: is_promisc_enabled
+0000008953 [net.lwip_rltk] INFO: get_eap_phase
+0000009730 [app] INFO: count = 5
+0000010731 [app] INFO: count = 6
+0000011732 [app] INFO: count = 7
+0000012733 [app] INFO: count = 8
+0000013647 [net.lwip_rltk] INFO: get_eap_phase
+0000013734 [app] INFO: count = 9
+0000013902 [net.lwip_rltk] INFO: get_eap_phase
+0000013917 [ncp.rltk.client] TRACE: NCP connection state changed: 2
+0000013919 [net.rltkncp] TRACE: NCP event 2
+0000013923 [net.rltkncp] TRACE: State changed event: 2
+0000013928 [net.ifapi] INFO: Netif wl3 link UP, profile=qqextender
+0000013942 [system.nm] INFO: State changed: IFACE_UP -> IFACE_LINK_UP
+0000014109 [hal] INFO: DNS server list changed
+0000014113 [net.ifapi] TRACE: Netif wl3 ipv4 configuration changed
+0000014115 [system.nm] INFO: State changed: IFACE_LINK_UP -> IP_CONFIGURED
+0000014122 [app] INFO: WiFi network (qqextender) connected in 5 s
+0000014127 [app] INFO: WiFi IP address: 172.217.28.97
+0000014133 [app] INFO: timeout set to 180000 ms
+0000014137 [app] INFO: State: 'wifi cloud connecting' (previous: 'wifi connecting')
+0000014233 [system] INFO: Cloud: connecting
+0000014239 [system] INFO: Read Server Address = type:1,domain:$id.udp.particle.io
+0000014245 [system] INFO: Loaded cloud server address and port from session data
+0000014253 [system] TRACE: Address type: 1
+0000014259 [system] TRACE: Cloud socket=0, family=2, type=2, protocol=17
+0000014263 [system] INFO: Cloud socket=0, connecting to 3.215.122.234#5684
+0000014271 [system] TRACE: Cloud socket=0, connected to 3.215.122.234#5684
+0000014280 [system] TRACE: Updating cloud keepalive for AF_INET: 25000 -> 25000
+0000014285 [system] TRACE: Applying new keepalive interval now
+0000014293 [system] INFO: Cloud socket connected
+0000014299 [system] INFO: Starting handshake: presense_announce=0
+0000014306 [comm.protocol.handshake] INFO: Establish secure connection
+0000014313 [comm.dtls] INFO: session has 0 uses
+0000014323 [comm.dtls] INFO: (CMPL,RENEG,NO_SESS,ERR) restoreStatus=0
+0000014329 [comm.dtls] INFO: out_ctr 0,1,0,0,0,0,1,132, next_coap_id=2b4c
+0000014335 [comm.dtls] INFO: restored session from persisted session data. next_msg_id=11084
+0000014344 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 2
+0000014736 [app] INFO: count = 10
+0000015147 [comm.protocol.handshake] INFO: Skipping HELLO message
+0000015155 [comm.coap] TRACE: Sending CoAP message
+0000015159 [comm.coap] TRACE: CON 0.00  size=4 token= id=11085
+0000015169 [system] INFO: cloud connected from existing session.
+0000015177 [comm.coap] TRACE: Sending CoAP message
+0000015181 [comm.coap] TRACE: CON POST /E/particle/device/updates/enabled size=44 token= id=11086
+0000015190 [comm.coap] TRACE: Sending CoAP message
+0000015195 [comm.coap] TRACE: CON POST /E/particle/device/updates/forced size=44 token= id=11087
+0000015205 [comm] INFO: Sending TIME request
+0000015211 [comm.coap] TRACE: Sending CoAP message
+0000015215 [comm.coap] TRACE: CON GET /t size=7 token=5d id=11088
+0000015224 [system] INFO: Sending application DESCRIBE
+0000015229 [comm.protocol] INFO: Checksum has not changed; not sending application DESCRIBE
+0000015235 [system] INFO: Sending subscriptions
+0000015240 [comm.protocol] INFO: Checksum has not changed; not sending subscriptions
+0000015249 [system] TRACE: Waiting until all handshake messages are processed by the protocol layer
+0000015292 [comm.dtls] INFO: session cmd (CLS,DIS,MOV,LOD,SAV): 4
+0000015298 [comm.coap] TRACE: Received CoAP message
+0000015302 [comm.coap] TRACE: ACK 0.00  size=4 token= id=11085
+0000015310 [comm.coap] TRACE: Received CoAP message
+0000015316 [comm.coap] TRACE: ACK 0.00  size=4 token= id=11086
+0000015326 [comm.coap] TRACE: Received CoAP message
+0000015331 [comm.coap] TRACE: ACK 0.00  size=4 token= id=11087
+0000015339 [comm.coap] TRACE: Received CoAP message
+0000015344 [comm.coap] TRACE: ACK 2.05  size=10 token=5d id=11088
+0000015351 [system] INFO: All handshake messages have been processed
+0000015356 [comm.protocol] INFO: Received TIME response: 1700320378
+0000015463 [system] INFO: Cloud connected
+0000015468 [app] INFO: WiFi (qqextender) cloud connected in 6 s (link: 5 s), (re)connected in 15 s
+0000015486 [app] INFO: State: 'wifi cloud connected' (previous: 'wifi cloud connecting')
+0000015752 [app] INFO: 1.0.0-20231118T155731-5.5.0-32-0a10aced202194944a004be0-qqextender
+0000015757 [app] INFO: serial logger is on
+0000015760 [app] INFO: remote logger is on
+0000015764 [app] INFO: Reset: Watchdog
+0000015768 [app] INFO: count = 11
+0000016309 [comm.coap] TRACE: Received CoAP message
+0000016314 [comm.coap] TRACE: CON POST /E/particle/device/updates/pending size=47 token=01 id=48923
+0000016321 [comm.coap] TRACE: Sending CoAP message
+0000016326 [comm.coap] TRACE: ACK 0.00  size=4 token= id=48923
+0000016434 [comm.coap] TRACE: Received CoAP message
+0000016441 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=02 id=48924
+0000016448 [comm.coap] TRACE: Sending CoAP message
+0000016453 [comm.coap] TRACE: ACK 0.00  size=4 token= id=48924
+0000016738 [app] INFO: count = 12
+0000017739 [app] INFO: count = 13
+0000018740 [app] INFO: count = 14
+0000019741 [app] INFO: count = 15
+0000020742 [app] INFO: count = 16
+0000021743 [app] INFO: count = 17
+0000022744 [app] INFO: count = 18
+0000023745 [app] INFO: count = 19
+0000024746 [app] INFO: count = 20
+0000025747 [app] INFO: count = 21
+0000026748 [app] INFO: count = 22
+0000027749 [app] INFO: count = 23
+0000028750 [app] INFO: count = 24
+0000029751 [app] INFO: count = 25
+0000030752 [app] INFO: count = 26
+0000031753 [app] INFO: count = 27
+0000032754 [app] INFO: count = 28
+0000033755 [app] INFO: count = 29
+0000033988 [comm.coap] TRACE: Sending CoAP message
+0000033994 [comm.coap] TRACE: CON POST /d?\x04 size=155 token=5e id=11089
+0000034128 [comm.coap] TRACE: Received CoAP message
+0000034133 [comm.coap] TRACE: ACK 0.00  size=5 token=5e id=11089
+0000034756 [app] INFO: count = 30
+0000035094 [comm.coap] TRACE: Received CoAP message
+0000035099 [comm.coap] TRACE: CON POST /f/update?26 size=17 token=01 id=48925
+0000035104 [comm.coap] TRACE: Sending CoAP message
+0000035111 [comm.coap] TRACE: ACK 0.00  size=4 token= id=48925
+0000035757 [app] INFO: count = 31
+0000036758 [app] INFO: count = 32
+0000037759 [app] INFO: count = 33
+0000038760 [app] INFO: count = 34
+0000039761 [app] INFO: count = 35
+0000040762 [app] INFO: count = 36
+0000041763 [app] INFO: count = 37
+0000042764 [app] INFO: count = 38
+0000043765 [app] INFO: count = 39
+0000044766 [app] INFO: count = 40
+0000045767 [app] INFO: count = 41
+0000046768 [app] INFO: count = 42
+0000047769 [app] INFO: count = 43
+0000048770 [app] INFO: count = 44
+0000049771 [app] INFO: count = 45
+0000050772 [app] INFO: count = 46
+0000051773 [app] INFO: count = 47
+0000052774 [app] INFO: count = 48
+0000053775 [app] INFO: count = 49
+0000054776 [app] INFO: count = 50
+0000055777 [app] INFO: count = 51
+0000056778 [app] INFO: count = 52
+0000057779 [app] INFO: count = 53
+0000058717 [ncp.rltk.client] INFO: disconnected
+0000058720 [ncp.rltk.client] TRACE: NCP connection state changed: 0
+0000058723 [net.rltkncp] TRACE: NCP event 2
+0000058728 [net.rltkncp] TRACE: State changed event: 0
+0000058733 [net.ifapi] INFO: Netif wl3 link DOWN, profile=NONE
+0000058738 [net.rltkncp] ERROR: linkOutput up=1 link_up=0
+0000058743 [net.ifapi] TRACE: Netif wl3 ipv4 configuration changed
+0000058750 [system.nm] INFO: State changed: IP_CONFIGURED -> IFACE_LINK_UP
+0000058756 [hal] INFO: DNS server list changed
+0000058760 [hal] INFO: DNS server list changed
+0000058767 [system.nm] INFO: State changed: IFACE_LINK_UP -> IFACE_UP
+0000058773 [ncp.rltk.client] INFO: Try to connect to ssid: qqextender
+0000058777 [net.lwip_rltk] INFO: is_promisc_enabled
+0000058781 [ncp.rltk.client] INFO: disconnected
+0000058787 [net.lwip_rltk] INFO: get_eap_phase
+0000058792 [app] INFO: count = 54
+0000059793 [app] INFO: count = 55
+0000060191 [comm.coap] TRACE: Sending CoAP message
+0000060195 [comm.coap] TRACE: CON 0.00  size=4 token= id=11090
+0000060202 [system] ERROR: sock_send returned -1 118
+0000060207 [comm.dtls] ERROR: mbedtls_ssl_write() failed: -0x4e
+0000060212 [comm.protocol] ERROR: Event loop error 33
+0000060217 [system] WARN: Communication loop error, closing cloud socket
+0000060223 [system] INFO: Cloud: disconnecting
+0000060227 [system] INFO: Cloud: disconnected
+0000060228 [app] INFO: WiFi cloud disconnected (after 44 s), try Ethernet
+#0000003704 [app] INFO: 1.0.0-20231118T155731-5.5.0-32-0a10aced202194944a004be0
+0000003706 [app] INFO: serial logger is on
+0000003710 [app] INFO: remote logger is on
+0000003714 [app] INFO: Reset: Watchdog
+0000003718 [app] INFO: Connecting Ethernet
+0000003722 [app] INFO: timeout set to 5000 ms
+0000003726 [app] INFO: State: 'eth connecting' (previous: 'unknown')
+0000003725 [system.nm] INFO: State changed: DISABLED -> IFACE_DOWN
+0000003742 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000003751 [net.ifapi] INFO: Netif en2 state UP
+0000003995 [net.en] TRACE: Closed MACRAW socket
+0000004043 [net.en] TRACE: Opened MACRAW socket, err = 0
+0000004045 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000004719 [app] INFO: count = 0
+0000005720 [app] INFO: count = 1
+0000006721 [app] INFO: count = 2
+0000007722 [app] INFO: count = 3
+0000008723 [app] INFO: count = 4
+0000008727 [app] INFO: timed out
+0000008728 [app] INFO: Ethernet network connecting takes too long (disconnect)
+0000008732 [net.ifapi] INFO: Netif en2 state DOWN
+0000008737 [hal] INFO: DNS server list changed
+0000008742 [hal] INFO: DNS server list changed
+0000008749 [app] INFO: State: 'wifi connect' (previous: 'eth connecting')
+0000008779 [net.en] TRACE: Closed MACRAW socket
+0000008786 [system.nm] INFO: State changed: IFACE_UP -> IFACE_REQUEST_DOWN
+0000008791 [system.nm] INFO: State changed: IFACE_REQUEST_DOWN -> IFACE_DOWN
+0000008788 [app] INFO: found 1 credentials
+0000008802 [app] INFO: ssid: qqextender
+0000008807 [app] INFO: Connecting WiFi
+0000008810 [app] INFO: timeout set to 60000 ms
+0000008814 [app] INFO: State: 'wifi connecting' (previous: 'wifi connect')
+0000008814 [system.nm] INFO: State changed: IFACE_DOWN -> IFACE_REQUEST_UP
+0000008834 [net.ifapi] INFO: Netif wl3 state UP
+0000008837 [net.rltkncp] TRACE: NCP event 3
+0000008838 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_POWERING_UP
+0000008847 [system.nm] INFO: State changed: IFACE_REQUEST_UP -> IFACE_UP
+0000008854 [system.nm] TRACE: Interface 4 power state changed: 4
+0000008858 [hal] INFO: WiFi is already on
+0000008862 [net.rltkncp] TRACE: NCP event 3
+0000008866 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000008873 [system.nm] TRACE: Interface 4 power state changed: 2
+0000008879 [ncp.rltk.client] INFO: rltkOff
+0000008883 [ncp.rltk.client] INFO: rltkOff done
+0000008887 [net.rltkncp] TRACE: NCP event 3
+0000008890 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_DOWN
+0000008897 [system.nm] TRACE: Interface 4 power state changed: 1
+0000008902 [hal] INFO: WiFi is already on
+0000008907 [net.rltkncp] TRACE: NCP event 3
+0000008911 [net.rltkncp] TRACE: NCP power state changed: IF_POWER_STATE_UP
+0000008918 [system.nm] TRACE: Interface 4 power state changed: 2
+0000008923 [ncp.rltk.client] TRACE: NCP state changed: 1
+0000008927 [net.rltkncp] TRACE: NCP event 1
+0000008933 [ncp.rltk.client] INFO: Try to connect to ssid: qqextender
+0000008938 [net.lwip_rltk] INFO: is_promisc_enabled
+0000008943 [net.lwip_rltk] INFO: get_eap_phase
+ð 
